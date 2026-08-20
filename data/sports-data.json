@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "generatedAt": "2026-08-20 12:19 PM CT",
+  "teams": [
+    {
+      "id": "payton",
+      "name": "Payton JV Volleyball",
+      "abbr": "P",
+      "color": "#f47b20",
+      "record": "0–0",
+      "context": "Hadley · Setter",
+      "familyPriority": true,
+      "schedule": [
+        {
+          "date": "Aug 24",
+          "time": "5:00 PM",
+          "opp": "Willowbrook",
+          "ha": "HOME"
+        },
+        {
+          "date": "Sep 3",
+          "time": "5:00 PM",
+          "opp": "St. Ignatius College Prep",
+          "ha": "HOME"
+        },
+        {
+          "date": "Sep 8",
+          "time": "5:00 PM",
+          "opp": "Whitney Young",
+          "ha": "AWAY",
+          "conference": true
+        },
+        {
+          "date": "Sep 15",
+          "time": "5:00 PM",
+          "opp": "Amundsen",
+          "ha": "AWAY",
+          "conference": true
+        }
+      ]
+    },
+    {
+      "id": "amundsen",
+      "name": "Amundsen JV Football",
+      "abbr": "A",
+      "color": "#b61f2e",
+      "record": "0–0",
+      "context": "Patrick · WR/DB · #7",
+      "familyPriority": true,
+      "schedule": [
+        {
+          "date": "Aug 26",
+          "time": "4:30 PM",
+          "opp": "Westinghouse",
+          "ha": "HOME"
+        },
+        {
+          "date": "Sep 5",
+          "time": "9:00 AM",
+          "opp": "Payton College Prep",
+          "ha": "HOME"
+        },
+        {
+          "date": "Sep 14",
+          "time": "4:30 PM",
+          "opp": "Lane Tech",
+          "ha": "HOME"
+        },
+        {
+          "date": "Sep 21",
+          "time": "4:30 PM",
+          "opp": "Lincoln Park",
+          "ha": "HOME"
+        }
+      ]
+    },
+    {
+      "id": "cubs",
+      "name": "Chicago Cubs",
+      "abbr": "C",
+      "color": "#0e3386",
+      "schedule": []
+    },
+    {
+      "id": "nd",
+      "name": "Notre Dame Football",
+      "abbr": "ND",
+      "color": "#c99700",
+      "schedule": []
+    },
+    {
+      "id": "wisc",
+      "name": "Wisconsin Volleyball",
+      "abbr": "W",
+      "color": "#c5050c",
+      "schedule": []
+    },
+    {
+      "id": "lfc",
+      "name": "Liverpool",
+      "abbr": "LFC",
+      "color": "#c8102e",
+      "schedule": []
+    },
+    {
+      "id": "gb",
+      "name": "Green Bay Packers",
+      "abbr": "GB",
+      "color": "#203731",
+      "schedule": []
+    },
+    {
+      "id": "buf",
+      "name": "Buffalo Bills",
+      "abbr": "BUF",
+      "color": "#00338d",
+      "schedule": []
+    },
+    {
+      "id": "ind",
+      "name": "Indianapolis Colts",
+      "abbr": "IND",
+      "color": "#002c5f",
+      "schedule": []
+    }
+  ],
+  "leagues": {
+    "premierLeague": {
+      "games": []
+    },
+    "nfl": {
+      "games": []
+    }
+  },
+  "standings": {}
+}
