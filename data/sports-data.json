@@ -546,7 +546,7 @@
     "championsLeague": []
   },
   "draftkingsOdds": {
-    "updatedAt": "2026-08-20T23:01:04.704679+00:00",
+    "updatedAt": "2026-08-20T23:59:09.236311+00:00",
     "source": "DraftKings Sportsbook",
     "primarySource": "league-page discovery + event-group feed",
     "leaguePages": {
@@ -563,7 +563,7 @@
         "page": "https://sportsbook.draftkings.com/leagues/football/ncaaf"
       },
       "nfl": {
-        "id": "158013",
+        "id": "32413",
         "discovered": true,
         "page": "https://sportsbook.draftkings.com/leagues/football/nfl"
       },
