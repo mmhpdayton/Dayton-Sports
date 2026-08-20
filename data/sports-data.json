@@ -544,5 +544,54 @@
     "collegeVolleyball": [],
     "premierLeague": [],
     "championsLeague": []
+  },
+  "draftkingsOdds": {
+    "updatedAt": "2026-08-20T20:59:55.070119+00:00",
+    "source": "DraftKings Sportsbook",
+    "primarySource": "league-page discovery + event-group feed",
+    "leaguePages": {
+      "cfb": "https://sportsbook.draftkings.com/leagues/football/ncaaf",
+      "nfl": "https://sportsbook.draftkings.com/leagues/football/nfl",
+      "mlb": "https://sportsbook.draftkings.com/leagues/baseball/mlb",
+      "epl": "https://sportsbook.draftkings.com/leagues/soccer/england---premier-league/",
+      "cvb": "https://sportsbook.draftkings.com/sports/volleyball"
+    },
+    "groups": {
+      "cfb": {
+        "id": "88808",
+        "discovered": true,
+        "page": "https://sportsbook.draftkings.com/leagues/football/ncaaf"
+      },
+      "nfl": {
+        "id": "86758",
+        "discovered": true,
+        "page": "https://sportsbook.draftkings.com/leagues/football/nfl"
+      },
+      "mlb": {
+        "id": "79494",
+        "discovered": true,
+        "page": "https://sportsbook.draftkings.com/leagues/baseball/mlb"
+      },
+      "epl": {
+        "id": "72061",
+        "discovered": true,
+        "page": "https://sportsbook.draftkings.com/leagues/soccer/england---premier-league/"
+      },
+      "cvb": {
+        "id": "89345",
+        "discovered": true,
+        "page": "https://sportsbook.draftkings.com/sports/volleyball"
+      }
+    },
+    "sourceFeeds": {},
+    "errors": {
+      "cfb": "Expecting value: line 1 column 1 (char 0)",
+      "nfl": "Expecting value: line 1 column 1 (char 0)",
+      "mlb": "Expecting value: line 1 column 1 (char 0)",
+      "epl": "Expecting value: line 1 column 1 (char 0)",
+      "cvb": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "games": [],
+    "status": "unavailable"
   }
 }
