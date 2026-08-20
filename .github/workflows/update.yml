@@ -9,6 +9,13 @@ on:
       - 'scripts/update_data.py'
       - 'data/sports-data.json'
       - '.github/workflows/update.yml'
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'assets/**'
+      - 'scripts/update_data.py'
+      - 'data/sports-data.json'
+      - '.github/workflows/update.yml'
 
 permissions:
   contents: read
