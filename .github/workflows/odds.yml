@@ -1,0 +1,46 @@
+name: Refresh DraftKings Odds
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: draftkings-odds-refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh-odds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Refresh DraftKings odds
+        run: python scripts/update_odds.py
+
+      - name: Validate updated JSON
+        run: python -m json.tool data/sports-data.json >/dev/null
+
+      - name: Commit changed odds snapshot
+        run: |
+          if git diff --quiet -- data/sports-data.json; then
+            echo "No odds changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/sports-data.json
+          git commit -m "Refresh DraftKings odds"
+          git push
