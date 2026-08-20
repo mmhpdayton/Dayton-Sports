@@ -8,81 +8,142 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Dayton Sports">
   <title>Dayton Sports</title>
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" href="https://raw.githubusercontent.com/mmhpdayton/FaveSports/main/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/mmhpdayton/FaveSports/main/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/styles.css?v=robust2">
 </head>
 <body>
-  <div class="app-shell">
-    <header class="site-header">
+<div class="shell">
+  <header class="header">
+    <div class="brand">
+      <img class="brand-icon" src="https://raw.githubusercontent.com/mmhpdayton/FaveSports/main/apple-touch-icon.png" alt="">
       <div>
-        <div class="eyebrow">THE DAYTON FAMILY SPORTS HUB</div>
+        <div class="kicker">THE DAYTON FAMILY SPORTS HUB</div>
         <h1>Dayton Sports</h1>
-        <p class="subtitle">Schedules, scores, standings and where to watch.</p>
+        <p>Our teams. Our games. One place.</p>
+        <div id="dataStatus" class="data-status">Loading sports data…</div>
       </div>
-      <div id="dataStatus" class="data-status">Loading sports data…</div>
-    </header>
+    </div>
+  </header>
 
-    <nav class="top-nav" aria-label="Primary navigation">
-      <button class="nav-button active" data-view="home">Home</button>
-      <button class="nav-button" data-view="schedules">Schedules</button>
-      <button class="nav-button" data-view="cfb">CFB</button>
-      <button class="nav-button" data-view="premier-league">Premier League</button>
-      <button class="nav-button" data-view="nfl">NFL</button>
-      <button class="nav-button" data-view="volleyball">College Volleyball</button>
-      <button class="nav-button" data-view="standings">Standings</button>
-    </nav>
+  <nav class="top-nav" aria-label="Primary">
+    <button class="nav-btn active" data-view="home">Home</button>
+    <button class="nav-btn" data-view="schedules">Schedules</button>
+    <button class="nav-btn" data-view="cfb">College Football</button>
+    <button class="nav-btn" data-view="premier">Premier League</button>
+    <button class="nav-btn" data-view="champions">Champions League</button>
+    <button class="nav-btn" data-view="nfl">NFL</button>
+    <button class="nav-btn" data-view="volleyball">College Volleyball</button>
+    <button class="nav-btn" data-view="standings">Standings</button>
+  </nav>
 
-    <main>
-      <section id="home" class="view active-view">
-        <div class="section-heading">
-          <div>
-            <div class="eyebrow">NEXT UP</div>
-            <h2>Upcoming & Where to Watch</h2>
-          </div>
-          <div class="section-note">Kids' next games always stay visible.</div>
-        </div>
-        <div id="upcomingGrid" class="card-grid"></div>
-      </section>
+  <main>
+    <section id="home" class="view active">
+      <div class="section-head">
+        <div><div class="kicker">NEXT OR ACTIVE</div><h2>Up Next</h2></div>
+        <div class="note">One game per team · live scores refresh automatically</div>
+      </div>
+      <div id="homeUpcoming" class="home-upcoming"></div>
 
-      <section id="schedules" class="view">
-        <div class="section-heading">
-          <div>
-            <div class="eyebrow">FULL SLATE</div>
-            <h2>Schedules</h2>
-          </div>
-          <div class="section-note">Months collapse automatically on mobile.</div>
-        </div>
-        <div id="teamSelector" class="team-selector"></div>
-        <div id="scheduleView"></div>
-      </section>
+      <div class="section-head compact-head">
+        <div><div class="kicker">QUICK ACCESS</div><h2>My Teams</h2></div>
+        <div class="note">Tap a team for its full schedule</div>
+      </div>
+      <div id="teamUtility" class="team-utility-strip"></div>
 
-      <section id="cfb" class="view">
-        <div class="section-heading"><div><div class="eyebrow">COLLEGE FOOTBALL</div><h2>CFB</h2></div></div>
-        <div id="cfbView" class="panel"></div>
-      </section>
+      <div class="home-grid">
+        <section class="panel">
+          <div class="panel-head"><h3>Live / Today</h3><span id="liveNowStamp" class="note"></span></div>
+          <div id="liveToday" class="mini-list"></div>
+        </section>
+        <section class="panel">
+          <div class="panel-head"><h3>Rankings Snapshot</h3><span class="note">ND + Wisconsin focus</span></div>
+          <div id="rankingsSnapshot" class="rank-snapshot"></div>
+        </section>
+      </div>
+    </section>
 
-      <section id="premier-league" class="view">
-        <div class="section-heading"><div><div class="eyebrow">ENGLAND</div><h2>Premier League</h2></div></div>
-        <div id="premierLeagueView" class="panel"></div>
-      </section>
+    <section id="schedules" class="view">
+      <div class="section-head">
+        <div><div class="kicker">EVERY GAME</div><h2>Team Schedules</h2></div>
+        <div class="note">Next game first · months collapse on mobile</div>
+      </div>
+      <div id="teamSelector" class="team-selector"></div>
+      <div id="scheduleView"></div>
+    </section>
 
-      <section id="nfl" class="view">
-        <div class="section-heading"><div><div class="eyebrow">PRO FOOTBALL</div><h2>NFL</h2></div></div>
-        <div id="nflView" class="panel"></div>
-      </section>
+    <section id="cfb" class="view">
+      <div class="section-head">
+        <div><div class="kicker">COLLEGE FOOTBALL</div><h2>College Football</h2></div>
+        <div class="live-refresh"><span class="dot"></span><span id="cfbStatus">Live ESPN feed</span></div>
+      </div>
+      <div class="control-row">
+        <select id="cfbWeek" class="select-control" aria-label="College football week"></select>
+        <div id="cfbFilters" class="pill-row"></div>
+      </div>
+      <div id="cfbView" class="league-weeks"></div>
+    </section>
 
-      <section id="volleyball" class="view">
-        <div class="section-heading"><div><div class="eyebrow">NCAA</div><h2>College Volleyball</h2></div></div>
-        <div id="volleyballView" class="panel"></div>
-      </section>
+    <section id="premier" class="view">
+      <div class="section-head">
+        <div><div class="kicker">ENGLAND</div><h2>Premier League</h2></div>
+        <div class="note">Current week open · prior/future weeks collapsible</div>
+      </div>
+      <div id="premierView" class="league-weeks"></div>
+      <div class="section-head secondary-head"><div><h2>Premier League Table</h2></div></div>
+      <div id="premierTable" class="panel table-panel"></div>
+    </section>
 
-      <section id="standings" class="view">
-        <div class="section-heading"><div><div class="eyebrow">TABLES</div><h2>Standings</h2></div></div>
-        <div id="standingsView" class="panel"></div>
-      </section>
-    </main>
+    <section id="champions" class="view">
+      <div class="section-head">
+        <div><div class="kicker">EUROPE</div><h2>Champions League</h2></div>
+        <div class="note">League phase + knockout fixtures as announced</div>
+      </div>
+      <div id="championsView" class="league-weeks"></div>
+    </section>
 
-    <footer>Dayton Sports · Chicago time</footer>
-  </div>
-  <script src="assets/app.js" defer></script>
+    <section id="nfl" class="view">
+      <div class="section-head">
+        <div><div class="kicker">PRO FOOTBALL</div><h2>NFL</h2></div>
+        <div class="live-refresh"><span class="dot"></span><span id="nflStatus">Live ESPN feed</span></div>
+      </div>
+      <div class="control-row"><select id="nflWeek" class="select-control"></select></div>
+      <div id="nflView" class="league-weeks"></div>
+    </section>
+
+    <section id="volleyball" class="view">
+      <div class="section-head">
+        <div><div class="kicker">NCAA WOMEN</div><h2>College Volleyball</h2></div>
+        <div class="live-refresh"><span class="dot"></span><span id="vbStatus">Live ESPN feed</span></div>
+      </div>
+      <div id="volleyballView" class="league-weeks"></div>
+      <div class="section-head secondary-head"><div><h2>AVCA Top 25</h2></div></div>
+      <div id="volleyballRankings" class="panel"></div>
+    </section>
+
+    <section id="standings" class="view">
+      <div class="section-head">
+        <div><div class="kicker">TABLES</div><h2>Standings</h2></div>
+        <div class="note">Your divisions and leagues</div>
+      </div>
+      <div id="standingSelector" class="pill-row"></div>
+      <div id="standingsView" class="panel table-panel"></div>
+    </section>
+  </main>
+
+  <footer>Dayton Sports · All times Central · Public data from ESPN</footer>
+</div>
+
+<div id="gameModal" class="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close-modal></div>
+  <article class="modal-card">
+    <button class="modal-close" data-close-modal aria-label="Close">×</button>
+    <div id="gameModalBody"></div>
+  </article>
+</div>
+
+<script src="assets/bootstrap.js?v=robust2" defer></script>
+<script src="assets/app.js?v=robust2" defer></script>
+<script src="assets/runtime.js?v=robust2" defer></script>
 </body>
 </html>
