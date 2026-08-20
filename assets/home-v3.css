@@ -1,0 +1,27 @@
+/* Dayton Sports Home v3 — simple, equal-weight dashboard cards */
+#home .section-head{margin:24px 0 12px}
+#homeUpcoming.home-upcoming-v3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:stretch}
+.home-game-v3{position:relative;min-width:0;min-height:218px;display:flex;flex-direction:column;padding:16px 16px 14px 18px;border:1px solid #29445f;border-radius:16px;background:linear-gradient(145deg,rgba(15,34,56,.98),rgba(8,23,39,.98));box-shadow:0 10px 24px rgba(0,0,0,.16);overflow:hidden;cursor:pointer}
+.home-game-v3:before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:var(--team,#54708c)}
+.home-game-v3:hover{border-color:#4c6f8e;background:linear-gradient(145deg,#122b46,#0a1c30)}
+.home-game-v3.family{border-color:#4b5660;background:radial-gradient(circle at 100% 0,rgba(231,189,102,.07),transparent 42%),linear-gradient(145deg,#122941,#091a2c)}
+.home-game-v3 .v3-top{display:flex;align-items:center;gap:11px;min-width:0}
+.home-game-v3 .logo-box{width:44px!important;height:44px!important;flex:0 0 44px!important;border-radius:11px!important}
+.home-game-v3 .v3-team-block{min-width:0;flex:1}
+.home-game-v3 .v3-team{font-size:15px;font-weight:900;line-height:1.08;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.home-game-v3 .v3-meta{margin-top:2px;color:#90a5bb;font-size:10px;line-height:1.25}
+.home-game-v3 .personal-game-label{margin:8px 0 0!important;padding:4px 8px!important;font-size:9px!important}
+.home-game-v3 .v3-match{margin-top:16px;font-size:19px;font-weight:900;line-height:1.12;letter-spacing:-.015em}
+.home-game-v3 .v3-when{margin-top:5px;color:#dbe6ef;font-size:12px;font-weight:700}
+.home-game-v3 .v3-venue{margin-top:3px;color:#879db1;font-size:10px;min-height:13px}
+.home-game-v3 .scoreline{margin-top:9px}
+.home-game-v3 .chips{margin-top:9px}
+.home-game-v3 .v3-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto;padding-top:12px}
+.home-game-v3 .card-btn{font-size:9px!important;padding:7px 9px!important;border-radius:8px!important}
+.home-game-v3 .chip{font-size:9px!important;padding:5px 7px!important}
+#home .compact-head{margin-top:24px}
+#home .team-utility-strip{padding-bottom:5px}
+#home .home-grid{margin-top:18px}
+@media(max-width:1050px){#homeUpcoming.home-upcoming-v3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){#homeUpcoming.home-upcoming-v3{display:flex;overflow-x:auto;gap:10px;scroll-snap-type:x mandatory;padding-bottom:8px;margin-right:-12px;padding-right:12px}#homeUpcoming .home-game-v3{flex:0 0 86%;min-height:210px;scroll-snap-align:start}.home-game-v3 .v3-team{white-space:normal}.home-game-v3 .v3-match{font-size:18px}}
+@media(max-width:430px){#homeUpcoming .home-game-v3{flex-basis:91%}}
