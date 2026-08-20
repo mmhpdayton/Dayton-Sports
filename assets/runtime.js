@@ -20,6 +20,9 @@
   /* Family personalization should travel with every game, not live only in a team header. */
   const personalLabel=t=>t?.id==="payton"?"Hadley · Setter":t?.id==="amundsen"?"Patrick · WR/DB · #7":t?.id==="amundsenvarsity"?"Patrick dresses varsity":"";
   const personalBadge=t=>personalLabel(t)?`<div class="personal-game-label">${esc(personalLabel(t))}</div>`:"";
+  const style=document.createElement("style");
+  style.textContent=`.personal-game-label{display:inline-flex;align-items:center;width:max-content;max-width:100%;margin:9px 0 0;padding:4px 8px;border-radius:999px;border:1px solid rgba(231,189,102,.38);background:rgba(231,189,102,.09);color:#f0cf86;font-size:9px;font-weight:900;letter-spacing:.02em}.schedule-card .personal-game-label{margin:0 0 5px}`;
+  document.head.appendChild(style);
   const baseGameCard=gameCard;
   gameCard=(t,g,hero=false)=>{
     let html=baseGameCard(t,g,hero);
