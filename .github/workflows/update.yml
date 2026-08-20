@@ -1,61 +1,46 @@
-name: Refresh Dayton Sports data
+name: Validate Dayton Sports
 
 on:
-  schedule:
-    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
   push:
     paths:
+      - 'index.html'
+      - 'assets/**'
       - 'scripts/update_data.py'
-      - 'scripts/diagnose_data.py'
-      - '.github/workflows/update.yml'
       - 'data/sports-data.json'
+      - '.github/workflows/update.yml'
 
 permissions:
-  contents: write
-
-concurrency:
-  group: dayton-sports-data-refresh-${{ github.ref }}
-  cancel-in-progress: true
+  contents: read
 
 jobs:
-  refresh:
+  validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
 
     steps:
       - name: Check out site
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Syntax check updater
-        run: python -m py_compile scripts/update_data.py scripts/diagnose_data.py
-
-      - name: Diagnose ESPN feeds
-        run: python scripts/diagnose_data.py
-
-      - name: Refresh sports data
-        run: python scripts/update_data.py
-
-      - name: Validate generated JSON
+      - name: Validate Python and JSON
         run: |
+          python -m py_compile scripts/update_data.py
           python -m json.tool data/sports-data.json >/dev/null
-          python -m json.tool data/diagnostics.json >/dev/null
 
-      - name: Commit refreshed data if changed
+      - name: Validate JavaScript
         run: |
-          if git diff --quiet -- data/sports-data.json data/diagnostics.json; then
-            echo "No data changes."
-            exit 0
-          fi
-          git config user.name "dayton-sports-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/sports-data.json data/diagnostics.json
-          git commit -m "Auto-update sports data"
-          git push origin HEAD:${{ github.ref_name }}
+          node --check assets/bootstrap.js
+          node --check assets/app.js
+          node --check assets/runtime.js
+
+      - name: Confirm required site files
+        run: |
+          test -s index.html
+          test -s assets/styles.css
+          test -s assets/app.js
+          test -s data/sports-data.json
