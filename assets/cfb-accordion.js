@@ -3,17 +3,17 @@
   const DAY=864e5;
   const weekRange=(week)=>{
     if(week===0){
-      return {start:new Date('2026-08-29T00:00:00-05:00'),end:new Date('2026-09-02T23:59:59-05:00')};
+      return {start:new Date('2026-08-24T00:00:00-05:00'),end:new Date('2026-08-30T23:59:59-05:00')};
     }
-    const start=new Date('2026-09-03T00:00:00-05:00');
+    const start=new Date('2026-08-31T00:00:00-05:00');
     start.setDate(start.getDate()+(week-1)*7);
     const end=new Date(start);end.setDate(end.getDate()+6);end.setHours(23,59,59,999);
     return {start,end};
   };
   const currentWeek=()=>{
     const now=APP.now();
-    if(now<new Date('2026-09-03T00:00:00-05:00'))return 0;
-    return Math.max(1,Math.min(16,1+Math.floor((now-new Date('2026-09-03T00:00:00-05:00'))/(7*DAY))));
+    if(now<new Date('2026-08-31T00:00:00-05:00'))return 0;
+    return Math.max(1,Math.min(16,1+Math.floor((now-new Date('2026-08-31T00:00:00-05:00'))/(7*DAY))));
   };
   let activeGroup='top25';
 
@@ -40,10 +40,10 @@
   }
 
   function addOdds(replacement,games){
-    if(typeof window.oddsStripForLeagueGame!=='function')return;
     [...replacement.querySelectorAll('.league-game')].forEach((row,i)=>{
       const g=games[i];if(!g)return;
-      const odds=window.oddsStripForLeagueGame('cfb',g.home,g.away);
+      const odds=(typeof window.espnDkOddsStrip==='function'&&window.espnDkOddsStrip(g)) ||
+        (typeof window.oddsStripForLeagueGame==='function'&&window.oddsStripForLeagueGame('cfb',g.home,g.away,g)) || '';
       if(!odds)return;
       const right=row.querySelector('.league-right')||row;
       right.insertAdjacentHTML('beforeend',odds);
