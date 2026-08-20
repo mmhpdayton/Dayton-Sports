@@ -1,0 +1,42 @@
+{
+  "nd": {
+    "ok": false,
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  "wisc": {
+    "ok": false,
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  "lfc": {
+    "ok": false,
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  "gb": {
+    "ok": false,
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  "buf": {
+    "ok": false,
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  "ind": {
+    "ok": false,
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  "cubs": {
+    "ok": false,
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  "cfb_rank": {
+    "ok": false,
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  "vb_rank": {
+    "ok": false,
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  "epl_stand": {
+    "ok": false,
+    "error": "<HTTPError 403: 'Forbidden'>"
+  }
+}
