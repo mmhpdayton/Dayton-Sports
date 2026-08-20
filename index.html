@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#07111f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Dayton Sports">
+  <title>Dayton Sports</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header">
+      <div>
+        <div class="eyebrow">THE DAYTON FAMILY SPORTS HUB</div>
+        <h1>Dayton Sports</h1>
+        <p class="subtitle">Schedules, scores, standings and where to watch.</p>
+      </div>
+      <div id="dataStatus" class="data-status">Loading sports data…</div>
+    </header>
+
+    <nav class="top-nav" aria-label="Primary navigation">
+      <button class="nav-button active" data-view="home">Home</button>
+      <button class="nav-button" data-view="schedules">Schedules</button>
+      <button class="nav-button" data-view="cfb">CFB</button>
+      <button class="nav-button" data-view="premier-league">Premier League</button>
+      <button class="nav-button" data-view="nfl">NFL</button>
+      <button class="nav-button" data-view="volleyball">College Volleyball</button>
+      <button class="nav-button" data-view="standings">Standings</button>
+    </nav>
+
+    <main>
+      <section id="home" class="view active-view">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">NEXT UP</div>
+            <h2>Upcoming & Where to Watch</h2>
+          </div>
+          <div class="section-note">Kids' next games always stay visible.</div>
+        </div>
+        <div id="upcomingGrid" class="card-grid"></div>
+      </section>
+
+      <section id="schedules" class="view">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">FULL SLATE</div>
+            <h2>Schedules</h2>
+          </div>
+          <div class="section-note">Months collapse automatically on mobile.</div>
+        </div>
+        <div id="teamSelector" class="team-selector"></div>
+        <div id="scheduleView"></div>
+      </section>
+
+      <section id="cfb" class="view">
+        <div class="section-heading"><div><div class="eyebrow">COLLEGE FOOTBALL</div><h2>CFB</h2></div></div>
+        <div id="cfbView" class="panel"></div>
+      </section>
+
+      <section id="premier-league" class="view">
+        <div class="section-heading"><div><div class="eyebrow">ENGLAND</div><h2>Premier League</h2></div></div>
+        <div id="premierLeagueView" class="panel"></div>
+      </section>
+
+      <section id="nfl" class="view">
+        <div class="section-heading"><div><div class="eyebrow">PRO FOOTBALL</div><h2>NFL</h2></div></div>
+        <div id="nflView" class="panel"></div>
+      </section>
+
+      <section id="volleyball" class="view">
+        <div class="section-heading"><div><div class="eyebrow">NCAA</div><h2>College Volleyball</h2></div></div>
+        <div id="volleyballView" class="panel"></div>
+      </section>
+
+      <section id="standings" class="view">
+        <div class="section-heading"><div><div class="eyebrow">TABLES</div><h2>Standings</h2></div></div>
+        <div id="standingsView" class="panel"></div>
+      </section>
+    </main>
+
+    <footer>Dayton Sports · Chicago time</footer>
+  </div>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
