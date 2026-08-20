@@ -1,7 +1,7 @@
 {
-  "schemaVersion": 1,
+  "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-08-20 12:24 PM CT",
+  "generatedAt": "Seed data — public feeds refresh automatically",
   "teams": [
     {
       "id": "payton",
@@ -11,33 +11,27 @@
       "record": "0–0",
       "context": "Hadley · Setter",
       "familyPriority": true,
+      "homePriority": 1,
+      "logo": "https://raw.githubusercontent.com/mmhpdayton/FaveSports/main/payton-logo.png",
       "schedule": [
-        {
-          "date": "Aug 24",
-          "time": "5:00 PM",
-          "opp": "Willowbrook",
-          "ha": "HOME"
-        },
-        {
-          "date": "Sep 3",
-          "time": "5:00 PM",
-          "opp": "St. Ignatius College Prep",
-          "ha": "HOME"
-        },
-        {
-          "date": "Sep 8",
-          "time": "5:00 PM",
-          "opp": "Whitney Young",
-          "ha": "AWAY",
-          "conference": true
-        },
-        {
-          "date": "Sep 15",
-          "time": "5:00 PM",
-          "opp": "Amundsen",
-          "ha": "AWAY",
-          "conference": true
-        }
+        {"date":"Aug 24","time":"5:00 PM","opp":"Willowbrook","ha":"HOME","conference":false},
+        {"date":"Sep 3","time":"5:00 PM","opp":"St. Ignatius College Prep","ha":"HOME","conference":false},
+        {"date":"Sep 8","time":"5:00 PM","opp":"Whitney Young","ha":"AWAY","conference":true},
+        {"date":"Sep 9","time":"5:00 PM","opp":"Niles West","ha":"AWAY","conference":false},
+        {"date":"Sep 10","time":"5:00 PM","opp":"Chicago Washington","ha":"HOME","conference":true},
+        {"date":"Sep 12","time":"TBA","opp":"Rickover JV Tournament — Game 1","ha":"NEUTRAL","conference":false,"tournament":true},
+        {"date":"Sep 12","time":"TBA","opp":"Rickover JV Tournament — Game 2","ha":"NEUTRAL","conference":false,"tournament":true},
+        {"date":"Sep 12","time":"TBA","opp":"Rickover JV Tournament — Game 3","ha":"NEUTRAL","conference":false,"tournament":true},
+        {"date":"Sep 12","time":"TBA","opp":"Rickover JV Tournament — Game 4","ha":"NEUTRAL","conference":false,"tournament":true},
+        {"date":"Sep 15","time":"5:00 PM","opp":"Amundsen","ha":"AWAY","conference":true},
+        {"date":"Sep 17","time":"5:00 PM","opp":"Hancock","ha":"HOME","conference":true},
+        {"date":"Sep 22","time":"5:00 PM","opp":"Northside","ha":"HOME","conference":true},
+        {"date":"Sep 23","time":"5:00 PM","opp":"Montini Catholic","ha":"AWAY","conference":false},
+        {"date":"Sep 24","time":"5:00 PM","opp":"Kenwood","ha":"AWAY","conference":true},
+        {"date":"Sep 29","time":"5:00 PM","opp":"Lane Tech","ha":"HOME","conference":true},
+        {"date":"Sep 30","time":"5:00 PM","opp":"Elmwood Park","ha":"AWAY","conference":false},
+        {"date":"Oct 1","time":"5:00 PM","opp":"Lincoln Park","ha":"AWAY","conference":true},
+        {"date":"Oct 6","time":"5:00 PM","opp":"Jones","ha":"HOME","conference":true}
       ]
     },
     {
@@ -48,90 +42,82 @@
       "record": "0–0",
       "context": "Patrick · WR/DB · #7",
       "familyPriority": true,
+      "homePriority": 2,
+      "logo": "https://raw.githubusercontent.com/mmhpdayton/FaveSports/main/amundsen-logo.png",
       "schedule": [
-        {
-          "date": "Aug 26",
-          "time": "4:30 PM",
-          "opp": "Westinghouse",
-          "ha": "HOME"
-        },
-        {
-          "date": "Sep 5",
-          "time": "9:00 AM",
-          "opp": "Payton College Prep",
-          "ha": "HOME"
-        },
-        {
-          "date": "Sep 14",
-          "time": "4:30 PM",
-          "opp": "Lane Tech",
-          "ha": "HOME"
-        },
-        {
-          "date": "Sep 21",
-          "time": "4:30 PM",
-          "opp": "Lincoln Park",
-          "ha": "HOME"
-        }
+        {"date":"Aug 26","time":"4:30 PM","opp":"Westinghouse","ha":"HOME"},
+        {"date":"Sep 5","time":"9:00 AM","opp":"Payton College Prep","ha":"HOME"},
+        {"date":"Sep 14","time":"4:30 PM","opp":"Lane Tech","ha":"HOME"},
+        {"date":"Sep 21","time":"4:30 PM","opp":"Lincoln Park","ha":"HOME"},
+        {"date":"Sep 28","time":"4:30 PM","opp":"Payton College Prep","ha":"HOME"},
+        {"date":"Oct 5","time":"4:30 PM","opp":"Taft","ha":"AWAY"},
+        {"date":"Oct 12","time":"4:30 PM","opp":"Whitney Young","ha":"AWAY"}
       ]
     },
     {
-      "id": "cubs",
-      "name": "Chicago Cubs",
-      "abbr": "C",
-      "color": "#0e3386",
-      "schedule": []
+      "id": "amundsenvarsity",
+      "name": "Amundsen Varsity Football",
+      "abbr": "A",
+      "color": "#b61f2e",
+      "record": "0–0",
+      "context": "Patrick dresses varsity",
+      "familyPriority": true,
+      "homePriority": 3,
+      "logo": "https://raw.githubusercontent.com/mmhpdayton/FaveSports/main/amundsen-logo.png",
+      "schedule": [
+        {"date":"Aug 21","time":"4:30 PM","opp":"Chicago Marshall","ha":"HOME","conference":false},
+        {"date":"Aug 29","time":"1:00 PM","opp":"Kennedy","ha":"HOME","conference":false},
+        {"date":"Sep 5","time":"12:00 PM","opp":"Payton College Prep","ha":"HOME","conference":false},
+        {"date":"Sep 10","time":"4:15 PM","opp":"Bulls College Prep","ha":"HOME","conference":true},
+        {"date":"Sep 18","time":"7:30 PM","opp":"Lincoln Park","ha":"AWAY","conference":true},
+        {"date":"Sep 26","time":"1:30 PM","opp":"Kenwood","ha":"AWAY","conference":true},
+        {"date":"Oct 2","time":"7:30 PM","opp":"Lane Tech","ha":"AWAY","conference":true},
+        {"date":"Oct 10","time":"12:00 PM","opp":"Whitney Young","ha":"HOME","conference":true}
+      ]
     },
     {
-      "id": "nd",
-      "name": "Notre Dame Football",
-      "abbr": "ND",
-      "color": "#c99700",
-      "schedule": []
+      "id":"cubs","name":"Chicago Cubs","abbr":"CHC","color":"#0e3386","record":"","context":"NL Central","homePriority":4,
+      "logo":"https://a.espncdn.com/i/teamlogos/mlb/500/chc.png","sirius":{"league":"mlb","slug":"chicago-cubs"},
+      "schedule":[{"date":"Aug 21","time":"9:10 PM CT","opp":"Seattle Mariners","ha":"AWAY","tv":"Marquee Sports Network"}]
     },
     {
-      "id": "wisc",
-      "name": "Wisconsin Volleyball",
-      "abbr": "W",
-      "color": "#c5050c",
-      "schedule": []
+      "id":"wisc","name":"Wisconsin Volleyball","abbr":"W","color":"#c5050c","record":"0–0","context":"#6 AVCA","homePriority":5,
+      "logo":"https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+      "schedule":[
+        {"date":"Aug 21","time":"8:00 PM CT","opp":"#3 Kentucky","ha":"NEUTRAL","tv":"ESPN","venue":"Fiserv Forum · Milwaukee","event":"AVCA First Serve"},
+        {"date":"Aug 22","time":"3:00 PM CT","opp":"#7 Louisville","ha":"NEUTRAL","tv":"FOX","venue":"Fiserv Forum · Milwaukee","event":"AVCA First Serve"},
+        {"date":"Aug 28","time":"8:00 PM CT","opp":"#5 Stanford","ha":"NEUTRAL","tv":"ESPN2","venue":"Pittsburgh, PA"},
+        {"date":"Aug 30","time":"11:00 AM CT","opp":"#4 Pittsburgh","ha":"AWAY","tv":"ESPN","venue":"Pittsburgh, PA"},
+        {"date":"Sep 2","time":"7:00 PM CT","opp":"#17 Florida","ha":"HOME","tv":"FS1","venue":"UW Field House"}
+      ]
     },
     {
-      "id": "lfc",
-      "name": "Liverpool",
-      "abbr": "LFC",
-      "color": "#c8102e",
-      "schedule": []
+      "id":"lfc","name":"Liverpool","abbr":"LFC","color":"#d00027","record":"","context":"Premier League","homePriority":6,
+      "logo":"https://a.espncdn.com/i/teamlogos/soccer/500/364.png","schedule":[{"date":"Aug 23","time":"11:30 AM CT","opp":"Newcastle United","ha":"AWAY","tv":"USA Network"}]
     },
     {
-      "id": "gb",
-      "name": "Green Bay Packers",
-      "abbr": "GB",
-      "color": "#203731",
-      "schedule": []
+      "id":"nd","name":"Notre Dame","abbr":"ND","color":"#c99700","record":"0–0","context":"#4 AP · #5 Coaches","homePriority":7,
+      "logo":"https://a.espncdn.com/i/teamlogos/ncaa/500/87.png","sirius":{"league":"college-football","slug":"notre-dame-fighting-irish"},
+      "schedule":[
+        {"date":"Sep 6","time":"6:30 PM CT","opp":"Wisconsin","ha":"NEUTRAL","venue":"Lambeau Field · Green Bay","event":"Shamrock Series","tv":"NBC · Peacock"},
+        {"date":"Sep 12","time":"2:30 PM CT","opp":"Rice","ha":"HOME","venue":"Notre Dame Stadium","tv":"NBC · Peacock"},
+        {"date":"Sep 19","time":"6:30 PM CT","opp":"Michigan State","ha":"HOME","venue":"Notre Dame Stadium","tv":"NBC · Peacock"},
+        {"date":"Sep 26","time":"TBA","opp":"Purdue","ha":"AWAY","venue":"Ross-Ade Stadium","tv":"TBD"},
+        {"date":"Oct 3","time":"TBA","opp":"North Carolina","ha":"AWAY","venue":"Kenan Memorial Stadium","tv":"TBD"},
+        {"date":"Oct 10","time":"2:30 PM CT","opp":"Stanford","ha":"HOME","venue":"Notre Dame Stadium","tv":"NBC · Peacock"},
+        {"date":"Oct 17","time":"TBA","opp":"BYU","ha":"AWAY","venue":"LaVell Edwards Stadium","tv":"TBD"},
+        {"date":"Oct 31","time":"TBA","opp":"Navy","ha":"NEUTRAL","venue":"Foxborough, MA","tv":"TBD"},
+        {"date":"Nov 7","time":"6:30 PM CT","opp":"Miami","ha":"HOME","venue":"Notre Dame Stadium","tv":"NBC · Peacock"},
+        {"date":"Nov 14","time":"2:30 PM CT","opp":"Boston College","ha":"HOME","venue":"Notre Dame Stadium","tv":"NBC · Peacock"},
+        {"date":"Nov 21","time":"6:30 PM CT","opp":"SMU","ha":"HOME","venue":"Notre Dame Stadium","tv":"NBC · Peacock"},
+        {"date":"Nov 28","time":"TBA","opp":"Syracuse","ha":"AWAY","venue":"JMA Wireless Dome","tv":"TBD"}
+      ]
     },
-    {
-      "id": "buf",
-      "name": "Buffalo Bills",
-      "abbr": "BUF",
-      "color": "#00338d",
-      "schedule": []
-    },
-    {
-      "id": "ind",
-      "name": "Indianapolis Colts",
-      "abbr": "IND",
-      "color": "#002c5f",
-      "schedule": []
-    }
+    {"id":"gb","name":"Green Bay Packers","abbr":"GB","color":"#203731","record":"","context":"NFC North","homePriority":8,"logo":"https://a.espncdn.com/i/teamlogos/nfl/500/gb.png","sirius":{"league":"nfl","slug":"green-bay-packers"},"schedule":[]},
+    {"id":"buf","name":"Buffalo Bills","abbr":"BUF","color":"#00338d","record":"","context":"AFC East","homePriority":9,"logo":"https://a.espncdn.com/i/teamlogos/nfl/500/buf.png","sirius":{"league":"nfl","slug":"buffalo-bills"},"schedule":[]},
+    {"id":"ind","name":"Indianapolis Colts","abbr":"IND","color":"#002c5f","record":"","context":"AFC South","homePriority":10,"muted":true,"excludeUpcoming":true,"logo":"https://a.espncdn.com/i/teamlogos/nfl/500/ind.png","sirius":{"league":"nfl","slug":"indianapolis-colts"},"schedule":[]}
   ],
-  "leagues": {
-    "premierLeague": {
-      "games": []
-    },
-    "nfl": {
-      "games": []
-    }
-  },
-  "standings": {}
+  "rankings":{"cfb":[],"volleyball":[]},
+  "standings":{"epl":[],"nfcNorth":[],"afcEast":[],"afcSouth":[],"nlCentral":[]},
+  "snapshots":{"cfb":[],"nfl":[],"collegeVolleyball":[],"premierLeague":[],"championsLeague":[]}
 }
