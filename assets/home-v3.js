@@ -13,6 +13,7 @@
     const context=t?.context?esc(t.context):'';
     const meta=[context,record].filter(Boolean).join(' · ');
     const familyHtml=family?`<div class="personal-game-label">${esc(family)}</div>`:'';
+    const odds=typeof oddsStripForTeamGame==='function'?oddsStripForTeamGame(t,g):'';
     return `<article class="home-game-v3${family?' family':''}${t?.muted?' muted':''}" style="--team:${esc(t?.color||'#567')}" data-game-team="${esc(t.id)}" data-game-id="${esc(g.id||`${g.date}-${g.opp}`)}">
       <div class="v3-top">${logoHtml(t)}<div class="v3-team-block"><div class="v3-team">${esc(t.name)}</div>${meta?`<div class="v3-meta">${meta}</div>`:''}</div></div>
       ${familyHtml}
@@ -21,6 +22,7 @@
       <div class="v3-venue">${esc(g.venue||'')}</div>
       ${scoreHtml(g)}
       <div class="chips">${gameChips(t,g)}</div>
+      ${odds}
       <div class="v3-actions"><button class="card-btn goto-schedule" data-team="${esc(t.id)}">Full schedule</button>${detail}</div>
     </article>`;
   }
