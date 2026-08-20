@@ -20,9 +20,16 @@
   /* Family personalization should travel with every game, not live only in a team header. */
   const personalLabel=t=>t?.id==="payton"?"Hadley · Setter":t?.id==="amundsen"?"Patrick · WR/DB · #7":t?.id==="amundsenvarsity"?"Patrick dresses varsity":"";
   const personalBadge=t=>personalLabel(t)?`<div class="personal-game-label">${esc(personalLabel(t))}</div>`:"";
+
+  /* Layout guard: keep Home as a uniform dashboard even if an older cached stylesheet is served. */
   const style=document.createElement("style");
-  style.textContent=`.personal-game-label{display:inline-flex;align-items:center;width:max-content;max-width:100%;margin:9px 0 0;padding:4px 8px;border-radius:999px;border:1px solid rgba(231,189,102,.38);background:rgba(231,189,102,.09);color:#f0cf86;font-size:9px;font-weight:900;letter-spacing:.02em}.schedule-card .personal-game-label{margin:0 0 5px}`;
+  style.textContent=`
+    .personal-game-label{display:inline-flex;align-items:center;width:max-content;max-width:100%;margin:8px 0 0;padding:4px 8px;border-radius:999px;border:1px solid rgba(231,189,102,.38);background:rgba(231,189,102,.09);color:#f0cf86;font-size:9px;font-weight:900;letter-spacing:.02em}.schedule-card .personal-game-label{margin:0 0 5px}
+    .home-upcoming{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:12px!important;align-items:stretch!important}.home-upcoming>.home-hero,.home-upcoming>.home-rest{display:contents!important}.home-upcoming .home-hero,.home-upcoming .up-card{min-width:0!important;min-height:205px!important;padding:15px!important;border-radius:18px!important}.home-upcoming .home-hero .hero-matchup{font-size:18px!important;line-height:1.12!important;margin:14px 0 4px!important}.home-upcoming .home-hero .hero-time{font-size:12px!important}.home-upcoming .logo-box{width:44px!important;height:44px!important;flex-basis:44px!important}.home-upcoming .team-name{font-size:15px!important;line-height:1.05!important}.home-upcoming .team-context,.home-upcoming .record,.home-upcoming .venue{font-size:10px!important}.home-upcoming .card-btn{padding:7px 9px!important;font-size:9px!important;border-radius:9px!important}
+    @media(max-width:1050px){.home-upcoming{grid-template-columns:repeat(3,minmax(0,1fr))!important}}@media(max-width:900px){.home-upcoming{grid-template-columns:repeat(2,minmax(0,1fr))!important}}@media(max-width:700px){.home-upcoming{display:flex!important;overflow-x:auto!important;gap:10px!important;scroll-snap-type:x mandatory!important;padding-bottom:8px!important}.home-upcoming>.home-hero,.home-upcoming>.home-rest{display:contents!important}.home-upcoming .home-hero,.home-upcoming .up-card{flex:0 0 86%!important;min-height:195px!important;scroll-snap-align:start!important}}@media(max-width:430px){.home-upcoming .home-hero,.home-upcoming .up-card{flex-basis:91%!important}}
+  `;
   document.head.appendChild(style);
+
   const baseGameCard=gameCard;
   gameCard=(t,g,hero=false)=>{
     let html=baseGameCard(t,g,hero);
