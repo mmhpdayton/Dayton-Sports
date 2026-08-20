@@ -17,6 +17,24 @@
     return html+(sxm?`<a class="chip audio" href="${sxm}" target="_blank" rel="noopener" onclick="event.stopPropagation()">◉ SiriusXM Live</a>`:"");
   };
 
+  /* Family personalization should travel with every game, not live only in a team header. */
+  const personalLabel=t=>t?.id==="payton"?"Hadley · Setter":t?.id==="amundsen"?"Patrick · WR/DB · #7":t?.id==="amundsenvarsity"?"Patrick dresses varsity":"";
+  const personalBadge=t=>personalLabel(t)?`<div class="personal-game-label">${esc(personalLabel(t))}</div>`:"";
+  const baseGameCard=gameCard;
+  gameCard=(t,g,hero=false)=>{
+    let html=baseGameCard(t,g,hero);
+    const badge=personalBadge(t);
+    if(!badge)return html;
+    return html.replace(/(<div class="(?:hero-matchup|matchup)">)/,`${badge}$1`);
+  };
+  const baseScheduleRow=scheduleRow;
+  scheduleRow=(t,g)=>{
+    let html=baseScheduleRow(t,g);
+    const badge=personalBadge(t);
+    if(!badge)return html;
+    return html.replace(/(<div class="schedule-opponent">)/,`${badge}$1`);
+  };
+
   function walk(node,out=[]){
     if(!node||typeof node!=="object")return out;
     const st=node.standings||{};
