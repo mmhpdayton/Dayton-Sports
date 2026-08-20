@@ -7,15 +7,17 @@ on:
       - 'index.html'
       - 'assets/**'
       - 'scripts/update_data.py'
+      - 'scripts/update_odds.py'
       - 'data/sports-data.json'
-      - '.github/workflows/update.yml'
+      - '.github/workflows/**'
   pull_request:
     paths:
       - 'index.html'
       - 'assets/**'
       - 'scripts/update_data.py'
+      - 'scripts/update_odds.py'
       - 'data/sports-data.json'
-      - '.github/workflows/update.yml'
+      - '.github/workflows/**'
 
 permissions:
   contents: read
@@ -36,7 +38,7 @@ jobs:
 
       - name: Validate Python and JSON
         run: |
-          python -m py_compile scripts/update_data.py
+          python -m py_compile scripts/update_data.py scripts/update_odds.py
           python -m json.tool data/sports-data.json >/dev/null
 
       - name: Validate JavaScript
@@ -44,10 +46,14 @@ jobs:
           node --check assets/bootstrap.js
           node --check assets/app.js
           node --check assets/runtime.js
+          node --check assets/cfb-accordion.js
+          node --check assets/odds.js
+          node --check assets/home-v3.js
 
       - name: Confirm required site files
         run: |
           test -s index.html
           test -s assets/styles.css
           test -s assets/app.js
+          test -s assets/odds.js
           test -s data/sports-data.json
