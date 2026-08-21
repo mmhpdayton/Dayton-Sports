@@ -546,7 +546,7 @@
     "championsLeague": []
   },
   "draftkingsOdds": {
-    "updatedAt": "2026-08-21T11:02:47.671210+00:00",
+    "updatedAt": "2026-08-21T12:03:12.970112+00:00",
     "source": "DraftKings Sportsbook",
     "primarySource": "league-page discovery + event-group feed",
     "leaguePages": {
@@ -568,7 +568,7 @@
         "page": "https://sportsbook.draftkings.com/leagues/football/nfl"
       },
       "mlb": {
-        "id": "24087",
+        "id": "79494",
         "discovered": true,
         "page": "https://sportsbook.draftkings.com/leagues/baseball/mlb"
       },
@@ -578,7 +578,7 @@
         "page": "https://sportsbook.draftkings.com/leagues/soccer/england---premier-league/"
       },
       "cvb": {
-        "id": "217995",
+        "id": "89345",
         "discovered": true,
         "page": "https://sportsbook.draftkings.com/sports/volleyball"
       }
