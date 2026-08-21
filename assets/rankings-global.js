@@ -1,6 +1,7 @@
 /* Apply current poll rankings consistently across Home, schedule hero/rows and game modal. */
 (()=>{
-  const clean=s=>String(s||'').toLowerCase().replace(/^#\d+\s+/,'').replace(/\b(wildcats|cardinal|cardinals|panthers|fighting irish|badgers|aggies|longhorns|golden eagles|tigers)\b/g,'').replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
+  const MASCOTS='wildcats|cardinal|cardinals|panthers|fighting irish|badgers|aggies|longhorns|golden eagles|tigers|gators|boilermakers|nittany lions|sun devils|bluejays|golden gophers|jayhawks|hoosiers|horned frogs|tar heels|trojans|bears|volunteers|buffaloes|cougars|ducks|mustangs|bulldogs|hurricanes|buckeyes|rebels|sooners';
+  const clean=s=>String(s||'').toLowerCase().replace(/^#\d+\s+/,'').replace(new RegExp(`\\b(${MASCOTS})\\b`,'g'),'').replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
 
   const AVCA={
     'nebraska':1,'texas':2,'kentucky':3,'pittsburgh':4,'stanford':5,'wisconsin':6,
