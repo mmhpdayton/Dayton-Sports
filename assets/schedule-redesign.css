@@ -1,10 +1,10 @@
-/* Schedule-card hierarchy: opponent first, date/time prominent on right. */
+/* Schedule-card hierarchy: opponent left, score centered, date/time right. */
 .schedule-card {
-  grid-template-columns: minmax(0,1fr) 150px !important;
+  grid-template-columns: minmax(0,1fr) 120px 150px !important;
   grid-template-areas:
-    "opponent datetime"
-    "meta datetime"
-    "extras extras";
+    "opponent score datetime"
+    "meta score datetime"
+    "extras extras extras";
   align-items: start !important;
   gap: 5px 16px !important;
   padding: 16px 18px !important;
@@ -20,7 +20,7 @@
   white-space: nowrap;
 }
 
-.schedule-card > div:nth-child(2) {
+.schedule-card > .schedule-main {
   display: contents;
 }
 
@@ -37,9 +37,33 @@
   margin-top: 2px;
 }
 
-.schedule-card .scoreline {
-  grid-area: extras;
+.schedule-score-center {
+  grid-area: score;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  min-width: 90px;
 }
+
+.schedule-score-center .result-main {
+  display: block;
+  font-size: 22px;
+  line-height: 1.05;
+  font-weight: 950;
+  color: #f2cf7b;
+  white-space: nowrap;
+}
+
+.schedule-score-center .result-state {
+  display: block;
+  margin-top: 5px;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .08em;
+  color: #9fb4c7;
+}
+
+.schedule-score-center.live .result-main { color: #ffb5c1; }
 
 .schedule-card > .schedule-right {
   grid-area: extras;
@@ -51,9 +75,7 @@
   margin-top: 9px;
 }
 
-.schedule-card .schedule-right .chips {
-  margin-top: 0;
-}
+.schedule-card .schedule-right .chips { margin-top: 0; }
 
 .schedule-rank {
   display: inline-block;
@@ -64,8 +86,12 @@
 
 @media (max-width: 700px) {
   .schedule-card {
-    grid-template-columns: minmax(0,1fr) auto !important;
-    gap: 7px 12px !important;
+    grid-template-columns: minmax(0,1fr) 82px auto !important;
+    grid-template-areas:
+      "opponent score datetime"
+      "meta score datetime"
+      "extras extras extras";
+    gap: 7px 9px !important;
     padding: 17px 14px 18px 18px !important;
   }
 
@@ -86,7 +112,19 @@
     line-height: 1.3 !important;
   }
 
-  .schedule-card > .schedule-right {
-    margin-top: 11px;
+  .schedule-score-center { min-width: 72px; }
+  .schedule-score-center .result-main { font-size: 19px; }
+  .schedule-score-center .result-state { font-size: 9px; }
+
+  .schedule-card > .schedule-right { margin-top: 11px; }
+}
+
+@media (max-width: 430px) {
+  .schedule-card {
+    grid-template-columns: minmax(0,1fr) 68px 96px !important;
+    gap: 6px 7px !important;
   }
+  .schedule-card > .schedule-date { min-width: 0; font-size: 16px !important; }
+  .schedule-card .schedule-opponent { font-size: 19px !important; }
+  .schedule-score-center .result-main { font-size: 18px; }
 }
