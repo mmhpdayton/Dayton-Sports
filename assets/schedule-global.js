@@ -25,29 +25,22 @@
   function mergeGames(t,incoming){
     for(const g of incoming){
       const found=(t.schedule||[]).find(x=>x.id&&String(x.id)===String(g.id))||(t.schedule||[]).find(x=>x.date===g.date&&(n(x.opp).includes(n(g.opp))||n(g.opp).includes(n(x.opp))));
-      if(found){
-        const keepTv=found.tv;Object.assign(found,g);if(!g.tv&&keepTv)found.tv=keepTv;
-      }else (t.schedule||=[]).push(g);
+      if(found){const keepTv=found.tv;Object.assign(found,g);if(!g.tv&&keepTv)found.tv=keepTv}else (t.schedule||=[]).push(g);
     }
   }
   async function hydrateTeam(id){
     const t=typeof teamById==='function'?teamById(id):null,conf=cfg[id];if(!t||!conf)return;
-    try{
-      const url=`https://site.api.espn.com/apis/site/v2/sports/${conf.sport}/teams/${conf.team}/schedule?season=2026`;
-      const p=await fetchJson(url,{cacheMs:2*60*1000});
-      const games=(p.events||[]).map(e=>eventGame(e,conf)).filter(Boolean);if(games.length)mergeGames(t,games);
-    }catch(_){ }
+    try{const url=`https://site.api.espn.com/apis/site/v2/sports/${conf.sport}/teams/${conf.team}/schedule?season=2026`,p=await fetchJson(url,{cacheMs:2*60*1000}),games=(p.events||[]).map(e=>eventGame(e,conf)).filter(Boolean);if(games.length)mergeGames(t,games)}catch(_){ }
   }
 
-  /* One row structure for every team: matchup left, result center, date/time right. */
   window.scheduleRow=(t,g)=>{
-    const s=g?._score||{},live=s.status==='live'||g.status==='live';
+    const s=g?._score||{},live=s.status==='live'||g.status==='live',final=s.status==='final'||g.status==='final'||/^([WLT])\s/.test(g.result||'');
     const result=g.result||((live&&s.our!==undefined&&s.opp!==undefined)?`${s.our}–${s.opp}`:'');
-    const score=result?`<div class="schedule-score-center ${live?'live':''}">${live?'<span class="chip live">LIVE</span> ':''}${esc(result)}</div>`:'<div class="schedule-score-center"></div>';
+    const score=result?`<div class="schedule-score-center ${live?'live':''}"><span class="result-main">${esc(result)}</span><span class="result-state">${live?'LIVE':final?'FINAL':''}</span></div>`:'<div class="schedule-score-center"></div>';
     const odds=typeof oddsStripForTeamGame==='function'?oddsStripForTeamGame(t,g):'';
     return `<div class="schedule-card" style="--team:${esc(t.color||'#567')}" data-game-team="${esc(t.id)}" data-game-id="${esc(g.id||`${g.date}-${g.opp}`)}">
       <div class="schedule-date">${esc(g.date||'')}<br>${esc(g.time||'TBA')}</div>
-      <div><div class="schedule-opponent">${esc(gameLabel(g))}</div><div class="venue">${esc(g.venue||g.event||'')}</div></div>
+      <div class="schedule-main"><div class="schedule-opponent">${esc(gameLabel(g))}</div><div class="venue">${esc(g.venue||g.event||'')}</div></div>
       ${score}
       <div class="schedule-right"><div class="broadcast">${esc(g.tv||'')}</div><div class="chips">${gameChips(t,g)}</div></div>
       ${odds}
@@ -60,6 +53,5 @@
     if(document.querySelector('#schedules')?.classList.contains('active')&&typeof renderSchedules==='function')renderSchedules();
     if(typeof renderHome==='function')renderHome();
   }
-  setTimeout(hydrateAll,800);
-  setInterval(hydrateAll,5*60*1000);
+  setTimeout(hydrateAll,800);setInterval(hydrateAll,5*60*1000);
 })();
