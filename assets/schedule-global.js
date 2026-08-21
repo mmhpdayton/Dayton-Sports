@@ -1,7 +1,7 @@
 /* Universal schedule score/result layout + browser-side public schedule hydration. */
 (()=>{
   const cfg={
-    cubs:{sport:'baseball/mlb',team:'chc',match:['CHC','16']},
+    cubs:{sport:'baseball/mlb',team:'16',match:['CHC','16'],extra:'&seasontype=2'},
     wisc:{sport:'volleyball/womens-college-volleyball',team:'275',match:['WIS','275']},
     nd:{sport:'football/college-football',team:'87',match:['ND','87']},
     gb:{sport:'football/nfl',team:'gb',match:['GB','9']},
@@ -10,7 +10,7 @@
     lfc:{sport:'soccer/eng.1',team:'364',match:['LIV','364']}
   };
   const n=s=>String(s||'').toLowerCase().replace(/#\d+/g,'').replace(/[^a-z0-9]+/g,' ').trim();
-  const md=d=>{const x=new Date(d);return Number.isNaN(x.getTime())?'':x.toLocaleDateString('en-US',{month:'short',day:'numeric'}).replace(',','')};
+  const md=d=>{const x=new Date(d);return Number.isNaN(x.getTime())?'':x.toLocaleDateString('en-US',{timeZone:'America/Chicago',month:'short',day:'numeric'}).replace(',','')};
   const clock=d=>{const x=new Date(d);return Number.isNaN(x.getTime())?'TBA':x.toLocaleTimeString('en-US',{timeZone:'America/Chicago',hour:'numeric',minute:'2-digit'}).replace(' AM',' AM CT').replace(' PM',' PM CT')};
   function isMine(c,conf){const id=String(c?.team?.id||''),ab=String(c?.team?.abbreviation||'').toUpperCase();return conf.match.some(x=>String(x).toUpperCase()===ab||String(x)===id)}
   function eventGame(e,conf){
@@ -18,7 +18,7 @@
     const opp=cs.find(c=>c!==mine)||{},st=e?.status?.type||{},state=st.state==='in'?'live':(st.completed||st.state==='post')?'final':'scheduled';
     const our=String(mine.score??''),their=String(opp.score??''),ha=(mine.homeAway||'').toUpperCase()||'NEUTRAL';
     const ourN=Number(our),theirN=Number(their);let result='';
-    if(state==='final'&&our!==''&&their!=='') result=`${ourN>theirN?'W':ourN<theirN?'L':'T'} ${our}–${their}`;
+    if(state==='final'&&our!==''&&their!=='')result=`${ourN>theirN?'W':ourN<theirN?'L':'T'} ${our}–${their}`;
     const broadcasts=[];for(const b of comp.broadcasts||[])broadcasts.push(...(b.names||[]));
     return {id:e.id,date:md(e.date),time:clock(e.date),opp:opp?.team?.displayName||opp?.team?.shortDisplayName||'TBD',ha,tv:[...new Set(broadcasts)].join(' / '),venue:comp?.venue?.fullName||'',detail:e?.links?.[0]?.href||'',result,_score:{our,opp:their,status:state},status:state,start:e.date};
   }
@@ -30,9 +30,12 @@
   }
   async function hydrateTeam(id){
     const t=typeof teamById==='function'?teamById(id):null,conf=cfg[id];if(!t||!conf)return;
-    try{const url=`https://site.api.espn.com/apis/site/v2/sports/${conf.sport}/teams/${conf.team}/schedule?season=2026`,p=await fetchJson(url,{cacheMs:2*60*1000}),games=(p.events||[]).map(e=>eventGame(e,conf)).filter(Boolean);if(games.length)mergeGames(t,games)}catch(_){ }
+    try{
+      const url=`https://site.api.espn.com/apis/site/v2/sports/${conf.sport}/teams/${conf.team}/schedule?season=2026${conf.extra||''}`;
+      const p=await fetchJson(url,{cacheMs:2*60*1000}),games=(p.events||[]).map(e=>eventGame(e,conf)).filter(Boolean);
+      if(games.length)mergeGames(t,games);
+    }catch(e){console.warn(`Schedule hydration failed for ${id}`,e)}
   }
-
   window.scheduleRow=(t,g)=>{
     const s=g?._score||{},live=s.status==='live'||g.status==='live',final=s.status==='final'||g.status==='final'||/^([WLT])\s/.test(g.result||'');
     const result=g.result||((live&&s.our!==undefined&&s.opp!==undefined)?`${s.our}–${s.opp}`:'');
@@ -46,7 +49,6 @@
       ${odds}
     </div>`;
   };
-
   async function hydrateAll(){
     if(!APP?.data){setTimeout(hydrateAll,700);return}
     await Promise.allSettled(Object.keys(cfg).map(hydrateTeam));
