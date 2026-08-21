@@ -1,0 +1,100 @@
+/* Mobile accessibility/readability overrides */
+
+/* Make date/time a primary visual element everywhere. */
+.game-time,
+.hero-time,
+.schedule-date,
+.league-time,
+.v3-when,
+.modal-sub {
+  color: #f3f7fb !important;
+  font-weight: 900 !important;
+  letter-spacing: .01em;
+}
+
+.game-time,
+.v3-when {
+  font-size: 15px !important;
+  line-height: 1.35 !important;
+}
+
+.hero-time {
+  font-size: 16px !important;
+  line-height: 1.35 !important;
+}
+
+.schedule-date,
+.league-time {
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+}
+
+.modal-sub {
+  font-size: 16px !important;
+  line-height: 1.4 !important;
+  margin-top: 6px;
+}
+
+@media (max-width: 700px) {
+  /* Respect iPhone safe areas and keep modal controls below the status bar. */
+  .modal {
+    padding-top: max(18px, env(safe-area-inset-top));
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: max(12px, env(safe-area-inset-bottom));
+    padding-left: env(safe-area-inset-left);
+  }
+
+  .modal-card {
+    margin: 22px 10px 10px !important;
+    max-height: calc(100dvh - max(56px, env(safe-area-inset-top)) - max(18px, env(safe-area-inset-bottom))) !important;
+    padding: 22px 18px 20px !important;
+    border-radius: 18px !important;
+  }
+
+  .modal-close {
+    top: 14px !important;
+    right: 14px !important;
+    width: 44px !important;
+    height: 44px !important;
+    font-size: 28px !important;
+    line-height: 1 !important;
+  }
+
+  .modal-title {
+    margin-right: 58px !important;
+    font-size: 24px !important;
+    line-height: 1.15 !important;
+  }
+
+  /* Phone-sized schedule/card typography: readable without zooming. */
+  .game-time,
+  .v3-when,
+  .hero-time {
+    font-size: 17px !important;
+    line-height: 1.35 !important;
+  }
+
+  .schedule-date,
+  .league-time {
+    font-size: 16px !important;
+    line-height: 1.35 !important;
+  }
+
+  .schedule-opponent,
+  .league-match {
+    font-size: 15px !important;
+    line-height: 1.35 !important;
+  }
+
+  .broadcast,
+  .venue {
+    font-size: 12px !important;
+    line-height: 1.35 !important;
+  }
+
+  .mini-time {
+    font-size: 13px !important;
+    font-weight: 900 !important;
+    color: #dce8f3 !important;
+  }
+}
