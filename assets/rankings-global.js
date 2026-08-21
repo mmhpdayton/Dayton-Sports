@@ -12,10 +12,18 @@
   };
   const AP={'ohio state':1,'oregon':2,'georgia':3,'notre dame':4,'texas':5,'indiana':6,'miami':7,'texas a m':8,'mississippi':9,'ole miss':9,'oklahoma':10};
 
+  const ALIASES={
+    'brigham young':'byu',
+    'brigham young university':'byu',
+    'texas a and m':'texas a m',
+    'texas am':'texas a m',
+    'southern cal':'southern california'
+  };
+  function canonical(name){const n=clean(name);return ALIASES[n]||n;}
   function ownerOfGame(g){return (APP?.data?.teams||[]).find(t=>(t.schedule||[]).includes(g));}
   function exactRank(list,name,pollRe){
-    const target=clean(name);
-    const matches=(list||[]).filter(r=>clean(r.team||r.name||'')===target);
+    const target=canonical(name);
+    const matches=(list||[]).filter(r=>canonical(r.team||r.name||'')===target);
     const preferred=matches.find(r=>pollRe.test(r.poll||''))||matches[0];
     const n=Number(String(preferred?.rank||'').replace(/\D/g,''));
     return n>0&&n<=25?n:null;
@@ -26,7 +34,7 @@
     return null;
   }
   function rankFor(teamId,name){
-    const n=clean(name);
+    const n=canonical(name);
     const map=teamId==='wisc'?AVCA:teamId==='nd'?AP:null;
     if(!map)return null;
     const dynamic=dynamicRank(teamId,name);
