@@ -2,12 +2,6 @@ name: Refresh DraftKings Odds
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '*/15 * * * *'
-  push:
-    paths:
-      - 'scripts/update_odds.py'
-      - '.github/workflows/odds.yml'
 
 permissions:
   contents: write
