@@ -1,28 +1,40 @@
-/* Keep schedule rankings aligned with the shared rankings layer. */
+/* Apply current rankings to schedule opponent labels exactly once. */
 (()=>{
-  function enhance(){
-    document.querySelectorAll('#scheduleView .schedule-card').forEach(card=>{
-      const teamId=card.dataset.gameTeam;
-      if(!['wisc','nd'].includes(teamId)) return;
-      const label=card.querySelector('.schedule-opponent');
-      if(!label) return;
-      const raw=label.textContent.trim();
-      const prefix=raw.startsWith('@')?'@ ':'vs ';
-      const opponent=raw.replace(/^(vs\s+|@\s+)/i,'').replace(/^#\d+\s+/,'').trim();
-      const team=typeof teamById==='function'?teamById(teamId):null;
-      if(!team||typeof window.rankedOpponentName!=='function') return;
-      const ranked=window.rankedOpponentName(team,{opp:opponent});
-      const m=String(ranked).match(/^#(\d+)\s+(.+)$/);
-      if(m){
-        label.innerHTML=`${prefix}<span class="schedule-rank">#${m[1]}</span>${m[2]}`;
-      }else{
-        label.textContent=`${prefix}${ranked}`;
+  const cleanRank=s=>String(s||'').replace(/^#\d+\s*/,'').replace(/(?:#\d+\s*)+/g,'').trim();
+  const norm=s=>cleanRank(s).toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+
+  function getRankMap(){
+    const map=new Map();
+    const polls=[];
+    const r=window.APP?.data?.rankings||{};
+    if(Array.isArray(r.collegeVolleyball)) polls.push(r.collegeVolleyball);
+    if(Array.isArray(r.volleyball)) polls.push(r.volleyball);
+    if(Array.isArray(r.avca)) polls.push(r.avca);
+    for(const poll of polls){
+      for(const row of poll||[]){
+        const rank=Number(row.rank||row.current||row.position);
+        const name=row.team||row.name||row.school||row.displayName;
+        if(rank>0&&name) map.set(norm(name),rank);
       }
-      label.dataset.ranked='1';
-    });
+    }
+    return map;
   }
 
-  const target=document.querySelector('#scheduleView');
-  if(target)new MutationObserver(()=>requestAnimationFrame(enhance)).observe(target,{childList:true,subtree:true});
-  window.addEventListener('load',()=>setTimeout(enhance,250));
+  function rerankWisconsin(){
+    const team=typeof teamById==='function'?teamById('wisc'):null;
+    if(!team?.schedule)return;
+    const ranks=getRankMap();
+    for(const g of team.schedule){
+      const base=cleanRank(g.opp);
+      const key=norm(base);
+      let rank=ranks.get(key);
+      if(!rank){
+        for(const [k,v] of ranks){if(k.includes(key)||key.includes(k)){rank=v;break}}
+      }
+      g.opp=rank?`#${rank} ${base}`:base;
+    }
+  }
+
+  window.applyScheduleRankings=rerankWisconsin;
+  setTimeout(()=>{rerankWisconsin(); if(document.querySelector('#schedules')?.classList.contains('active')&&typeof renderSchedules==='function')renderSchedules();},1200);
 })();
