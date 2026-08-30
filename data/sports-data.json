@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-08-30 08:24 AM CT",
+  "generatedAt": "2026-08-30 08:25 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -147,6 +147,246 @@
       ]
     },
     {
+      "id": "paytonvarsity",
+      "name": "Payton Varsity Volleyball",
+      "abbr": "P",
+      "color": "#f47b20",
+      "record": "1–3",
+      "context": "Hadley · Varsity call-up",
+      "familyPriority": true,
+      "homePriority": 2,
+      "logo": "https://raw.githubusercontent.com/mmhpdayton/FaveSports/main/payton-logo.png",
+      "schedule": [
+        {
+          "date": "Aug 24",
+          "time": "6:00 PM CT",
+          "opp": "Willowbrook",
+          "ha": "HOME",
+          "conference": false,
+          "status": "final",
+          "result": "L 0–2"
+        },
+        {
+          "date": "Aug 26",
+          "time": "5:30 PM CT",
+          "opp": "York",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true,
+          "status": "final",
+          "result": "L 1–2"
+        },
+        {
+          "date": "Aug 26",
+          "time": "6:30 PM CT",
+          "opp": "Buffalo Grove",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true,
+          "status": "final",
+          "result": "L 0–2"
+        },
+        {
+          "date": "Aug 29",
+          "time": "11:00 AM CT",
+          "opp": "Glenbard East",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true
+        },
+        {
+          "date": "Aug 29",
+          "time": "12:00 PM CT",
+          "opp": "West Aurora",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true
+        },
+        {
+          "date": "Aug 29",
+          "time": "1:00 PM CT",
+          "opp": "Romeoville",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true,
+          "status": "final",
+          "result": "W 2–1",
+          "event": "Wheaton North Blue/Gold Invite"
+        },
+        {
+          "date": "Sep 2",
+          "time": "5:00 PM CT",
+          "opp": "Marian Catholic",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true
+        },
+        {
+          "date": "Sep 2",
+          "time": "6:00 PM CT",
+          "opp": "Thornton Fractional North",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true
+        },
+        {
+          "date": "Sep 2",
+          "time": "7:00 PM CT",
+          "opp": "Evergreen Park",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true
+        },
+        {
+          "date": "Sep 3",
+          "time": "6:00 PM CT",
+          "opp": "St. Ignatius College Prep",
+          "ha": "HOME",
+          "conference": false
+        },
+        {
+          "date": "Sep 5",
+          "time": "TBA",
+          "opp": "TBA — Evergreen Park Invite Game #4",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true
+        },
+        {
+          "date": "Sep 5",
+          "time": "TBA",
+          "opp": "TBA — Evergreen Park Invite Game #5",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true
+        },
+        {
+          "date": "Sep 8",
+          "time": "6:00 PM CT",
+          "opp": "Whitney Young",
+          "ha": "AWAY",
+          "conference": true
+        },
+        {
+          "date": "Sep 9",
+          "time": "5:00 PM CT",
+          "opp": "Niles West",
+          "ha": "AWAY",
+          "conference": false
+        },
+        {
+          "date": "Sep 10",
+          "time": "5:00 PM CT",
+          "opp": "Chicago Washington",
+          "ha": "HOME",
+          "conference": true
+        },
+        {
+          "date": "Sep 15",
+          "time": "5:00 PM CT",
+          "opp": "Amundsen",
+          "ha": "AWAY",
+          "conference": true
+        },
+        {
+          "date": "Sep 17",
+          "time": "5:00 PM CT",
+          "opp": "Hancock",
+          "ha": "HOME",
+          "conference": true
+        },
+        {
+          "date": "Sep 22",
+          "time": "5:00 PM CT",
+          "opp": "Northside",
+          "ha": "HOME",
+          "conference": true
+        },
+        {
+          "date": "Sep 23",
+          "time": "6:00 PM CT",
+          "opp": "Montini Catholic",
+          "ha": "AWAY",
+          "conference": false
+        },
+        {
+          "date": "Sep 24",
+          "time": "5:00 PM CT",
+          "opp": "Kenwood",
+          "ha": "AWAY",
+          "conference": true
+        },
+        {
+          "date": "Sep 29",
+          "time": "5:00 PM CT",
+          "opp": "Lane Tech",
+          "ha": "HOME",
+          "conference": true
+        },
+        {
+          "date": "Sep 30",
+          "time": "6:00 PM CT",
+          "opp": "Elmwood Park",
+          "ha": "AWAY",
+          "conference": false
+        },
+        {
+          "date": "Oct 1",
+          "time": "6:00 PM CT",
+          "opp": "Lincoln Park",
+          "ha": "AWAY",
+          "conference": true
+        },
+        {
+          "date": "Oct 6",
+          "time": "5:00 PM CT",
+          "opp": "Jones",
+          "ha": "HOME",
+          "conference": true
+        },
+        {
+          "date": "Oct 10",
+          "time": "TBA",
+          "opp": "TBA — Quincy HS Invite Game #1",
+          "ha": "AWAY",
+          "conference": false,
+          "tournament": true
+        },
+        {
+          "date": "Oct 10",
+          "time": "TBA",
+          "opp": "TBA — Quincy HS Invite Game #2",
+          "ha": "AWAY",
+          "conference": false,
+          "tournament": true
+        },
+        {
+          "date": "Oct 10",
+          "time": "TBA",
+          "opp": "TBA — Quincy HS Invite Game #3",
+          "ha": "AWAY",
+          "conference": false,
+          "tournament": true
+        },
+        {
+          "date": "Oct 10",
+          "time": "TBA",
+          "opp": "TBA — Quincy HS Invite Game #4",
+          "ha": "AWAY",
+          "conference": false,
+          "tournament": true
+        },
+        {
+          "date": "Oct 10",
+          "time": "TBA",
+          "opp": "TBA — Quincy HS Invite Game #5",
+          "ha": "AWAY",
+          "conference": false,
+          "tournament": true
+        }
+      ]
+    },
+    {
       "id": "amundsen",
       "name": "Amundsen JV Football",
       "abbr": "A",
@@ -154,7 +394,7 @@
       "record": "0–0",
       "context": "Patrick · WR/DB · #7",
       "familyPriority": true,
-      "homePriority": 2,
+      "homePriority": 3,
       "logo": "https://raw.githubusercontent.com/mmhpdayton/FaveSports/main/amundsen-logo.png",
       "schedule": [
         {
@@ -209,7 +449,7 @@
       "record": "0–0",
       "context": "Patrick dresses varsity",
       "familyPriority": true,
-      "homePriority": 3,
+      "homePriority": 4,
       "logo": "https://raw.githubusercontent.com/mmhpdayton/FaveSports/main/amundsen-logo.png",
       "schedule": [
         {
