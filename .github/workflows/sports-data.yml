@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - 'scripts/update_data.py'
+      - 'scripts/refresh_wisconsin_scores.py'
       - '.github/workflows/sports-data.yml'
 
 permissions:
@@ -33,6 +34,9 @@ jobs:
 
       - name: Refresh schedules scores standings and rankings
         run: python scripts/update_data.py
+
+      - name: Merge official Wisconsin volleyball finals
+        run: python scripts/refresh_wisconsin_scores.py
 
       - name: Validate refreshed JSON
         run: python -m json.tool data/sports-data.json >/dev/null
