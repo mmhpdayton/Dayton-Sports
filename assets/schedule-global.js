@@ -13,20 +13,38 @@
   const n=s=>cleanRank(s).toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
   const md=d=>{const x=new Date(d);return Number.isNaN(x.getTime())?'':x.toLocaleDateString('en-US',{month:'short',day:'numeric'}).replace(',','')};
   const clock=d=>{const x=new Date(d);return Number.isNaN(x.getTime())?'TBA':x.toLocaleTimeString('en-US',{timeZone:'America/Chicago',hour:'numeric',minute:'2-digit'}).replace(' AM',' AM CT').replace(' PM',' PM CT')};
+  function scoreOf(c){
+    const s=c?.score;
+    if(s==null)return '';
+    if(typeof s==='object'){
+      const v=s.displayValue??s.value??s.score??s.current??'';
+      return v==null?'':String(v);
+    }
+    return String(s);
+  }
   function isMine(c,conf){const id=String(c?.team?.id||''),ab=String(c?.team?.abbreviation||'').toUpperCase();return conf.match.some(x=>String(x).toUpperCase()===ab||String(x)===id)}
   function eventGame(e,conf){
     const comp=e?.competitions?.[0]||{},cs=comp.competitors||[],mine=cs.find(c=>isMine(c,conf));if(!mine)return null;
     const opp=cs.find(c=>c!==mine)||{},st=e?.status?.type||{},state=st.state==='in'?'live':(st.completed||st.state==='post')?'final':'scheduled';
-    const our=String(mine.score??mine?.score?.value??''),their=String(opp.score??opp?.score?.value??''),ha=(mine.homeAway||'').toUpperCase()||'NEUTRAL';
+    const our=scoreOf(mine),their=scoreOf(opp),ha=(mine.homeAway||'').toUpperCase()||'NEUTRAL';
     const ourN=Number(our),theirN=Number(their);let result='';
-    if(state==='final'&&our!==''&&their!=='') result=`${ourN>theirN?'W':ourN<theirN?'L':'T'} ${our}–${their}`;
+    if(state==='final'&&our!==''&&their!==''&&Number.isFinite(ourN)&&Number.isFinite(theirN)) result=`${ourN>theirN?'W':ourN<theirN?'L':'T'} ${our}–${their}`;
     const broadcasts=[];for(const b of comp.broadcasts||[])broadcasts.push(...(b.names||[]));
     return {id:e.id,date:md(e.date),time:clock(e.date),opp:cleanRank(opp?.team?.displayName||opp?.team?.shortDisplayName||'TBD'),ha,tv:[...new Set(broadcasts)].join(' / '),venue:comp?.venue?.fullName||'',detail:e?.links?.[0]?.href||'',result,_score:{our,opp:their,status:state},status:state,start:e.date};
   }
   function mergeGames(t,incoming){
     for(const g of incoming){
       const found=(t.schedule||[]).find(x=>x.id&&String(x.id)===String(g.id))||(t.schedule||[]).find(x=>x.date===g.date&&(n(x.opp).includes(n(g.opp))||n(g.opp).includes(n(x.opp))));
-      if(found){const keepTv=found.tv;Object.assign(found,g);if(!g.tv&&keepTv)found.tv=keepTv}else (t.schedule||=[]).push(g);
+      if(found){
+        const keepTv=found.tv,keepResult=found.result,keepScore=found._score,keepStatus=found.status;
+        Object.assign(found,g);
+        if(!g.tv&&keepTv)found.tv=keepTv;
+        if(keepStatus==='final'&&keepResult&&!g.result){
+          found.status=keepStatus;
+          found.result=keepResult;
+          found._score=keepScore;
+        }
+      }else (t.schedule||=[]).push(g);
     }
   }
   async function hydrateTeam(id){
