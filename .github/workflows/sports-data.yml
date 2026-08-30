@@ -8,6 +8,7 @@ on:
     paths:
       - 'scripts/update_data.py'
       - 'scripts/refresh_wisconsin_scores.py'
+      - 'scripts/ensure_payton_varsity.py'
       - '.github/workflows/sports-data.yml'
 
 permissions:
@@ -37,6 +38,9 @@ jobs:
 
       - name: Merge official Wisconsin volleyball finals
         run: python scripts/refresh_wisconsin_scores.py
+
+      - name: Ensure Payton varsity family team
+        run: python scripts/ensure_payton_varsity.py
 
       - name: Validate refreshed JSON
         run: python -m json.tool data/sports-data.json >/dev/null
