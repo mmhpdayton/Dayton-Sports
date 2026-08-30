@@ -19,7 +19,15 @@
           "time": "5:00 PM",
           "opp": "Willowbrook",
           "ha": "HOME",
-          "conference": false
+          "conference": false,
+          "status": "final",
+          "result": "W 2–0",
+          "_score": {
+            "our": "2",
+            "opp": "0",
+            "live": false,
+            "final": true
+          }
         },
         {
           "date": "Sep 3",
@@ -401,7 +409,15 @@
           "date": "Aug 26",
           "time": "4:30 PM",
           "opp": "Westinghouse",
-          "ha": "HOME"
+          "ha": "HOME",
+          "status": "final",
+          "result": "L 12–14",
+          "_score": {
+            "our": "12",
+            "opp": "14",
+            "live": false,
+            "final": true
+          }
         },
         {
           "date": "Sep 5",
@@ -457,14 +473,30 @@
           "time": "4:30 PM",
           "opp": "Chicago Marshall",
           "ha": "HOME",
-          "conference": false
+          "conference": false,
+          "status": "final",
+          "result": "W 24–2",
+          "_score": {
+            "our": "24",
+            "opp": "2",
+            "live": false,
+            "final": true
+          }
         },
         {
           "date": "Aug 29",
           "time": "1:00 PM",
           "opp": "Kennedy",
           "ha": "HOME",
-          "conference": false
+          "conference": false,
+          "status": "final",
+          "result": "L 38–41",
+          "_score": {
+            "our": "38",
+            "opp": "41",
+            "live": false,
+            "final": true
+          }
         },
         {
           "date": "Sep 5",
