@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Merge completed Wisconsin volleyball results from UWBadgers.com into Dayton Sports."""
+"""Merge completed Wisconsin volleyball results from UWBadgers.com into Dayton Sports.
+
+The official cumulative-statistics page exposes completed-event accessibility text
+consistently. We treat it as authoritative for finals and verify every official final
+that corresponds to a game already present on the Dayton Sports schedule.
+"""
 from __future__ import annotations
 
 import html
@@ -10,12 +15,15 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "sports-data.json"
-SOURCE = "https://uwbadgers.com/sports/womens-volleyball/schedule"
+SOURCES = [
+    "https://uwbadgers.com/sports/womens-volleyball/stats/2026",
+    "https://uwbadgers.com/sports/womens-volleyball/schedule",
+]
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/140 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,*/*",
 }
-MONTHS = {m[:3]: m for m in ["January","February","March","April","May","June","July","August","September","October","November","December"]}
+MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"]
 
 
 def fetch_text(url: str) -> str:
@@ -38,21 +46,23 @@ def norm(s: str) -> str:
 
 
 def parse_finals(text: str):
-    month_re = "|".join(MONTHS.values())
+    month_re = "|".join(MONTHS)
+    # Official pages use both "versus" and "at" depending on venue.
     pat = re.compile(
-        rf"Completed Event:\s*Volleyball\s+versus\s+(.+?)\s+on\s+({month_re})\s+(\d{{1,2}}),\s+2026\s*,\s*(Win|Loss)\s*,\s*(\d+)\s*,\s*to,\s*(\d+)",
+        rf"Completed Event:\s*Volleyball\s+(?:versus|at)\s+(.+?)\s+on\s+({month_re})\s+(\d{{1,2}}),\s+2026\s*,\s*(Win|Loss)\s*,\s*(\d+)\s*,\s*to,\s*(\d+)",
         re.I,
     )
-    out = []
+    finals = {}
     for opp, month, day, outcome, our, their in pat.findall(text):
-        out.append({
+        item = {
             "date": f"{month[:3]} {int(day)}",
             "opp": opp.strip(),
             "result": f"{'W' if outcome.lower() == 'win' else 'L'} {our}–{their}",
             "our": our,
             "opp_score": their,
-        })
-    return out
+        }
+        finals[(item["date"], norm(item["opp"]))] = item
+    return list(finals.values())
 
 
 def main():
@@ -61,37 +71,55 @@ def main():
     if not team:
         raise SystemExit("Wisconsin team not found")
 
-    finals = parse_finals(clean_html(fetch_text(SOURCE)))
+    finals = []
+    errors = []
+    for source in SOURCES:
+        try:
+            parsed = parse_finals(clean_html(fetch_text(source)))
+            if parsed:
+                finals = parsed
+                print(f"Parsed {len(finals)} official Wisconsin finals from {source}")
+                break
+        except Exception as exc:
+            errors.append(f"{source}: {exc}")
     if not finals:
-        raise SystemExit("No completed Wisconsin volleyball results parsed from official schedule")
+        raise SystemExit("No completed Wisconsin volleyball results parsed: " + "; ".join(errors))
 
-    updated = 0
+    matched = 0
+    changed = 0
+    unmatched = []
     for final in finals:
         target = None
         for g in team.get("schedule", []):
             if g.get("date") != final["date"]:
                 continue
             a, b = norm(g.get("opp", "")), norm(final["opp"])
-            if a == b or a in b or b in a:
+            if a == b or (a and a in b) or (b and b in a):
                 target = g
                 break
         if not target:
+            unmatched.append(f"{final['date']} {final['opp']} {final['result']}")
             continue
-        target["status"] = "final"
-        target["result"] = final["result"]
-        target["_score"] = {
-            "our": final["our"],
-            "opp": final["opp_score"],
-            "live": False,
-            "final": True,
-        }
-        updated += 1
+        matched += 1
+        expected_score = {"our": final["our"], "opp": final["opp_score"], "live": False, "final": True}
+        if target.get("status") != "final" or target.get("result") != final["result"] or target.get("_score") != expected_score:
+            target["status"] = "final"
+            target["result"] = final["result"]
+            target["_score"] = expected_score
+            changed += 1
 
-    if not updated:
+    if not matched:
         raise SystemExit("Official Wisconsin finals parsed, but none matched Dayton Sports schedule")
 
+    # Do not silently declare success if a recent official final exists on a date that
+    # Dayton Sports also has but failed opponent matching.
+    schedule_dates = {g.get("date") for g in team.get("schedule", [])}
+    relevant_unmatched = [x for x in unmatched if any(x.startswith(d + " ") for d in schedule_dates if d)]
+    if relevant_unmatched:
+        raise SystemExit("Official Wisconsin finals failed schedule matching: " + " | ".join(relevant_unmatched))
+
     DATA_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Merged {updated} Wisconsin final results from UWBadgers.com")
+    print(f"Verified {matched} Wisconsin finals; changed {changed}")
 
 
 if __name__ == "__main__":
