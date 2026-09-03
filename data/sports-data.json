@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-09-03 07:21 AM CT",
+  "generatedAt": "2026-09-03 07:30 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -631,7 +631,15 @@
           "opp": "#4 Pittsburgh",
           "ha": "AWAY",
           "tv": "ESPN",
-          "venue": "Pittsburgh, PA"
+          "venue": "Pittsburgh, PA",
+          "status": "final",
+          "result": "L 0–3",
+          "_score": {
+            "our": "0",
+            "opp": "3",
+            "live": false,
+            "final": true
+          }
         },
         {
           "date": "Sep 2",
