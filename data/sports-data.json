@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-09-02 09:14 PM CT",
+  "generatedAt": "2026-09-03 12:11 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -639,7 +639,15 @@
           "opp": "#17 Florida",
           "ha": "HOME",
           "tv": "FS1",
-          "venue": "UW Field House"
+          "venue": "UW Field House",
+          "status": "final",
+          "result": "W 3–2",
+          "_score": {
+            "our": "3",
+            "opp": "2",
+            "live": false,
+            "final": true
+          }
         }
       ]
     },
