@@ -33,7 +33,7 @@
     const home=cs.find(c=>c.homeAway==='home')||cs[0]||{},away=cs.find(c=>c.homeAway==='away')||cs[1]||{};
     const d=event.date?new Date(event.date):null,st=event?.status?.type||{},broadcasts=[];
     for(const b of comp.broadcasts||[])broadcasts.push(...(b.names||[]));
-    return {
+    const g={
       id:event.id,start:event.date,date:d?fmtDate(d):'',time:d?fmtTime(d):'',
       home:eventTeamName(home),away:eventTeamName(away),homeLogo:eventLogo(home),awayLogo:eventLogo(away),
       homeScore:scoreOf(home),awayScore:scoreOf(away),
@@ -43,6 +43,8 @@
       detail:event?.links?.[0]?.href||'',tv:[...new Set(broadcasts)].join(' / '),venue:comp?.venue?.fullName||'',
       homeRecord:recordText(home),awayRecord:recordText(away)
     };
+    if(typeof window.attachEspnDkOdds==='function')window.attachEspnDkOdds(g,comp);
+    return g;
   }
 
   function panelMarkup(week,isCurrent){
