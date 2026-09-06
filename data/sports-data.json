@@ -503,7 +503,15 @@
           "time": "12:00 PM",
           "opp": "Payton College Prep",
           "ha": "HOME",
-          "conference": false
+          "conference": false,
+          "status": "final",
+          "result": "L 12–13",
+          "_score": {
+            "our": "12",
+            "opp": "13",
+            "live": false,
+            "final": true
+          }
         },
         {
           "date": "Sep 10",
