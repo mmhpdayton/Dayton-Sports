@@ -36,20 +36,33 @@
     for(const g of incoming){
       const found=(t.schedule||[]).find(x=>x.id&&String(x.id)===String(g.id))||(t.schedule||[]).find(x=>x.date===g.date&&(n(x.opp).includes(n(g.opp))||n(g.opp).includes(n(x.opp))));
       if(found){
-        const keepTv=found.tv,keepResult=found.result,keepScore=found._score,keepStatus=found.status;
+        const keepTv=found.tv,keepResult=found.result,keepScore=found._score,keepStatus=found.status,keepEvent=found.event;
         Object.assign(found,g);
         if(!g.tv&&keepTv)found.tv=keepTv;
-        if(keepStatus==='final'&&keepResult&&!g.result){
-          found.status=keepStatus;
-          found.result=keepResult;
-          found._score=keepScore;
-        }
+        if(!g.event&&keepEvent)found.event=keepEvent;
+        if(keepStatus==='final'&&keepResult&&!g.result){found.status=keepStatus;found.result=keepResult;found._score=keepScore;}
       }else (t.schedule||=[]).push(g);
     }
+  }
+  async function hydrateLiverpool(t,conf){
+    const feeds=[
+      {sport:'soccer/eng.1',label:'Premier League'},
+      {sport:'soccer/uefa.champions',label:'Champions League'}
+    ];
+    let total=0;
+    for(const f of feeds){
+      try{
+        const p=await fetchJson(`https://site.api.espn.com/apis/site/v2/sports/${f.sport}/teams/${conf.team}/schedule?season=2026`,{cacheMs:60*1000});
+        const games=(p.events||[]).map(e=>eventGame(e,conf)).filter(Boolean).map(g=>({...g,event:f.label}));
+        if(games.length){mergeGames(t,games);total+=games.length;}
+      }catch(_){ }
+    }
+    return total;
   }
   async function hydrateTeam(id){
     const t=typeof teamById==='function'?teamById(id):null,conf=cfg[id];if(!t||!conf)return;
     try{
+      if(id==='lfc'){await hydrateLiverpool(t,conf);return;}
       const base=`https://site.api.espn.com/apis/site/v2/sports/${conf.sport}/teams/${conf.team}/schedule`;
       const p=await fetchJson(base+(conf.query||''),{cacheMs:60*1000});
       const games=(p.events||[]).map(e=>eventGame(e,conf)).filter(Boolean);
