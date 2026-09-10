@@ -43,7 +43,7 @@ TEAM = {
   "abbr":"P",
   "color":"#f47b20",
   "record":"1–3",
-  "context":"Hadley · Varsity call-up",
+  "context":"Hadley · Varsity",
   "familyPriority":True,
   "homePriority":2,
   "logo":"https://raw.githubusercontent.com/mmhpdayton/FaveSports/main/payton-logo.png",
