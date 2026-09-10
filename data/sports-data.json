@@ -32,7 +32,7 @@
         {
           "date": "Sep 3",
           "time": "5:00 PM",
-          "opp": "St. Ignatius College Prep",
+          "opp": "SICP",
           "ha": "HOME",
           "conference": false
         },
@@ -59,32 +59,16 @@
         },
         {
           "date": "Sep 12",
-          "time": "TBA",
-          "opp": "Rickover JV Tournament — Game 1",
+          "time": "8:30 AM",
+          "opp": "Prospect",
           "ha": "NEUTRAL",
           "conference": false,
           "tournament": true
         },
         {
           "date": "Sep 12",
-          "time": "TBA",
-          "opp": "Rickover JV Tournament — Game 2",
-          "ha": "NEUTRAL",
-          "conference": false,
-          "tournament": true
-        },
-        {
-          "date": "Sep 12",
-          "time": "TBA",
-          "opp": "Rickover JV Tournament — Game 3",
-          "ha": "NEUTRAL",
-          "conference": false,
-          "tournament": true
-        },
-        {
-          "date": "Sep 12",
-          "time": "TBA",
-          "opp": "Rickover JV Tournament — Game 4",
+          "time": "9:45 AM",
+          "opp": "Streamwood",
           "ha": "NEUTRAL",
           "conference": false,
           "tournament": true
