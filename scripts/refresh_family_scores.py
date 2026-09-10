@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
-"""Refresh completed scores for Dayton family teams from MaxPreps.
+"""Refresh Dayton family schedules/scores from MaxPreps.
 
-This job is intentionally best-effort: MaxPreps updates can lag and transient
-fetch/parser failures should not break the site or generate noisy alerts.
+Payton JV's full schedule is refreshed from MaxPreps so newly assigned tournament
+opponents and times replace stale TBA placeholders. Other family schedules remain
+static for now and still receive completed-score updates only.
+
+The job is intentionally best-effort: MaxPreps updates can lag and transient
+fetch/parser failures should not break the site or overwrite known-good data.
 """
 from __future__ import annotations
 
@@ -24,6 +28,7 @@ SOURCES = {
     "amundsen": "https://www.maxpreps.com/il/chicago/amundsen-vikings/football/jv/schedule/",
     "amundsenvarsity": "https://www.maxpreps.com/il/chicago/amundsen-vikings/football/schedule/",
 }
+FULL_SCHEDULE_TEAMS = {"payton"}
 
 
 def fetch_text(url: str) -> str:
@@ -51,6 +56,16 @@ def date_token(site_date: str) -> str:
         return site_date.strip()
     months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
     return f"{months[int(m.group(1))-1]} {int(m.group(2))}"
+
+
+def time_token(site_time: str) -> str:
+    site_time = re.sub(r"\s+", "", site_time.strip())
+    if site_time.upper() == "TBA":
+        return "TBA"
+    m = re.fullmatch(r"(\d{1,2}):(\d{2})(am|pm)", site_time, re.I)
+    if not m:
+        return site_time
+    return f"{int(m.group(1))}:{m.group(2)} {m.group(3).upper()}"
 
 
 def site_result(outcome: str, a: int, b: int) -> str:
@@ -86,6 +101,56 @@ def parse_results(text: str):
         opp = re.sub(r"^(?:Home|Away|Neutral|Non-Conference|Conference)\s+", "", opp, flags=re.I)
         result = site_result(m.group("outcome"), int(m.group("a")), int(m.group("b")))
         out.append({"date": date_token(m.group("date")), "opp": opp, "result": result})
+    return out
+
+
+def parse_schedule(text: str):
+    """Parse the dated schedule rows emitted by MaxPreps' flattened page text."""
+    row_pat = re.compile(
+        r"(?P<date>\d{1,2}/\d{1,2})\s*"
+        r"(?P<time>\d{1,2}:\d{2}\s*(?:am|pm)|TBA)\s*"
+        r"(?P<where>@|vs)\s*"
+        r"(?P<body>.*?)"
+        r"(?=(?:\d{1,2}/\d{1,2})\s*(?:\d{1,2}:\d{2}\s*(?:am|pm)|TBA)\s*(?:@|vs)|Schedule last updated)",
+        re.I,
+    )
+    out = []
+    for m in row_pat.finditer(text):
+        body = m.group("body").strip()
+        result_match = re.search(r"\b([WLT])\s+(\d+)\s*[-–]\s*(\d+)\b", body, re.I)
+        opponent_part = body[:result_match.start()] if result_match else body
+        opponent_part = re.sub(
+            r"\b(?:Buy Tickets|Watch|Preview Match|View Matchup|Box Score|Game Details)\b.*$",
+            "",
+            opponent_part,
+            flags=re.I,
+        ).strip()
+        tournament = "***" in opponent_part
+        conference = "*" in opponent_part and not tournament
+        opp = re.sub(r"\*+", "", opponent_part).strip()
+        opp = re.sub(r"^(?:Home|Away|Neutral|Non-Conference|Conference)\s+", "", opp, flags=re.I)
+        if not opp or len(opp) > 100:
+            continue
+        game = {
+            "date": date_token(m.group("date")),
+            "time": time_token(m.group("time")),
+            "opp": opp,
+            "ha": "AWAY" if m.group("where") == "@" else ("NEUTRAL" if tournament else "HOME"),
+            "conference": conference,
+        }
+        if tournament:
+            game["tournament"] = True
+        if result_match:
+            result = site_result(
+                result_match.group(1), int(result_match.group(2)), int(result_match.group(3))
+            )
+            game["status"] = "final"
+            game["result"] = result
+            parts = score_parts(result)
+            if parts:
+                _, ours, theirs = parts
+                game["_score"] = {"our": ours, "opp": theirs, "live": False, "final": True}
+        out.append(game)
     return out
 
 
@@ -126,10 +191,25 @@ def main():
     for team_id, url in SOURCES.items():
         team = teams.get(team_id)
         if not team:
-            print(f"family scores {team_id}: team missing; skipped")
+            print(f"family refresh {team_id}: team missing; skipped")
             continue
         try:
             text = clean_html(fetch_text(url))
+
+            if team_id in FULL_SCHEDULE_TEAMS:
+                schedule = parse_schedule(text)
+                # Reject an unexpectedly short scrape rather than destroying a
+                # known-good schedule if MaxPreps changes markup or serves an error page.
+                if len(schedule) >= 8:
+                    if schedule != team.get("schedule", []):
+                        team["schedule"] = schedule
+                        total += 1
+                        print(f"family schedule {team_id}: refreshed {len(schedule)} games")
+                    else:
+                        print(f"family schedule {team_id}: unchanged ({len(schedule)} games)")
+                else:
+                    print(f"family schedule {team_id}: rejected unexpected count {len(schedule)}; preserved")
+
             results = parse_results(text)
             if not results:
                 print(f"family scores {team_id}: no parsable finals yet; preserved")
@@ -138,10 +218,10 @@ def main():
             total += changed
             print(f"family scores {team_id}: parsed {len(results)}, changed {changed}")
         except Exception as exc:
-            print(f"family scores {team_id}: source unavailable; preserved ({exc})")
+            print(f"family refresh {team_id}: source unavailable; preserved ({exc})")
     if total:
         DATA_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Family score refresh complete; {total} game(s) changed")
+    print(f"Family refresh complete; {total} change(s)")
 
 
 if __name__ == "__main__":
