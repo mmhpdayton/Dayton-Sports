@@ -30,32 +30,56 @@
           }
         },
         {
-          "date": "Sep 3",
-          "time": "5:00 PM",
-          "opp": "SICP",
-          "ha": "HOME",
-          "conference": false
-        },
-        {
           "date": "Sep 8",
           "time": "5:00 PM",
           "opp": "Whitney Young",
           "ha": "AWAY",
-          "conference": true
+          "conference": true,
+          "status": "final",
+          "result": "L 0–2",
+          "_score": {
+            "our": "0",
+            "opp": "2",
+            "live": false,
+            "final": true
+          }
         },
         {
           "date": "Sep 9",
           "time": "5:00 PM",
           "opp": "Niles West",
           "ha": "AWAY",
-          "conference": false
+          "conference": false,
+          "status": "final",
+          "result": "L 1–2",
+          "_score": {
+            "our": "1",
+            "opp": "2",
+            "live": false,
+            "final": true
+          }
         },
         {
           "date": "Sep 10",
           "time": "5:00 PM",
           "opp": "Chicago Washington",
           "ha": "HOME",
-          "conference": true
+          "conference": true,
+          "status": "final",
+          "result": "W 2–1",
+          "_score": {
+            "our": "2",
+            "opp": "1",
+            "live": false,
+            "final": true
+          }
+        },
+        {
+          "date": "Sep 3",
+          "time": "5:00 PM",
+          "opp": "SICP",
+          "ha": "HOME",
+          "conference": false
         },
         {
           "date": "Sep 12",
