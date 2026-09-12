@@ -30,6 +30,21 @@
           }
         },
         {
+          "date": "Sep 3",
+          "time": "5:00 PM",
+          "opp": "SICP",
+          "ha": "HOME",
+          "conference": false,
+          "status": "final",
+          "result": "L 0–2",
+          "_score": {
+            "our": "0",
+            "opp": "2",
+            "live": false,
+            "final": true
+          }
+        },
+        {
           "date": "Sep 8",
           "time": "5:00 PM",
           "opp": "Whitney Young",
@@ -73,13 +88,6 @@
             "live": false,
             "final": true
           }
-        },
-        {
-          "date": "Sep 3",
-          "time": "5:00 PM",
-          "opp": "SICP",
-          "ha": "HOME",
-          "conference": false
         },
         {
           "date": "Sep 12",
