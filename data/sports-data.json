@@ -106,6 +106,22 @@
           "tournament": true
         },
         {
+          "date": "Sep 12",
+          "time": "12:30 PM",
+          "opp": "Conant",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true
+        },
+        {
+          "date": "Sep 12",
+          "time": "2:00 PM",
+          "opp": "Grant Community",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true
+        },
+        {
           "date": "Sep 15",
           "time": "5:00 PM",
           "opp": "Amundsen",
