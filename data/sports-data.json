@@ -90,6 +90,38 @@
           }
         },
         {
+          "date": "Sep 12",
+          "time": "12:30 PM",
+          "opp": "Conant",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true,
+          "status": "final",
+          "result": "L 0–2",
+          "_score": {
+            "our": "0",
+            "opp": "2",
+            "live": false,
+            "final": true
+          }
+        },
+        {
+          "date": "Sep 12",
+          "time": "2:00 PM",
+          "opp": "Grant Community",
+          "ha": "NEUTRAL",
+          "conference": false,
+          "tournament": true,
+          "status": "final",
+          "result": "L 1–2",
+          "_score": {
+            "our": "1",
+            "opp": "2",
+            "live": false,
+            "final": true
+          }
+        },
+        {
           "date": "Sep 15",
           "time": "5:00 PM",
           "opp": "Amundsen",
@@ -116,22 +148,6 @@
           "date": "Sep 12",
           "time": "9:45 AM",
           "opp": "Streamwood",
-          "ha": "NEUTRAL",
-          "conference": false,
-          "tournament": true
-        },
-        {
-          "date": "Sep 12",
-          "time": "12:30 PM",
-          "opp": "Conant",
-          "ha": "NEUTRAL",
-          "conference": false,
-          "tournament": true
-        },
-        {
-          "date": "Sep 12",
-          "time": "2:00 PM",
-          "opp": "Grant Community",
           "ha": "NEUTRAL",
           "conference": false,
           "tournament": true
