@@ -137,6 +137,21 @@
           }
         },
         {
+          "date": "Sep 17",
+          "time": "5:00 PM",
+          "opp": "Hancock",
+          "ha": "HOME",
+          "conference": true,
+          "status": "final",
+          "result": "W 2–0",
+          "_score": {
+            "our": "2",
+            "opp": "0",
+            "live": false,
+            "final": true
+          }
+        },
+        {
           "date": "Sep 12",
           "time": "8:30 AM",
           "opp": "Prospect",
@@ -151,13 +166,6 @@
           "ha": "NEUTRAL",
           "conference": false,
           "tournament": true
-        },
-        {
-          "date": "Sep 17",
-          "time": "5:00 PM",
-          "opp": "Hancock",
-          "ha": "HOME",
-          "conference": true
         },
         {
           "date": "Sep 22",
