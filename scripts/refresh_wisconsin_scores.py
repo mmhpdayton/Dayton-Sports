@@ -109,7 +109,10 @@ def main():
             changed += 1
 
     if not matched:
-        raise SystemExit("Official Wisconsin finals parsed, but none matched Dayton Sports schedule")
+        # The official UW page can contain finals that are not represented in our
+        # Dayton Sports schedule. That should not take down the entire refresh job.
+        print("WARNING: Official Wisconsin finals parsed, but none matched Dayton Sports schedule; continuing")
+        return
 
     # Do not silently declare success if a recent official final exists on a date that
     # Dayton Sports also has but failed opponent matching.
