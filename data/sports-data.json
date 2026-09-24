@@ -387,7 +387,15 @@
           "time": "6:00 PM CT",
           "opp": "Montini Catholic",
           "ha": "AWAY",
-          "conference": false
+          "conference": false,
+          "status": "final",
+          "result": "L 0–2",
+          "_score": {
+            "our": "0",
+            "opp": "2",
+            "live": false,
+            "final": true
+          }
         },
         {
           "date": "Sep 24",
