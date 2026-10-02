@@ -197,6 +197,21 @@
           }
         },
         {
+          "date": "Oct 1",
+          "time": "5:00 PM",
+          "opp": "Lincoln Park",
+          "ha": "AWAY",
+          "conference": true,
+          "status": "final",
+          "result": "L 0–2",
+          "_score": {
+            "our": "0",
+            "opp": "2",
+            "live": false,
+            "final": true
+          }
+        },
+        {
           "date": "Sep 12",
           "time": "8:30 AM",
           "opp": "Prospect",
@@ -225,13 +240,6 @@
           "opp": "Elmwood Park",
           "ha": "AWAY",
           "conference": false
-        },
-        {
-          "date": "Oct 1",
-          "time": "5:00 PM",
-          "opp": "Lincoln Park",
-          "ha": "AWAY",
-          "conference": true
         },
         {
           "date": "Oct 6",
