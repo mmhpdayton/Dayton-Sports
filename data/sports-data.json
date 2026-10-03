@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-03 07:05 AM CT",
+  "generatedAt": "2026-10-03 11:11 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -4851,7 +4851,7 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "Kenan Stadium",
-          "detail": "https://www.espn.com/college-football/game/_/gameId/401858250/notre-dame-north-carolina",
+          "detail": "https://www.espn.com/college-football/game?gameId=401858250",
           "status": "scheduled",
           "_score": {
             "our": "",
