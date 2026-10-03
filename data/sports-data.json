@@ -448,7 +448,15 @@
           "time": "6:00 PM CT",
           "opp": "Elmwood Park",
           "ha": "AWAY",
-          "conference": false
+          "conference": false,
+          "status": "final",
+          "result": "W 2–0",
+          "_score": {
+            "our": "2",
+            "opp": "0",
+            "live": false,
+            "final": true
+          }
         },
         {
           "date": "Oct 1",
