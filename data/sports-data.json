@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-03 02:16 PM CT",
+  "generatedAt": "2026-10-03 05:10 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -4749,7 +4749,7 @@
       "name": "Notre Dame",
       "abbr": "ND",
       "color": "#c99700",
-      "record": "4-0",
+      "record": "5-0",
       "context": "#4 AP · #5 Coaches",
       "homePriority": 7,
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
@@ -4851,11 +4851,11 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "Kenan Stadium",
-          "detail": "https://www.espn.com/college-football/game?gameId=401858250",
+          "detail": "https://www.espn.com/college-football/game/_/gameId/401858250/notre-dame-north-carolina",
           "status": "scheduled",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "{'value': 37.0, 'displayValue': '37'}",
+            "opp": "{'value': 26.0, 'displayValue': '26'}",
             "live": false,
             "final": false,
             "clock": "",
