@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-04 07:43 AM CT",
+  "generatedAt": "2026-10-04 12:04 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -4473,9 +4473,9 @@
         },
         {
           "id": "401884093",
-          "date": "Oct 9",
-          "time": "11:00 PM CT",
-          "start": "2026-10-09T23:00:00-05:00",
+          "date": "Oct 10",
+          "time": "6:00 PM CT",
+          "start": "2026-10-10T18:00:00-05:00",
           "opp": "Nebraska Cornhuskers",
           "ha": "AWAY",
           "tv": "",
@@ -5101,7 +5101,7 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "Raymond James Stadium",
-          "detail": "https://www.espn.com/nfl/game/_/gameId/401872968/packers-buccaneers",
+          "detail": "https://www.espn.com/nfl/game?gameId=401872968",
           "status": "scheduled",
           "_score": {
             "our": "",
@@ -5491,7 +5491,7 @@
           "ha": "HOME",
           "tv": "",
           "venue": "Highmark Stadium",
-          "detail": "https://www.espn.com/nfl/game/_/gameId/401872971/patriots-bills",
+          "detail": "https://www.espn.com/nfl/game?gameId=401872971",
           "status": "scheduled",
           "_score": {
             "our": "",
@@ -5797,7 +5797,7 @@
       "name": "Indianapolis Colts",
       "abbr": "IND",
       "color": "#002c5f",
-      "record": "1-2",
+      "record": "2-2",
       "context": "AFC South",
       "homePriority": 10,
       "muted": true,
@@ -5886,8 +5886,8 @@
           "detail": "https://www.espn.com/nfl/game/_/gameId/401872965/colts-commanders",
           "status": "scheduled",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "{'value': 30.0, 'displayValue': '30'}",
+            "opp": "{'value': 13.0, 'displayValue': '13'}",
             "live": false,
             "final": false,
             "clock": "",
