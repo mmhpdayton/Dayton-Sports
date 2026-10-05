@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-05 03:16 AM CT",
+  "generatedAt": "2026-10-05 12:12 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -6584,6 +6584,206 @@
         "rank": 25,
         "team": "Wildcats",
         "record": "4-1",
+        "previous": 0,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 1,
+        "team": "Jackrabbits",
+        "record": "5-1",
+        "previous": 2,
+        "firstPlaceVotes": 24
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 2,
+        "team": "Texans",
+        "record": "5-0",
+        "previous": 3,
+        "firstPlaceVotes": 1
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 3,
+        "team": "Grizzlies",
+        "record": "5-1",
+        "previous": 4,
+        "firstPlaceVotes": 1
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 4,
+        "team": "Lumberjacks",
+        "record": "6-0",
+        "previous": 5,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 5,
+        "team": "Mountain Hawks",
+        "record": "6-0",
+        "previous": 6,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 6,
+        "team": "Bobcats",
+        "record": "5-1",
+        "previous": 1,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 7,
+        "team": "Fighting Hawks",
+        "record": "5-1",
+        "previous": 7,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 8,
+        "team": "Governors",
+        "record": "5-1",
+        "previous": 9,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 9,
+        "team": "Penguins",
+        "record": "4-2",
+        "previous": 10,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 10,
+        "team": "Cardinals",
+        "record": "4-1",
+        "previous": 13,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 11,
+        "team": "Aggies",
+        "record": "4-2",
+        "previous": 15,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 12,
+        "team": "Coyotes",
+        "record": "4-2",
+        "previous": 16,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 13,
+        "team": "Redbirds",
+        "record": "4-2",
+        "previous": 11,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 14,
+        "team": "Lumberjacks",
+        "record": "4-2",
+        "previous": 19,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 15,
+        "team": "Spiders",
+        "record": "5-1",
+        "previous": 17,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 16,
+        "team": "Golden Eagles",
+        "record": "4-1",
+        "previous": 8,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 17,
+        "team": "Bengals",
+        "record": "4-1",
+        "previous": 14,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 18,
+        "team": "Bears",
+        "record": "4-2",
+        "previous": 21,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 19,
+        "team": "Crimson",
+        "record": "3-0",
+        "previous": 22,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 20,
+        "team": "Fighting Camels",
+        "record": "5-1",
+        "previous": 24,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 21,
+        "team": "Bulldogs",
+        "record": "5-1",
+        "previous": 12,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 22,
+        "team": "Tigers",
+        "record": "5-0",
+        "previous": 23,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 23,
+        "team": "Raiders",
+        "record": "4-2",
+        "previous": 20,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 24,
+        "team": "Hawks",
+        "record": "4-2",
+        "previous": 0,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 25,
+        "team": "Lions",
+        "record": "3-2",
         "previous": 0,
         "firstPlaceVotes": 0
       }
