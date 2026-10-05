@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-04 06:03 PM CT",
+  "generatedAt": "2026-10-04 08:54 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -4339,15 +4339,16 @@
           "tv": "",
           "venue": "UW Field House",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884086",
-          "status": "final",
+          "status": "scheduled",
           "_score": {
-            "our": "3",
-            "opp": "1",
+            "our": "{'value': 3.0, 'displayValue': '3'}",
+            "opp": "{'value': 1.0, 'displayValue': '1'}",
             "live": false,
-            "final": true
+            "final": false,
+            "clock": "",
+            "period": ""
           },
-          "event": "Regular Season",
-          "result": "W 3–1"
+          "event": "Regular Season"
         },
         {
           "id": "401884087",
@@ -4439,16 +4440,15 @@
           "tv": "",
           "venue": "Maturi Pavilion (MN)",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884091",
-          "status": "scheduled",
+          "status": "final",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "3",
+            "opp": "1",
             "live": false,
-            "final": false,
-            "clock": "",
-            "period": ""
+            "final": true
           },
-          "event": "Regular Season"
+          "event": "Regular Season",
+          "result": "W 3–1"
         },
         {
           "id": "401884092",
