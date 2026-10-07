@@ -197,6 +197,36 @@
           }
         },
         {
+          "date": "Sep 29",
+          "time": "5:00 PM",
+          "opp": "Lane Tech",
+          "ha": "HOME",
+          "conference": true,
+          "status": "final",
+          "result": "L 0–2",
+          "_score": {
+            "our": "0",
+            "opp": "2",
+            "live": false,
+            "final": true
+          }
+        },
+        {
+          "date": "Sep 30",
+          "time": "5:00 PM",
+          "opp": "Elmwood Park",
+          "ha": "AWAY",
+          "conference": false,
+          "status": "final",
+          "result": "W 2–0",
+          "_score": {
+            "our": "2",
+            "opp": "0",
+            "live": false,
+            "final": true
+          }
+        },
+        {
           "date": "Oct 1",
           "time": "5:00 PM",
           "opp": "Lincoln Park",
@@ -241,20 +271,6 @@
           "ha": "NEUTRAL",
           "conference": false,
           "tournament": true
-        },
-        {
-          "date": "Sep 29",
-          "time": "5:00 PM",
-          "opp": "Lane Tech",
-          "ha": "HOME",
-          "conference": true
-        },
-        {
-          "date": "Sep 30",
-          "time": "5:00 PM",
-          "opp": "Elmwood Park",
-          "ha": "AWAY",
-          "conference": false
         }
       ]
     },
