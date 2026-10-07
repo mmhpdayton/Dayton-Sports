@@ -212,6 +212,21 @@
           }
         },
         {
+          "date": "Oct 6",
+          "time": "5:00 PM",
+          "opp": "Jones",
+          "ha": "HOME",
+          "conference": true,
+          "status": "final",
+          "result": "W 2–0",
+          "_score": {
+            "our": "2",
+            "opp": "0",
+            "live": false,
+            "final": true
+          }
+        },
+        {
           "date": "Sep 12",
           "time": "8:30 AM",
           "opp": "Prospect",
@@ -240,13 +255,6 @@
           "opp": "Elmwood Park",
           "ha": "AWAY",
           "conference": false
-        },
-        {
-          "date": "Oct 6",
-          "time": "5:00 PM",
-          "opp": "Jones",
-          "ha": "HOME",
-          "conference": true
         }
       ]
     },
