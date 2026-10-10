@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-10 02:13 AM CT",
+  "generatedAt": "2026-10-10 08:47 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -7440,13 +7440,13 @@
         "team": "Arsenal",
         "abbr": "ARS",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-        "w": "4",
+        "w": "5",
         "l": "1",
         "t": "0",
         "pct": "",
-        "gp": "5",
-        "points": "12",
-        "diff": "+4"
+        "gp": "6",
+        "points": "15",
+        "diff": "+5"
       },
       {
         "team": "Brighton & Hove Albion",
@@ -7477,12 +7477,12 @@
         "abbr": "LEE",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
         "w": "2",
-        "l": "0",
+        "l": "1",
         "t": "3",
         "pct": "",
-        "gp": "5",
+        "gp": "6",
         "points": "9",
-        "diff": "+4"
+        "diff": "+3"
       },
       {
         "team": "Liverpool",
