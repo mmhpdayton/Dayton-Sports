@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-10 01:04 PM CT",
+  "generatedAt": "2026-10-10 04:35 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -4903,7 +4903,7 @@
           "ha": "HOME",
           "tv": "",
           "venue": "Notre Dame Stadium",
-          "detail": "https://www.espn.com/college-football/game/_/gameId/401858257/stanford-notre-dame",
+          "detail": "https://www.espn.com/college-football/game?gameId=401858257",
           "status": "scheduled",
           "_score": {
             "our": "",
@@ -7562,10 +7562,10 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
         "w": "1",
         "l": "2",
-        "t": "2",
+        "t": "3",
         "pct": "",
-        "gp": "5",
-        "points": "5",
+        "gp": "6",
+        "points": "6",
         "diff": "0"
       },
       {
@@ -7629,6 +7629,18 @@
         "diff": "-6"
       },
       {
+        "team": "Tottenham Hotspur",
+        "abbr": "TOT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+        "w": "0",
+        "l": "3",
+        "t": "3",
+        "pct": "",
+        "gp": "6",
+        "points": "3",
+        "diff": "-6"
+      },
+      {
         "team": "Coventry City",
         "abbr": "COV",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
@@ -7651,18 +7663,6 @@
         "gp": "6",
         "points": "2",
         "diff": "-4"
-      },
-      {
-        "team": "Tottenham Hotspur",
-        "abbr": "TOT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-        "w": "0",
-        "l": "3",
-        "t": "2",
-        "pct": "",
-        "gp": "5",
-        "points": "2",
-        "diff": "-6"
       }
     ],
     "nfcNorth": [],
