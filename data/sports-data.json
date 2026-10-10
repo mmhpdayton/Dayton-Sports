@@ -271,6 +271,13 @@
           "ha": "NEUTRAL",
           "conference": false,
           "tournament": true
+        },
+        {
+          "date": "Sep 12",
+          "time": "7:00 PM",
+          "opp": "Marmion",
+          "ha": "HOME",
+          "conference": false
         }
       ]
     },
