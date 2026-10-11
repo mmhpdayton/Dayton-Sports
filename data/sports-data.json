@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-11 12:59 PM CT",
+  "generatedAt": "2026-10-11 04:46 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -5048,7 +5048,7 @@
       "name": "Green Bay Packers",
       "abbr": "GB",
       "color": "#203731",
-      "record": "2-2",
+      "record": "3-2",
       "context": "NFC North",
       "homePriority": 8,
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
@@ -5157,8 +5157,8 @@
           "detail": "https://www.espn.com/nfl/game/_/gameId/401872990/bears-packers",
           "status": "scheduled",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "{'value': 31.0, 'displayValue': '31'}",
+            "opp": "{'value': 7.0, 'displayValue': '7'}",
             "live": false,
             "final": false,
             "clock": "",
@@ -5828,7 +5828,7 @@
       "name": "Indianapolis Colts",
       "abbr": "IND",
       "color": "#002c5f",
-      "record": "2-2",
+      "record": "2-3",
       "context": "AFC South",
       "homePriority": 10,
       "muted": true,
@@ -5936,11 +5936,11 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "Acrisure Stadium",
-          "detail": "https://www.espn.com/nfl/game?gameId=401872985",
+          "detail": "https://www.espn.com/nfl/game/_/gameId/401872985/colts-steelers",
           "status": "scheduled",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "{'value': 22.0, 'displayValue': '22'}",
+            "opp": "{'value': 34.0, 'displayValue': '34'}",
             "live": false,
             "final": false,
             "clock": "",
@@ -6218,6 +6218,206 @@
   ],
   "rankings": {
     "cfb": [
+      {
+        "poll": "AP Top 25",
+        "rank": 1,
+        "team": "Bulldogs",
+        "record": "6-0",
+        "previous": 2,
+        "firstPlaceVotes": 66
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 2,
+        "team": "Fighting Irish",
+        "record": "6-0",
+        "previous": 3,
+        "firstPlaceVotes": 1
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 3,
+        "team": "Hurricanes",
+        "record": "5-0",
+        "previous": 4,
+        "firstPlaceVotes": 2
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 4,
+        "team": "Buckeyes",
+        "record": "5-1",
+        "previous": 5,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 5,
+        "team": "Hoosiers",
+        "record": "6-0",
+        "previous": 7,
+        "firstPlaceVotes": 1
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 6,
+        "team": "Crimson Tide",
+        "record": "5-1",
+        "previous": 6,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 7,
+        "team": "Longhorns",
+        "record": "4-1",
+        "previous": 1,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 8,
+        "team": "Cougars",
+        "record": "5-0",
+        "previous": 8,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 9,
+        "team": "Rebels",
+        "record": "4-1",
+        "previous": 9,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 10,
+        "team": "Red Raiders",
+        "record": "5-0",
+        "previous": 11,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 11,
+        "team": "Utes",
+        "record": "5-0",
+        "previous": 12,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 12,
+        "team": "Bruins",
+        "record": "5-0",
+        "previous": 21,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 13,
+        "team": "Tigers",
+        "record": "5-1",
+        "previous": 14,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 14,
+        "team": "Volunteers",
+        "record": "5-1",
+        "previous": 15,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 15,
+        "team": "Wildcats",
+        "record": "5-1",
+        "previous": 0,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 16,
+        "team": "Bulldogs",
+        "record": "4-1",
+        "previous": 17,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 17,
+        "team": "Hawkeyes",
+        "record": "5-1",
+        "previous": 20,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 18,
+        "team": "Cowboys",
+        "record": "4-1",
+        "previous": 18,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 19,
+        "team": "Trojans",
+        "record": "6-1",
+        "previous": 19,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 20,
+        "team": "Cougars",
+        "record": "5-1",
+        "previous": 22,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 21,
+        "team": "Demon Deacons",
+        "record": "5-1",
+        "previous": 0,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 22,
+        "team": "Tigers",
+        "record": "4-2",
+        "previous": 10,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 23,
+        "team": "Broncos",
+        "record": "5-1",
+        "previous": 23,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 24,
+        "team": "Mustangs",
+        "record": "4-1",
+        "previous": 24,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 25,
+        "team": "Wildcats",
+        "record": "4-1",
+        "previous": 0,
+        "firstPlaceVotes": 0
+      },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 1,
