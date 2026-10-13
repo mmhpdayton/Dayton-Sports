@@ -278,6 +278,13 @@
           "opp": "Marmion",
           "ha": "HOME",
           "conference": false
+        },
+        {
+          "date": "Oct 13",
+          "time": "5:00 PM",
+          "opp": "Taft",
+          "ha": "HOME",
+          "conference": false
         }
       ]
     },
