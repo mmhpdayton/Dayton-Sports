@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-12 05:54 PM CT",
+  "generatedAt": "2026-10-12 10:20 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -5544,7 +5544,7 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "SoFi Stadium",
-          "detail": "https://www.espn.com/nfl/game/_/gameId/401872994/bills-rams",
+          "detail": "https://www.espn.com/nfl/game?gameId=401872994",
           "status": "scheduled",
           "_score": {
             "our": "",
