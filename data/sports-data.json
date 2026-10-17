@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-16 06:56 PM CT",
+  "generatedAt": "2026-10-16 10:16 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -4440,15 +4440,16 @@
           "tv": "",
           "venue": "Holloway Gymnasium",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884089",
-          "status": "final",
+          "status": "scheduled",
           "_score": {
-            "our": "3",
-            "opp": "0",
+            "our": "{'value': 3.0, 'displayValue': '3'}",
+            "opp": "{'value': 0.0, 'displayValue': '0'}",
             "live": false,
-            "final": true
+            "final": false,
+            "clock": "",
+            "period": ""
           },
-          "event": "Regular Season",
-          "result": "W 3–0"
+          "event": "Regular Season"
         },
         {
           "id": "401884090",
@@ -4540,16 +4541,15 @@
           "tv": "",
           "venue": "UW Field House",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884154",
-          "status": "scheduled",
+          "status": "final",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "3",
+            "opp": "0",
             "live": false,
-            "final": false,
-            "clock": "",
-            "period": ""
+            "final": true
           },
-          "event": "Regular Season"
+          "event": "Regular Season",
+          "result": "W 3–0"
         },
         {
           "id": "401884155",
