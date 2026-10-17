@@ -257,6 +257,21 @@
           }
         },
         {
+          "date": "Oct 13",
+          "time": "5:00 PM",
+          "opp": "Taft",
+          "ha": "HOME",
+          "conference": false,
+          "status": "final",
+          "result": "L 0–2",
+          "_score": {
+            "our": "0",
+            "opp": "2",
+            "live": false,
+            "final": true
+          }
+        },
+        {
           "date": "Sep 12",
           "time": "8:30 AM",
           "opp": "Prospect",
@@ -276,13 +291,6 @@
           "date": "Sep 12",
           "time": "7:00 PM",
           "opp": "Marmion",
-          "ha": "HOME",
-          "conference": false
-        },
-        {
-          "date": "Oct 13",
-          "time": "5:00 PM",
-          "opp": "Taft",
           "ha": "HOME",
           "conference": false
         }
