@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-17 05:13 PM CT",
+  "generatedAt": "2026-10-17 07:05 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -4939,7 +4939,7 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "LaVell Edwards Stadium",
-          "detail": "https://www.espn.com/college-football/game/_/gameId/401856809/notre-dame-byu",
+          "detail": "https://www.espn.com/college-football/game?gameId=401856809",
           "status": "scheduled",
           "_score": {
             "our": "",
