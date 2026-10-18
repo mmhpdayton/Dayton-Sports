@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-18 01:50 PM CT",
+  "generatedAt": "2026-10-18 04:13 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -5581,7 +5581,7 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "Allegiant Stadium",
-          "detail": "https://www.espn.com/nfl/game/_/gameId/401873005/bills-raiders",
+          "detail": "https://www.espn.com/nfl/game?gameId=401873005",
           "status": "scheduled",
           "_score": {
             "our": "",
@@ -5843,7 +5843,7 @@
       "name": "Indianapolis Colts",
       "abbr": "IND",
       "color": "#002c5f",
-      "record": "2-3",
+      "record": "2-4",
       "context": "AFC South",
       "homePriority": 10,
       "muted": true,
@@ -5973,11 +5973,11 @@
           "ha": "HOME",
           "tv": "",
           "venue": "Lucas Oil Stadium",
-          "detail": "https://www.espn.com/nfl/game?gameId=401873003",
+          "detail": "https://www.espn.com/nfl/game/_/gameId/401873003/titans-colts",
           "status": "scheduled",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "{'value': 20.0, 'displayValue': '20'}",
+            "opp": "{'value': 26.0, 'displayValue': '26'}",
             "live": false,
             "final": false,
             "clock": "",
