@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-18 04:13 PM CT",
+  "generatedAt": "2026-10-18 06:19 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -4571,8 +4571,8 @@
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884155",
           "status": "scheduled",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "{'value': 3.0, 'displayValue': '3'}",
+            "opp": "{'value': 1.0, 'displayValue': '1'}",
             "live": false,
             "final": false,
             "clock": "",
