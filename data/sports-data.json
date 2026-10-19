@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-18 06:19 PM CT",
+  "generatedAt": "2026-10-18 08:24 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -5191,7 +5191,7 @@
           "ha": "HOME",
           "tv": "",
           "venue": "Lambeau Field",
-          "detail": "https://www.espn.com/nfl/game/_/gameId/401873007/cowboys-packers",
+          "detail": "https://www.espn.com/nfl/game?gameId=401873007",
           "status": "scheduled",
           "_score": {
             "our": "",
@@ -5453,7 +5453,7 @@
       "name": "Buffalo Bills",
       "abbr": "BUF",
       "color": "#00338d",
-      "record": "4-1",
+      "record": "5-1",
       "context": "AFC East",
       "homePriority": 9,
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
@@ -5581,11 +5581,11 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "Allegiant Stadium",
-          "detail": "https://www.espn.com/nfl/game?gameId=401873005",
+          "detail": "https://www.espn.com/nfl/game/_/gameId/401873005/bills-raiders",
           "status": "scheduled",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "{'value': 33.0, 'displayValue': '33'}",
+            "opp": "{'value': 30.0, 'displayValue': '30'}",
             "live": false,
             "final": false,
             "clock": "",
