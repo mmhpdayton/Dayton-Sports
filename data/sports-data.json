@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-19 02:37 PM CT",
+  "generatedAt": "2026-10-19 06:04 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -7032,6 +7032,206 @@
         "record": "5-2",
         "previous": 21,
         "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 1,
+        "team": "Thunder",
+        "record": "7-0",
+        "previous": 1,
+        "firstPlaceVotes": 41
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 2,
+        "team": "Pioneers",
+        "record": "6-0",
+        "previous": 3,
+        "firstPlaceVotes": 11
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 3,
+        "team": "Johnnies",
+        "record": "6-0",
+        "previous": 2,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 4,
+        "team": "Warhawks",
+        "record": "6-0",
+        "previous": 5,
+        "firstPlaceVotes": 1
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 5,
+        "team": "Cardinals",
+        "record": "5-1",
+        "previous": 4,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 6,
+        "team": "Cowboys",
+        "record": "5-0",
+        "previous": 7,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 7,
+        "team": "Bears",
+        "record": "6-0",
+        "previous": 9,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 8,
+        "team": "Captains",
+        "record": "6-0",
+        "previous": 10,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 9,
+        "team": "Flying Dutchmen",
+        "record": "6-0",
+        "previous": 11,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 10,
+        "team": "Gulls",
+        "record": "6-0",
+        "previous": 12,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 11,
+        "team": "Red Dragons",
+        "record": "6-0",
+        "previous": 13,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 12,
+        "team": "Blue Streaks",
+        "record": "5-1",
+        "previous": 14,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 13,
+        "team": "Knights",
+        "record": "4-2",
+        "previous": 15,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 14,
+        "team": "Crusaders",
+        "record": "5-1",
+        "previous": 16,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 15,
+        "team": "Tigers",
+        "record": "5-1",
+        "previous": 6,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 16,
+        "team": "Royals",
+        "record": "4-2",
+        "previous": 17,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 17,
+        "team": "Falcons",
+        "record": "4-2",
+        "previous": 8,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 18,
+        "team": "Yellow Jackets",
+        "record": "6-0",
+        "previous": 20,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 19,
+        "team": "Vikings",
+        "record": "5-1",
+        "previous": 18,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 20,
+        "team": "Sea Gulls",
+        "record": "5-1",
+        "previous": 19,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 21,
+        "team": "River Hawks",
+        "record": "5-1",
+        "previous": 21,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 22,
+        "team": "Tigers",
+        "record": "5-1",
+        "previous": 22,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 23,
+        "team": "Knights",
+        "record": "6-0",
+        "previous": 23,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 24,
+        "team": "Foresters",
+        "record": "7-0",
+        "previous": 24,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 25,
+        "team": "Bears",
+        "record": "6-0",
+        "previous": 0,
+        "firstPlaceVotes": 0
       }
     ],
     "volleyball": [
@@ -7420,16 +7620,28 @@
         "diff": "-4"
       },
       {
+        "team": "Tottenham Hotspur",
+        "abbr": "TOT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+        "w": "1",
+        "l": "3",
+        "t": "3",
+        "pct": "",
+        "gp": "7",
+        "points": "6",
+        "diff": "-4"
+      },
+      {
         "team": "Coventry City",
         "abbr": "COV",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
         "w": "2",
-        "l": "4",
+        "l": "5",
         "t": "0",
         "pct": "",
-        "gp": "6",
+        "gp": "7",
         "points": "6",
-        "diff": "-6"
+        "diff": "-8"
       },
       {
         "team": "Fulham",
@@ -7466,18 +7678,6 @@
         "gp": "7",
         "points": "4",
         "diff": "-8"
-      },
-      {
-        "team": "Tottenham Hotspur",
-        "abbr": "TOT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-        "w": "0",
-        "l": "3",
-        "t": "3",
-        "pct": "",
-        "gp": "6",
-        "points": "3",
-        "diff": "-6"
       }
     ],
     "nfcNorth": [],
