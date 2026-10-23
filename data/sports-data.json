@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-23 02:07 PM CT",
+  "generatedAt": "2026-10-23 05:05 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -7536,6 +7536,18 @@
         "diff": "+1"
       },
       {
+        "team": "Ipswich Town",
+        "abbr": "IPS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+        "w": "3",
+        "l": "4",
+        "t": "1",
+        "pct": "",
+        "gp": "8",
+        "points": "10",
+        "diff": "-4"
+      },
+      {
         "team": "Hull City",
         "abbr": "HUL",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
@@ -7546,18 +7558,6 @@
         "gp": "7",
         "points": "9",
         "diff": "+1"
-      },
-      {
-        "team": "Ipswich Town",
-        "abbr": "IPS",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
-        "w": "3",
-        "l": "4",
-        "t": "0",
-        "pct": "",
-        "gp": "7",
-        "points": "9",
-        "diff": "-4"
       },
       {
         "team": "Newcastle United",
@@ -7620,6 +7620,18 @@
         "diff": "-4"
       },
       {
+        "team": "Nottingham Forest",
+        "abbr": "NFO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+        "w": "1",
+        "l": "4",
+        "t": "3",
+        "pct": "",
+        "gp": "8",
+        "points": "6",
+        "diff": "-4"
+      },
+      {
         "team": "Tottenham Hotspur",
         "abbr": "TOT",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
@@ -7654,18 +7666,6 @@
         "gp": "7",
         "points": "5",
         "diff": "-3"
-      },
-      {
-        "team": "Nottingham Forest",
-        "abbr": "NFO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-        "w": "1",
-        "l": "4",
-        "t": "2",
-        "pct": "",
-        "gp": "7",
-        "points": "5",
-        "diff": "-4"
       },
       {
         "team": "Sunderland",
