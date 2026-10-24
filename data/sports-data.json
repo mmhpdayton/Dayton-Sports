@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-24 11:50 AM CT",
+  "generatedAt": "2026-10-24 02:13 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -7480,12 +7480,12 @@
         "abbr": "CHE",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
         "w": "4",
-        "l": "2",
+        "l": "3",
         "t": "1",
         "pct": "",
-        "gp": "7",
+        "gp": "8",
         "points": "13",
-        "diff": "+4"
+        "diff": "+2"
       },
       {
         "team": "Liverpool",
@@ -7572,6 +7572,18 @@
         "diff": "+1"
       },
       {
+        "team": "Tottenham Hotspur",
+        "abbr": "TOT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+        "w": "2",
+        "l": "3",
+        "t": "3",
+        "pct": "",
+        "gp": "8",
+        "points": "9",
+        "diff": "-2"
+      },
+      {
         "team": "Fulham",
         "abbr": "FUL",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
@@ -7640,18 +7652,6 @@
         "t": "3",
         "pct": "",
         "gp": "8",
-        "points": "6",
-        "diff": "-4"
-      },
-      {
-        "team": "Tottenham Hotspur",
-        "abbr": "TOT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-        "w": "1",
-        "l": "3",
-        "t": "3",
-        "pct": "",
-        "gp": "7",
         "points": "6",
         "diff": "-4"
       },
