@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-24 04:23 AM CT",
+  "generatedAt": "2026-10-24 08:27 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -7444,12 +7444,12 @@
         "abbr": "MNC",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
         "w": "7",
-        "l": "0",
+        "l": "1",
         "t": "0",
         "pct": "",
-        "gp": "7",
+        "gp": "8",
         "points": "21",
-        "diff": "+12"
+        "diff": "+11"
       },
       {
         "team": "Arsenal",
@@ -7498,6 +7498,18 @@
         "gp": "7",
         "points": "12",
         "diff": "+1"
+      },
+      {
+        "team": "Aston Villa",
+        "abbr": "AVL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+        "w": "3",
+        "l": "3",
+        "t": "2",
+        "pct": "",
+        "gp": "8",
+        "points": "11",
+        "diff": "-3"
       },
       {
         "team": "Brentford",
@@ -7563,18 +7575,6 @@
         "team": "Newcastle United",
         "abbr": "NEW",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-        "w": "2",
-        "l": "3",
-        "t": "2",
-        "pct": "",
-        "gp": "7",
-        "points": "8",
-        "diff": "-4"
-      },
-      {
-        "team": "Aston Villa",
-        "abbr": "AVL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
         "w": "2",
         "l": "3",
         "t": "2",
