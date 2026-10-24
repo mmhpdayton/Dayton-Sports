@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-24 08:27 AM CT",
+  "generatedAt": "2026-10-24 11:50 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -7455,13 +7455,13 @@
         "team": "Arsenal",
         "abbr": "ARS",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-        "w": "6",
+        "w": "7",
         "l": "1",
         "t": "0",
         "pct": "",
-        "gp": "7",
-        "points": "18",
-        "diff": "+6"
+        "gp": "8",
+        "points": "21",
+        "diff": "+8"
       },
       {
         "team": "Brighton & Hove Albion",
@@ -7540,12 +7540,12 @@
         "abbr": "EVE",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
         "w": "2",
-        "l": "1",
+        "l": "2",
         "t": "4",
         "pct": "",
-        "gp": "7",
+        "gp": "8",
         "points": "10",
-        "diff": "+1"
+        "diff": "-1"
       },
       {
         "team": "Ipswich Town",
@@ -7570,6 +7570,18 @@
         "gp": "7",
         "points": "9",
         "diff": "+1"
+      },
+      {
+        "team": "Fulham",
+        "abbr": "FUL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+        "w": "2",
+        "l": "4",
+        "t": "2",
+        "pct": "",
+        "gp": "8",
+        "points": "8",
+        "diff": "-2"
       },
       {
         "team": "Newcastle United",
@@ -7648,24 +7660,12 @@
         "abbr": "COV",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
         "w": "2",
-        "l": "5",
+        "l": "6",
         "t": "0",
         "pct": "",
-        "gp": "7",
+        "gp": "8",
         "points": "6",
-        "diff": "-8"
-      },
-      {
-        "team": "Fulham",
-        "abbr": "FUL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
-        "w": "1",
-        "l": "4",
-        "t": "2",
-        "pct": "",
-        "gp": "7",
-        "points": "5",
-        "diff": "-3"
+        "diff": "-9"
       },
       {
         "team": "Sunderland",
