@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-25 02:16 PM CT",
+  "generatedAt": "2026-10-25 04:52 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -4511,15 +4511,16 @@
           "tv": "",
           "venue": "Huff Hall",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884092",
-          "status": "final",
+          "status": "scheduled",
           "_score": {
-            "our": "3",
-            "opp": "0",
+            "our": "{'value': 3.0, 'displayValue': '3'}",
+            "opp": "{'value': 0.0, 'displayValue': '0'}",
             "live": false,
-            "final": true
+            "final": false,
+            "clock": "",
+            "period": ""
           },
-          "event": "Regular Season",
-          "result": "W 3–0"
+          "event": "Regular Season"
         },
         {
           "id": "401884093",
@@ -4611,16 +4612,15 @@
           "tv": "",
           "venue": "UW Field House",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884157",
-          "status": "scheduled",
+          "status": "final",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "3",
+            "opp": "1",
             "live": false,
-            "final": false,
-            "clock": "",
-            "period": ""
+            "final": true
           },
-          "event": "Regular Season"
+          "event": "Regular Season",
+          "result": "W 3–1"
         },
         {
           "id": "401884158",
@@ -5213,11 +5213,11 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "Ford Field",
-          "detail": "https://www.espn.com/nfl/game/_/gameId/401873020/packers-lions",
+          "detail": "https://www.espn.com/nfl/game?gameId=401873020",
           "status": "scheduled",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "{'value': 7.0, 'displayValue': '7'}",
+            "opp": "{'value': 10.0, 'displayValue': '10'}",
             "live": false,
             "final": false,
             "clock": "",
@@ -5843,7 +5843,7 @@
       "name": "Indianapolis Colts",
       "abbr": "IND",
       "color": "#002c5f",
-      "record": "2-4",
+      "record": "2-5",
       "context": "AFC South",
       "homePriority": 10,
       "muted": true,
@@ -5995,11 +5995,11 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "U.S. Bank Stadium",
-          "detail": "https://www.espn.com/nfl/game?gameId=401873014",
+          "detail": "https://www.espn.com/nfl/game/_/gameId/401873014/colts-vikings",
           "status": "scheduled",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "{'value': 10.0, 'displayValue': '10'}",
+            "opp": "{'value': 16.0, 'displayValue': '16'}",
             "live": false,
             "final": false,
             "clock": "",
