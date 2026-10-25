@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-25 04:52 PM CT",
+  "generatedAt": "2026-10-25 06:46 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -5063,7 +5063,7 @@
       "name": "Green Bay Packers",
       "abbr": "GB",
       "color": "#203731",
-      "record": "4-2",
+      "record": "4-3",
       "context": "NFC North",
       "homePriority": 8,
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
@@ -5213,11 +5213,11 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "Ford Field",
-          "detail": "https://www.espn.com/nfl/game?gameId=401873020",
+          "detail": "https://www.espn.com/nfl/game/_/gameId/401873020/packers-lions",
           "status": "scheduled",
           "_score": {
-            "our": "{'value': 7.0, 'displayValue': '7'}",
-            "opp": "{'value': 10.0, 'displayValue': '10'}",
+            "our": "{'value': 17.0, 'displayValue': '17'}",
+            "opp": "{'value': 20.0, 'displayValue': '20'}",
             "live": false,
             "final": false,
             "clock": "",
