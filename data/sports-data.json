@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-26 09:10 AM CT",
+  "generatedAt": "2026-10-26 02:58 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -4646,8 +4646,8 @@
         {
           "id": "401884159",
           "date": "Nov 1",
-          "time": "5:00 PM CT",
-          "start": "2026-11-01T17:00:00-06:00",
+          "time": "4:00 PM CT",
+          "start": "2026-11-01T16:00:00-06:00",
           "opp": "UCLA Bruins",
           "ha": "AWAY",
           "tv": "",
@@ -6632,6 +6632,606 @@
         "record": "6-2",
         "previous": 15,
         "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 1,
+        "team": "Texans",
+        "record": "8-0",
+        "previous": 1,
+        "firstPlaceVotes": 25
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 2,
+        "team": "Lumberjacks",
+        "record": "8-0",
+        "previous": 2,
+        "firstPlaceVotes": 1
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 3,
+        "team": "Bobcats",
+        "record": "7-1",
+        "previous": 3,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 4,
+        "team": "Penguins",
+        "record": "6-2",
+        "previous": 4,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 5,
+        "team": "Jackrabbits",
+        "record": "6-2",
+        "previous": 5,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 6,
+        "team": "Coyotes",
+        "record": "7-2",
+        "previous": 6,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 7,
+        "team": "Lumberjacks",
+        "record": "6-2",
+        "previous": 7,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 8,
+        "team": "Governors",
+        "record": "7-2",
+        "previous": 9,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 9,
+        "team": "Redbirds",
+        "record": "6-2",
+        "previous": 10,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 10,
+        "team": "Golden Eagles",
+        "record": "7-1",
+        "previous": 11,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 11,
+        "team": "Fighting Hawks",
+        "record": "6-3",
+        "previous": 8,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 12,
+        "team": "Bears",
+        "record": "6-2",
+        "previous": 13,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 13,
+        "team": "Cardinals",
+        "record": "6-2",
+        "previous": 15,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 14,
+        "team": "Grizzlies",
+        "record": "5-3",
+        "previous": 14,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 15,
+        "team": "Fighting Camels",
+        "record": "7-1",
+        "previous": 16,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 16,
+        "team": "Crimson",
+        "record": "6-0",
+        "previous": 17,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 17,
+        "team": "Hawks",
+        "record": "6-2",
+        "previous": 18,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 18,
+        "team": "Buccaneers",
+        "record": "6-2",
+        "previous": 20,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 19,
+        "team": "Spiders",
+        "record": "6-2",
+        "previous": 19,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 20,
+        "team": "Mountain Hawks",
+        "record": "6-2",
+        "previous": 12,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 21,
+        "team": "Aggies",
+        "record": "5-3",
+        "previous": 21,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 22,
+        "team": "Bulldogs",
+        "record": "6-2",
+        "previous": 25,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 23,
+        "team": "Bengals",
+        "record": "5-3",
+        "previous": 0,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 24,
+        "team": "Wildcats",
+        "record": "4-4",
+        "previous": 0,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "FCS Coaches Poll",
+        "rank": 25,
+        "team": "Great Danes",
+        "record": "5-3",
+        "previous": 0,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 1,
+        "team": "Bulldogs",
+        "record": "8-0",
+        "previous": 1,
+        "firstPlaceVotes": 29
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 2,
+        "team": "Bisons",
+        "record": "8-0",
+        "previous": 2,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 3,
+        "team": "Golden Bears",
+        "record": "8-0",
+        "previous": 3,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 4,
+        "team": "ThunderWolves",
+        "record": "8-0",
+        "previous": 4,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 5,
+        "team": "Mavericks",
+        "record": "8-0",
+        "previous": 5,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 6,
+        "team": "Mountaineers",
+        "record": "8-0",
+        "previous": 6,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 7,
+        "team": "The Rock",
+        "record": "8-0",
+        "previous": 7,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 8,
+        "team": "Hornets",
+        "record": "8-0",
+        "previous": 8,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 9,
+        "team": "Panthers",
+        "record": "8-0",
+        "previous": 9,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 10,
+        "team": "Timberwolves",
+        "record": "8-0",
+        "previous": 10,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 11,
+        "team": "Bearcats",
+        "record": "6-1",
+        "previous": 11,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 12,
+        "team": "Wildcats",
+        "record": "6-2",
+        "previous": 13,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 13,
+        "team": "Oilers",
+        "record": "7-1",
+        "previous": 14,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 14,
+        "team": "Eagles",
+        "record": "7-1",
+        "previous": 15,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 15,
+        "team": "Huskies",
+        "record": "6-2",
+        "previous": 12,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 16,
+        "team": "Trailblazers",
+        "record": "7-1",
+        "previous": 18,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 17,
+        "team": "Blazers",
+        "record": "5-1",
+        "previous": 17,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 18,
+        "team": "Reddies",
+        "record": "7-1",
+        "previous": 19,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 19,
+        "team": "Panthers",
+        "record": "7-1",
+        "previous": 20,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 20,
+        "team": "Bulldogs",
+        "record": "6-2",
+        "previous": 21,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 21,
+        "team": "Tigers",
+        "record": "7-1",
+        "previous": 23,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 22,
+        "team": "Trojans",
+        "record": "7-1",
+        "previous": 24,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 23,
+        "team": "Hilltoppers",
+        "record": "7-1",
+        "previous": 0,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 24,
+        "team": "Warriors",
+        "record": "7-1",
+        "previous": 0,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division II Coaches Poll",
+        "rank": 25,
+        "team": "Lakers",
+        "record": "5-3",
+        "previous": 16,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 1,
+        "team": "Thunder",
+        "record": "7-0",
+        "previous": 1,
+        "firstPlaceVotes": 37
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 2,
+        "team": "Pioneers",
+        "record": "7-0",
+        "previous": 2,
+        "firstPlaceVotes": 15
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 3,
+        "team": "Johnnies",
+        "record": "7-0",
+        "previous": 3,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 4,
+        "team": "Warhawks",
+        "record": "7-0",
+        "previous": 4,
+        "firstPlaceVotes": 1
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 5,
+        "team": "Cardinals",
+        "record": "6-1",
+        "previous": 5,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 6,
+        "team": "Cowboys",
+        "record": "6-0",
+        "previous": 6,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 7,
+        "team": "Bears",
+        "record": "7-0",
+        "previous": 7,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 8,
+        "team": "Captains",
+        "record": "7-0",
+        "previous": 8,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 9,
+        "team": "Flying Dutchmen",
+        "record": "7-0",
+        "previous": 9,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 10,
+        "team": "Gulls",
+        "record": "7-0",
+        "previous": 10,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 11,
+        "team": "Red Dragons",
+        "record": "7-0",
+        "previous": 11,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 12,
+        "team": "Blue Streaks",
+        "record": "6-1",
+        "previous": 12,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 13,
+        "team": "Knights",
+        "record": "5-2",
+        "previous": 13,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 14,
+        "team": "Crusaders",
+        "record": "6-1",
+        "previous": 14,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 15,
+        "team": "Tigers",
+        "record": "6-1",
+        "previous": 15,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 16,
+        "team": "Yellow Jackets",
+        "record": "7-0",
+        "previous": 18,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 17,
+        "team": "Royals",
+        "record": "5-2",
+        "previous": 16,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 18,
+        "team": "Falcons",
+        "record": "5-2",
+        "previous": 17,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 19,
+        "team": "Vikings",
+        "record": "6-1",
+        "previous": 19,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 20,
+        "team": "River Hawks",
+        "record": "6-1",
+        "previous": 21,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 21,
+        "team": "Tigers",
+        "record": "6-1",
+        "previous": 22,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 22,
+        "team": "Knights",
+        "record": "7-0",
+        "previous": 23,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 23,
+        "team": "Foresters",
+        "record": "7-0",
+        "previous": 24,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 24,
+        "team": "Profs",
+        "record": "6-1",
+        "previous": 0,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Division III Coaches Poll",
+        "rank": 25,
+        "team": "Student Princes",
+        "record": "6-1",
+        "previous": 0,
+        "firstPlaceVotes": 0
       }
     ],
     "volleyball": [
@@ -6639,7 +7239,7 @@
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 1,
         "team": "Cornhuskers",
-        "record": "19-0",
+        "record": "21-0",
         "previous": 1,
         "firstPlaceVotes": 63
       },
@@ -6647,7 +7247,7 @@
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 2,
         "team": "Panthers",
-        "record": "17-1",
+        "record": "19-1",
         "previous": 2,
         "firstPlaceVotes": 0
       },
@@ -6655,184 +7255,184 @@
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 3,
         "team": "Cardinals",
-        "record": "18-2",
+        "record": "20-2",
         "previous": 3,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 4,
-        "team": "Wildcats",
-        "record": "15-3",
-        "previous": 4,
+        "team": "Gators",
+        "record": "17-2",
+        "previous": 5,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 5,
-        "team": "Gators",
-        "record": "15-2",
+        "team": "Mustangs",
+        "record": "16-4",
         "previous": 7,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 6,
-        "team": "Badgers",
-        "record": "13-5",
-        "previous": 6,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AVCA Division I Women's Top 25 Poll",
-        "rank": 7,
-        "team": "Mustangs",
-        "record": "14-4",
-        "previous": 5,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AVCA Division I Women's Top 25 Poll",
-        "rank": 8,
-        "team": "Sun Devils",
-        "record": "15-3",
-        "previous": 8,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AVCA Division I Women's Top 25 Poll",
-        "rank": 9,
         "team": "Volunteers",
-        "record": "14-3",
+        "record": "16-3",
         "previous": 9,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
-        "rank": 10,
-        "team": "Ducks",
-        "record": "16-2",
+        "rank": 7,
+        "team": "Wildcats",
+        "record": "15-5",
+        "previous": 4,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AVCA Division I Women's Top 25 Poll",
+        "rank": 8,
+        "team": "Badgers",
+        "record": "14-6",
+        "previous": 6,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AVCA Division I Women's Top 25 Poll",
+        "rank": 9,
+        "team": "Cougars",
+        "record": "17-1",
         "previous": 11,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
+        "rank": 10,
+        "team": "Sun Devils",
+        "record": "16-4",
+        "previous": 8,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 11,
-        "team": "Cougars",
-        "record": "15-1",
-        "previous": 14,
+        "team": "Boilermakers",
+        "record": "13-6",
+        "previous": 12,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 12,
-        "team": "Boilermakers",
-        "record": "11-6",
-        "previous": 13,
+        "team": "Ducks",
+        "record": "17-3",
+        "previous": 10,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 13,
-        "team": "Horned Frogs",
-        "record": "15-4",
-        "previous": 10,
+        "team": "Nittany Lions",
+        "record": "15-5",
+        "previous": 16,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 14,
         "team": "Longhorns",
-        "record": "9-7",
-        "previous": 12,
+        "record": "10-7",
+        "previous": 14,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 15,
-        "team": "Cardinal",
-        "record": "12-6",
-        "previous": 16,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AVCA Division I Women's Top 25 Poll",
-        "rank": 16,
-        "team": "Nittany Lions",
-        "record": "13-5",
-        "previous": 15,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AVCA Division I Women's Top 25 Poll",
-        "rank": 17,
         "team": "Jayhawks",
-        "record": "12-5",
+        "record": "14-5",
         "previous": 17,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
-        "rank": 18,
-        "team": "Hoosiers",
-        "record": "11-6",
-        "previous": 18,
+        "rank": 16,
+        "team": "Horned Frogs",
+        "record": "15-5",
+        "previous": 13,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
-        "rank": 19,
+        "rank": 17,
         "team": "Aggies",
-        "record": "11-8",
+        "record": "13-8",
         "previous": 19,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
+        "rank": 18,
+        "team": "Cardinal",
+        "record": "13-7",
+        "previous": 15,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AVCA Division I Women's Top 25 Poll",
+        "rank": 19,
+        "team": "Hoosiers",
+        "record": "12-7",
+        "previous": 18,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 20,
-        "team": "Golden Gophers",
-        "record": "11-5",
+        "team": "Huskies",
+        "record": "15-4",
         "previous": 21,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 21,
-        "team": "Huskies",
-        "record": "14-3",
+        "team": "Golden Gophers",
+        "record": "12-6",
         "previous": 20,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 22,
-        "team": "Commodores",
-        "record": "15-2",
-        "previous": 24,
+        "team": "Tar Heels",
+        "record": "14-4",
+        "previous": 23,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 23,
-        "team": "Tar Heels",
-        "record": "12-4",
-        "previous": 23,
+        "team": "Commodores",
+        "record": "15-3",
+        "previous": 22,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 24,
         "team": "Bears",
-        "record": "12-5",
-        "previous": 0,
+        "record": "13-6",
+        "previous": 24,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AVCA Division I Women's Top 25 Poll",
         "rank": 25,
-        "team": "Buffaloes",
-        "record": "13-4",
-        "previous": 25,
+        "team": "Spartans",
+        "record": "17-3",
+        "previous": 0,
         "firstPlaceVotes": 0
       }
     ]
