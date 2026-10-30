@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-29 09:30 PM CT",
+  "generatedAt": "2026-10-30 03:57 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -5063,7 +5063,7 @@
       "name": "Green Bay Packers",
       "abbr": "GB",
       "color": "#203731",
-      "record": "4-3",
+      "record": "5-3",
       "context": "NFC North",
       "homePriority": 8,
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
@@ -5235,11 +5235,11 @@
           "ha": "HOME",
           "tv": "",
           "venue": "Lambeau Field",
-          "detail": "https://www.espn.com/nfl/game?gameId=401873023",
+          "detail": "https://www.espn.com/nfl/game/_/gameId/401873023/panthers-packers",
           "status": "scheduled",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "{'value': 27.0, 'displayValue': '27'}",
+            "opp": "{'value': 19.0, 'displayValue': '19'}",
             "live": false,
             "final": false,
             "clock": "",
