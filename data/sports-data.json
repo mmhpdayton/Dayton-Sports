@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-29 05:59 PM CT",
+  "generatedAt": "2026-10-29 09:30 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -5235,7 +5235,7 @@
           "ha": "HOME",
           "tv": "",
           "venue": "Lambeau Field",
-          "detail": "https://www.espn.com/nfl/game/_/gameId/401873023/panthers-packers",
+          "detail": "https://www.espn.com/nfl/game?gameId=401873023",
           "status": "scheduled",
           "_score": {
             "our": "",
