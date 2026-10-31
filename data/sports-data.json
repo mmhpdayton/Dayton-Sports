@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-30 09:45 PM CT",
+  "generatedAt": "2026-10-31 03:56 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -4532,15 +4532,16 @@
           "tv": "",
           "venue": "Bob Devaney Center",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884093",
-          "status": "final",
+          "status": "scheduled",
           "_score": {
-            "our": "0",
-            "opp": "3",
+            "our": "{'value': 0.0, 'displayValue': '0'}",
+            "opp": "{'value': 3.0, 'displayValue': '3'}",
             "live": false,
-            "final": true
+            "final": false,
+            "clock": "",
+            "period": ""
           },
-          "event": "Regular Season",
-          "result": "L 0–3"
+          "event": "Regular Season"
         },
         {
           "id": "401884154",
@@ -4632,16 +4633,15 @@
           "tv": "",
           "venue": "Galen Center",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884158",
-          "status": "scheduled",
+          "status": "final",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "3",
+            "opp": "1",
             "live": false,
-            "final": false,
-            "clock": "",
-            "period": ""
+            "final": true
           },
-          "event": "Regular Season"
+          "event": "Regular Season",
+          "result": "W 3–1"
         },
         {
           "id": "401884159",
