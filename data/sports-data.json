@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-10-31 03:56 AM CT",
+  "generatedAt": "2026-10-31 10:07 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -7476,6 +7476,18 @@
         "diff": "+16"
       },
       {
+        "team": "Chelsea",
+        "abbr": "CHE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+        "w": "5",
+        "l": "3",
+        "t": "1",
+        "pct": "",
+        "gp": "9",
+        "points": "16",
+        "diff": "+4"
+      },
+      {
         "team": "Liverpool",
         "abbr": "LIV",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
@@ -7486,18 +7498,6 @@
         "gp": "8",
         "points": "15",
         "diff": "+3"
-      },
-      {
-        "team": "Chelsea",
-        "abbr": "CHE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-        "w": "4",
-        "l": "3",
-        "t": "1",
-        "pct": "",
-        "gp": "8",
-        "points": "13",
-        "diff": "+2"
       },
       {
         "team": "Brentford",
@@ -7624,12 +7624,12 @@
         "abbr": "MAN",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
         "w": "1",
-        "l": "3",
+        "l": "4",
         "t": "4",
         "pct": "",
-        "gp": "8",
+        "gp": "9",
         "points": "7",
-        "diff": "-3"
+        "diff": "-5"
       },
       {
         "team": "Crystal Palace",
