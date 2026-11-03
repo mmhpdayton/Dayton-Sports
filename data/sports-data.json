@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-02 07:47 PM CT",
+  "generatedAt": "2026-11-03 02:38 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -4687,9 +4687,9 @@
         },
         {
           "id": "401884161",
-          "date": "Nov 7",
-          "time": "11:00 PM CT",
-          "start": "2026-11-07T23:00:00-06:00",
+          "date": "Nov 8",
+          "time": "3:00 PM CT",
+          "start": "2026-11-08T15:00:00-06:00",
           "opp": "Penn State Nittany Lions",
           "ha": "HOME",
           "tv": "",
