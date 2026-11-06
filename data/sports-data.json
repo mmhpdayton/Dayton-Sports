@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-05 09:10 PM CT",
+  "generatedAt": "2026-11-06 05:01 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -4574,15 +4574,16 @@
           "tv": "",
           "venue": "Xtream Arena",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884155",
-          "status": "final",
+          "status": "scheduled",
           "_score": {
-            "our": "3",
-            "opp": "1",
+            "our": "{'value': 3.0, 'displayValue': '3'}",
+            "opp": "{'value': 1.0, 'displayValue': '1'}",
             "live": false,
-            "final": true
+            "final": false,
+            "clock": "",
+            "period": ""
           },
-          "event": "Regular Season",
-          "result": "W 3–1"
+          "event": "Regular Season"
         },
         {
           "id": "401884156",
@@ -4674,16 +4675,15 @@
           "tv": "",
           "venue": "UW Field House",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884160",
-          "status": "scheduled",
+          "status": "final",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "3",
+            "opp": "1",
             "live": false,
-            "final": false,
-            "clock": "",
-            "period": ""
+            "final": true
           },
-          "event": "Regular Season"
+          "event": "Regular Season",
+          "result": "W 3–1"
         },
         {
           "id": "401884161",
