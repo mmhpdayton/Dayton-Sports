@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-06 11:54 AM CT",
+  "generatedAt": "2026-11-06 04:41 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -7688,6 +7688,18 @@
         "diff": "+4"
       },
       {
+        "team": "Everton",
+        "abbr": "EVE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+        "w": "4",
+        "l": "2",
+        "t": "4",
+        "pct": "",
+        "gp": "10",
+        "points": "16",
+        "diff": "+2"
+      },
+      {
         "team": "Liverpool",
         "abbr": "LIV",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
@@ -7710,18 +7722,6 @@
         "gp": "9",
         "points": "14",
         "diff": "+7"
-      },
-      {
-        "team": "Everton",
-        "abbr": "EVE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-        "w": "3",
-        "l": "2",
-        "t": "4",
-        "pct": "",
-        "gp": "9",
-        "points": "13",
-        "diff": "0"
       },
       {
         "team": "AFC Bournemouth",
@@ -7824,12 +7824,12 @@
         "abbr": "COV",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
         "w": "3",
-        "l": "6",
+        "l": "7",
         "t": "0",
         "pct": "",
-        "gp": "9",
+        "gp": "10",
         "points": "9",
-        "diff": "-7"
+        "diff": "-9"
       },
       {
         "team": "Manchester United",
