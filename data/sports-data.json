@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-07 03:01 AM CT",
+  "generatedAt": "2026-11-07 09:37 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -7724,6 +7724,18 @@
         "diff": "+7"
       },
       {
+        "team": "Leeds United",
+        "abbr": "LEE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+        "w": "3",
+        "l": "2",
+        "t": "5",
+        "pct": "",
+        "gp": "10",
+        "points": "14",
+        "diff": "+2"
+      },
+      {
         "team": "AFC Bournemouth",
         "abbr": "BOU",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
@@ -7740,12 +7752,12 @@
         "abbr": "TOT",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
         "w": "3",
-        "l": "3",
+        "l": "4",
         "t": "3",
         "pct": "",
-        "gp": "9",
+        "gp": "10",
         "points": "12",
-        "diff": "0"
+        "diff": "-1"
       },
       {
         "team": "Aston Villa",
@@ -7763,18 +7775,6 @@
         "team": "Hull City",
         "abbr": "HUL",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-        "w": "2",
-        "l": "2",
-        "t": "5",
-        "pct": "",
-        "gp": "9",
-        "points": "11",
-        "diff": "+1"
-      },
-      {
-        "team": "Leeds United",
-        "abbr": "LEE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
         "w": "2",
         "l": "2",
         "t": "5",
