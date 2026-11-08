@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-07 08:12 PM CT",
+  "generatedAt": "2026-11-08 03:05 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -4795,7 +4795,7 @@
       "name": "Notre Dame",
       "abbr": "ND",
       "color": "#c99700",
-      "record": "7-1",
+      "record": "8-1",
       "context": "#4 AP · #5 Coaches",
       "homePriority": 7,
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
@@ -4981,11 +4981,11 @@
           "ha": "HOME",
           "tv": "",
           "venue": "Notre Dame Stadium",
-          "detail": "https://www.espn.com/college-football/game?gameId=401858291",
+          "detail": "https://www.espn.com/college-football/game/_/gameId/401858291/miami-notre-dame",
           "status": "scheduled",
           "_score": {
-            "our": "{'value': 17.0, 'displayValue': '17'}",
-            "opp": "{'value': 3.0, 'displayValue': '3'}",
+            "our": "{'value': 31.0, 'displayValue': '31'}",
+            "opp": "{'value': 24.0, 'displayValue': '24'}",
             "live": false,
             "final": false,
             "clock": "",
