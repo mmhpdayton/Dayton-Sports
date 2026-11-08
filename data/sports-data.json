@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-08 09:55 AM CT",
+  "generatedAt": "2026-11-08 02:11 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -4776,17 +4776,220 @@
       "name": "Liverpool",
       "abbr": "LFC",
       "color": "#d00027",
-      "record": "",
+      "record": "5-3-2",
       "context": "Premier League",
       "homePriority": 6,
       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
       "schedule": [
         {
+          "id": "401879243",
+          "date": "Nov 8",
+          "time": "8:00 AM CT",
+          "start": "2026-11-08T08:00:00-06:00",
+          "opp": "Crystal Palace",
+          "ha": "AWAY",
+          "tv": "",
+          "venue": "Selhurst Park",
+          "detail": "https://www.espn.com/soccer/match/_/gameId/401879243/liverpool-crystal-palace",
+          "status": "scheduled",
+          "_score": {
+            "our": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879243/competitions/401879243/competitors/364/scores/38?lang=en&region=us', 'value': 3.0, 'displayValue': '3', 'winner': True, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "opp": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879243/competitions/401879243/competitors/384/scores/38?lang=en&region=us', 'value': 1.0, 'displayValue': '1', 'winner': False, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "live": false,
+            "final": false,
+            "clock": "",
+            "period": ""
+          },
+          "event": "2026-27 English Premier League"
+        },
+        {
+          "id": "401879246",
+          "date": "Nov 1",
+          "time": "10:30 AM CT",
+          "start": "2026-11-01T10:30:00-06:00",
+          "opp": "Arsenal",
+          "ha": "HOME",
+          "tv": "",
+          "venue": "Anfield",
+          "detail": "https://www.espn.com/soccer/match/_/gameId/401879246/arsenal-liverpool",
+          "status": "scheduled",
+          "_score": {
+            "our": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879246/competitions/401879246/competitors/364/scores/38?lang=en&region=us', 'value': 0.0, 'displayValue': '0', 'winner': False, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "opp": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879246/competitions/401879246/competitors/359/scores/38?lang=en&region=us', 'value': 1.0, 'displayValue': '1', 'winner': True, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "live": false,
+            "final": false,
+            "clock": "",
+            "period": ""
+          },
+          "event": "2026-27 English Premier League"
+        },
+        {
+          "id": "401878765",
+          "date": "Oct 25",
+          "time": "9:00 AM CT",
+          "start": "2026-10-25T09:00:00-05:00",
+          "opp": "Brighton & Hove Albion",
+          "ha": "HOME",
+          "tv": "",
+          "venue": "Anfield",
+          "detail": "https://www.espn.com/soccer/match/_/gameId/401878765/brighton-hove-albion-liverpool",
+          "status": "scheduled",
+          "_score": {
+            "our": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401878765/competitions/401878765/competitors/364/scores/38?lang=en&region=us', 'value': 2.0, 'displayValue': '2', 'winner': True, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "opp": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401878765/competitions/401878765/competitors/331/scores/38?lang=en&region=us', 'value': 0.0, 'displayValue': '0', 'winner': False, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "live": false,
+            "final": false,
+            "clock": "",
+            "period": ""
+          },
+          "event": "2026-27 English Premier League"
+        },
+        {
+          "id": "401879262",
+          "date": "Oct 17",
+          "time": "9:00 AM CT",
+          "start": "2026-10-17T09:00:00-05:00",
+          "opp": "Brentford",
+          "ha": "AWAY",
+          "tv": "",
+          "venue": "Gtech Community Stadium",
+          "detail": "https://www.espn.com/soccer/match/_/gameId/401879262/liverpool-brentford",
+          "status": "scheduled",
+          "_score": {
+            "our": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879262/competitions/401879262/competitors/364/scores/38?lang=en&region=us', 'value': 2.0, 'displayValue': '2', 'winner': True, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "opp": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879262/competitions/401879262/competitors/337/scores/38?lang=en&region=us', 'value': 1.0, 'displayValue': '1', 'winner': False, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "live": false,
+            "final": false,
+            "clock": "",
+            "period": ""
+          },
+          "event": "2026-27 English Premier League"
+        },
+        {
+          "id": "401879264",
+          "date": "Oct 11",
+          "time": "10:30 AM CT",
+          "start": "2026-10-11T10:30:00-05:00",
+          "opp": "Manchester City",
+          "ha": "HOME",
+          "tv": "",
+          "venue": "Anfield",
+          "detail": "https://www.espn.com/soccer/match/_/gameId/401879264/manchester-city-liverpool",
+          "status": "scheduled",
+          "_score": {
+            "our": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879264/competitions/401879264/competitors/364/scores/38?lang=en&region=us', 'value': 0.0, 'displayValue': '0', 'winner': False, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "opp": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879264/competitions/401879264/competitors/382/scores/38?lang=en&region=us', 'value': 3.0, 'displayValue': '3', 'winner': True, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "live": false,
+            "final": false,
+            "clock": "",
+            "period": ""
+          },
+          "event": "2026-27 English Premier League"
+        },
+        {
+          "id": "401879276",
+          "date": "Sep 20",
+          "time": "8:00 AM CT",
+          "start": "2026-09-20T08:00:00-05:00",
+          "opp": "AFC Bournemouth",
+          "ha": "AWAY",
+          "tv": "",
+          "venue": "Vitality Stadium",
+          "detail": "https://www.espn.com/soccer/match/_/gameId/401879276/liverpool-afc-bournemouth",
+          "status": "scheduled",
+          "_score": {
+            "our": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879276/competitions/401879276/competitors/364/scores/38?lang=en&region=us', 'value': 1.0, 'displayValue': '1', 'winner': True, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "opp": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879276/competitions/401879276/competitors/349/scores/38?lang=en&region=us', 'value': 0.0, 'displayValue': '0', 'winner': False, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "live": false,
+            "final": false,
+            "clock": "",
+            "period": ""
+          },
+          "event": "2026-27 English Premier League"
+        },
+        {
+          "id": "401879279",
+          "date": "Sep 12",
+          "time": "9:00 AM CT",
+          "start": "2026-09-12T09:00:00-05:00",
+          "opp": "Fulham",
+          "ha": "HOME",
+          "tv": "",
+          "venue": "Anfield",
+          "detail": "https://www.espn.com/soccer/match/_/gameId/401879279/fulham-liverpool",
+          "status": "scheduled",
+          "_score": {
+            "our": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879279/competitions/401879279/competitors/364/scores/38?lang=en&region=us', 'value': 0.0, 'displayValue': '0', 'winner': False, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "opp": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879279/competitions/401879279/competitors/370/scores/38?lang=en&region=us', 'value': 0.0, 'displayValue': '0', 'winner': False, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "live": false,
+            "final": false,
+            "clock": "",
+            "period": ""
+          },
+          "event": "2026-27 English Premier League"
+        },
+        {
+          "id": "401879288",
+          "date": "Sep 4",
+          "time": "2:00 PM CT",
+          "start": "2026-09-04T14:00:00-05:00",
+          "opp": "Ipswich Town",
+          "ha": "AWAY",
+          "tv": "",
+          "venue": "Portman Road",
+          "detail": "https://www.espn.com/soccer/match/_/gameId/401879288/liverpool-ipswich-town",
+          "status": "scheduled",
+          "_score": {
+            "our": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879288/competitions/401879288/competitors/364/scores/38?lang=en&region=us', 'value': 2.0, 'displayValue': '2', 'winner': True, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "opp": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879288/competitions/401879288/competitors/373/scores/38?lang=en&region=us', 'value': 0.0, 'displayValue': '0', 'winner': False, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "live": false,
+            "final": false,
+            "clock": "",
+            "period": ""
+          },
+          "event": "2026-27 English Premier League"
+        },
+        {
+          "id": "401879314",
+          "date": "Aug 29",
+          "time": "6:30 AM CT",
+          "start": "2026-08-29T06:30:00-05:00",
+          "opp": "Nottingham Forest",
+          "ha": "HOME",
+          "tv": "",
+          "venue": "Anfield",
+          "detail": "https://www.espn.com/soccer/match/_/gameId/401879314/nottingham-forest-liverpool",
+          "status": "scheduled",
+          "_score": {
+            "our": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879314/competitions/401879314/competitors/364/scores/38?lang=en&region=us', 'value': 2.0, 'displayValue': '2', 'winner': False, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "opp": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879314/competitions/401879314/competitors/393/scores/38?lang=en&region=us', 'value': 2.0, 'displayValue': '2', 'winner': False, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "live": false,
+            "final": false,
+            "clock": "",
+            "period": ""
+          },
+          "event": "2026-27 English Premier League"
+        },
+        {
+          "id": "401879319",
           "date": "Aug 23",
-          "time": "11:30 AM CT",
+          "time": "10:30 AM CT",
+          "start": "2026-08-23T10:30:00-05:00",
           "opp": "Newcastle United",
           "ha": "AWAY",
-          "tv": "USA Network"
+          "tv": "",
+          "venue": "St. James' Park",
+          "detail": "https://www.espn.com/soccer/match/_/gameId/401879319/liverpool-newcastle-united",
+          "status": "scheduled",
+          "_score": {
+            "our": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879319/competitions/401879319/competitors/364/scores/38?lang=en&region=us', 'value': 2.0, 'displayValue': '2', 'winner': False, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "opp": "{'$ref': 'http://sports.core.api.espn.pvt/v2/sports/soccer/leagues/eng.1/events/401879319/competitions/401879319/competitors/361/scores/38?lang=en&region=us', 'value': 2.0, 'displayValue': '2', 'winner': False, 'source': {'id': '38', 'description': 'SA.ENVOY'}}",
+            "live": false,
+            "final": false,
+            "clock": "",
+            "period": ""
+          },
+          "event": "2026-27 English Premier League"
         }
       ]
     },
@@ -6039,7 +6242,7 @@
           "ha": "HOME",
           "tv": "",
           "venue": "Lucas Oil Stadium",
-          "detail": "https://www.espn.com/nfl/game/_/gameId/401873040/cowboys-colts",
+          "detail": "https://www.espn.com/nfl/game?gameId=401873040",
           "status": "scheduled",
           "_score": {
             "our": "",
@@ -6234,1203 +6437,403 @@
   "rankings": {
     "cfb": [
       {
-        "poll": "Playoff Committee Rankings",
+        "poll": "AP Top 25",
         "rank": 1,
-        "team": "Hurricanes",
-        "record": "8-0",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "Playoff Committee Rankings",
-        "rank": 2,
         "team": "Bulldogs",
-        "record": "7-1",
-        "previous": 0,
-        "firstPlaceVotes": 0
+        "record": "8-1",
+        "previous": 2,
+        "firstPlaceVotes": 53
       },
       {
-        "poll": "Playoff Committee Rankings",
-        "rank": 3,
+        "poll": "AP Top 25",
+        "rank": 2,
         "team": "Utes",
-        "record": "8-0",
-        "previous": 0,
+        "record": "9-0",
+        "previous": 3,
+        "firstPlaceVotes": 12
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 3,
+        "team": "Fighting Irish",
+        "record": "8-1",
+        "previous": 4,
+        "firstPlaceVotes": 5
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 4,
+        "team": "Bruins",
+        "record": "9-0",
+        "previous": 5,
         "firstPlaceVotes": 0
       },
       {
-        "poll": "Playoff Committee Rankings",
-        "rank": 4,
+        "poll": "AP Top 25",
+        "rank": 5,
+        "team": "Hurricanes",
+        "record": "8-1",
+        "previous": 1,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 6,
         "team": "Hoosiers",
         "record": "8-1",
-        "previous": 0,
+        "previous": 6,
         "firstPlaceVotes": 0
       },
       {
-        "poll": "Playoff Committee Rankings",
-        "rank": 5,
-        "team": "Crimson Tide",
-        "record": "6-2",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "Playoff Committee Rankings",
-        "rank": 6,
-        "team": "Wildcats",
-        "record": "7-1",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "Playoff Committee Rankings",
+        "poll": "AP Top 25",
         "rank": 7,
-        "team": "Longhorns",
-        "record": "6-2",
-        "previous": 0,
+        "team": "Crimson Tide",
+        "record": "7-2",
+        "previous": 9,
         "firstPlaceVotes": 0
       },
       {
-        "poll": "Playoff Committee Rankings",
+        "poll": "AP Top 25",
         "rank": 8,
-        "team": "Bruins",
-        "record": "8-0",
-        "previous": 0,
+        "team": "Longhorns",
+        "record": "7-2",
+        "previous": 10,
         "firstPlaceVotes": 0
       },
       {
-        "poll": "Playoff Committee Rankings",
+        "poll": "AP Top 25",
         "rank": 9,
-        "team": "Cougars",
-        "record": "7-1",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "Playoff Committee Rankings",
-        "rank": 10,
-        "team": "Rebels",
-        "record": "6-2",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "Playoff Committee Rankings",
-        "rank": 11,
-        "team": "Fighting Irish",
-        "record": "7-1",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "Playoff Committee Rankings",
-        "rank": 12,
-        "team": "Buckeyes",
-        "record": "6-2",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "Playoff Committee Rankings",
-        "rank": 13,
         "team": "Volunteers",
-        "record": "6-2",
-        "previous": 0,
+        "record": "7-2",
+        "previous": 16,
         "firstPlaceVotes": 0
       },
       {
-        "poll": "Playoff Committee Rankings",
-        "rank": 14,
-        "team": "Tigers",
-        "record": "6-2",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "Playoff Committee Rankings",
-        "rank": 15,
+        "poll": "AP Top 25",
+        "rank": 10,
         "team": "Red Raiders",
-        "record": "7-1",
-        "previous": 0,
+        "record": "8-1",
+        "previous": 13,
         "firstPlaceVotes": 0
       },
       {
-        "poll": "Playoff Committee Rankings",
-        "rank": 16,
+        "poll": "AP Top 25",
+        "rank": 11,
         "team": "Demon Deacons",
-        "record": "7-1",
-        "previous": 0,
+        "record": "8-1",
+        "previous": 14,
         "firstPlaceVotes": 0
       },
       {
-        "poll": "Playoff Committee Rankings",
-        "rank": 17,
+        "poll": "AP Top 25",
+        "rank": 12,
         "team": "Cougars",
-        "record": "6-2",
-        "previous": 0,
+        "record": "7-2",
+        "previous": 7,
         "firstPlaceVotes": 0
       },
       {
-        "poll": "Playoff Committee Rankings",
-        "rank": 18,
-        "team": "Tigers",
-        "record": "6-2",
-        "previous": 0,
+        "poll": "AP Top 25",
+        "rank": 13,
+        "team": "Wildcats",
+        "record": "7-2",
+        "previous": 8,
         "firstPlaceVotes": 0
       },
       {
-        "poll": "Playoff Committee Rankings",
-        "rank": 19,
-        "team": "Hawkeyes",
-        "record": "6-2",
-        "previous": 0,
+        "poll": "AP Top 25",
+        "rank": 14,
+        "team": "Cougars",
+        "record": "7-2",
+        "previous": 17,
         "firstPlaceVotes": 0
       },
       {
-        "poll": "Playoff Committee Rankings",
-        "rank": 20,
+        "poll": "AP Top 25",
+        "rank": 15,
         "team": "Trojans",
         "record": "7-2",
-        "previous": 0,
+        "previous": 18,
         "firstPlaceVotes": 0
       },
       {
-        "poll": "Playoff Committee Rankings",
-        "rank": 21,
-        "team": "Gamecocks",
-        "record": "5-3",
-        "previous": 0,
+        "poll": "AP Top 25",
+        "rank": 16,
+        "team": "Hawkeyes",
+        "record": "7-2",
+        "previous": 21,
         "firstPlaceVotes": 0
       },
       {
-        "poll": "Playoff Committee Rankings",
-        "rank": 22,
-        "team": "Wildcats",
-        "record": "6-2",
-        "previous": 0,
+        "poll": "AP Top 25",
+        "rank": 17,
+        "team": "Broncos",
+        "record": "8-1",
+        "previous": 20,
         "firstPlaceVotes": 0
       },
       {
-        "poll": "Playoff Committee Rankings",
-        "rank": 23,
+        "poll": "AP Top 25",
+        "rank": 18,
         "team": "Ducks",
-        "record": "5-3",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "Playoff Committee Rankings",
-        "rank": 24,
-        "team": "Gators",
-        "record": "5-3",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "Playoff Committee Rankings",
-        "rank": 25,
-        "team": "Broncos",
-        "record": "7-1",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 1,
-        "team": "Hurricanes",
-        "record": "8-0",
-        "previous": 1,
-        "firstPlaceVotes": 62
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 2,
-        "team": "Bulldogs",
-        "record": "7-1",
-        "previous": 3,
-        "firstPlaceVotes": 7
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 3,
-        "team": "Utes",
-        "record": "8-0",
-        "previous": 6,
-        "firstPlaceVotes": 1
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 4,
-        "team": "Fighting Irish",
-        "record": "7-1",
-        "previous": 5,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 5,
-        "team": "Bruins",
-        "record": "8-0",
-        "previous": 7,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 6,
-        "team": "Hoosiers",
-        "record": "8-1",
-        "previous": 4,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 7,
-        "team": "Cougars",
-        "record": "7-1",
-        "previous": 8,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 8,
-        "team": "Wildcats",
-        "record": "7-1",
-        "previous": 9,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 9,
-        "team": "Crimson Tide",
-        "record": "6-2",
-        "previous": 10,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 10,
-        "team": "Longhorns",
-        "record": "6-2",
-        "previous": 11,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 11,
-        "team": "Buckeyes",
-        "record": "6-2",
-        "previous": 2,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 12,
-        "team": "Rebels",
-        "record": "6-2",
-        "previous": 12,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 13,
-        "team": "Red Raiders",
-        "record": "7-1",
-        "previous": 13,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 14,
-        "team": "Demon Deacons",
-        "record": "7-1",
-        "previous": 14,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 15,
-        "team": "Tigers",
-        "record": "6-2",
-        "previous": 15,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 16,
-        "team": "Volunteers",
-        "record": "6-2",
-        "previous": 16,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 17,
-        "team": "Cougars",
-        "record": "6-2",
-        "previous": 18,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 18,
-        "team": "Trojans",
-        "record": "7-2",
+        "record": "6-3",
         "previous": 0,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AP Top 25",
         "rank": 19,
-        "team": "Tigers",
-        "record": "6-2",
-        "previous": 23,
+        "team": "Rebels",
+        "record": "6-3",
+        "previous": 12,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AP Top 25",
         "rank": 20,
-        "team": "Broncos",
-        "record": "7-1",
-        "previous": 20,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 21,
-        "team": "Hawkeyes",
-        "record": "6-2",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 22,
-        "team": "Lobos",
-        "record": "7-1",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AP Top 25",
-        "rank": 23,
         "team": "Gamecocks",
-        "record": "5-3",
-        "previous": 0,
+        "record": "6-3",
+        "previous": 23,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AP Top 25",
-        "rank": 24,
+        "rank": 21,
+        "team": "Buckeyes",
+        "record": "6-3",
+        "previous": 11,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 22,
         "team": "Wildcats",
-        "record": "6-2",
+        "record": "7-2",
+        "previous": 24,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
+        "rank": 23,
+        "team": "Lobos",
+        "record": "8-1",
         "previous": 22,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AP Top 25",
+        "rank": 24,
+        "team": "Tigers",
+        "record": "6-3",
+        "previous": 15,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AP Top 25",
         "rank": 25,
-        "team": "Gators",
-        "record": "5-3",
-        "previous": 17,
+        "team": "Mustangs",
+        "record": "7-2",
+        "previous": 0,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 1,
-        "team": "Hurricanes",
-        "record": "8-0",
-        "previous": 1,
-        "firstPlaceVotes": 68
+        "team": "Bulldogs",
+        "record": "8-1",
+        "previous": 2,
+        "firstPlaceVotes": 54
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 2,
-        "team": "Bulldogs",
-        "record": "7-1",
-        "previous": 3,
-        "firstPlaceVotes": 4
+        "team": "Utes",
+        "record": "9-0",
+        "previous": 4,
+        "firstPlaceVotes": 14
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 3,
-        "team": "Hoosiers",
+        "team": "Fighting Irish",
         "record": "8-1",
-        "previous": 4,
-        "firstPlaceVotes": 0
+        "previous": 6,
+        "firstPlaceVotes": 2
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 4,
-        "team": "Utes",
-        "record": "8-0",
+        "team": "Bruins",
+        "record": "9-0",
         "previous": 5,
-        "firstPlaceVotes": 0
+        "firstPlaceVotes": 1
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 5,
-        "team": "Bruins",
-        "record": "8-0",
-        "previous": 7,
-        "firstPlaceVotes": 0
+        "team": "Hoosiers",
+        "record": "8-1",
+        "previous": 3,
+        "firstPlaceVotes": 2
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 6,
-        "team": "Fighting Irish",
-        "record": "7-1",
-        "previous": 6,
+        "team": "Hurricanes",
+        "record": "8-1",
+        "previous": 1,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 7,
-        "team": "Wildcats",
-        "record": "7-1",
-        "previous": 8,
-        "firstPlaceVotes": 1
-      },
-      {
-        "poll": "AFCA Coaches Poll",
-        "rank": 8,
-        "team": "Cougars",
-        "record": "7-1",
+        "team": "Crimson Tide",
+        "record": "7-2",
         "previous": 9,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
-        "rank": 9,
-        "team": "Crimson Tide",
-        "record": "6-2",
-        "previous": 10,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Coaches Poll",
-        "rank": 10,
-        "team": "Buckeyes",
-        "record": "6-2",
-        "previous": 2,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Coaches Poll",
-        "rank": 11,
+        "rank": 8,
         "team": "Longhorns",
-        "record": "6-2",
+        "record": "7-2",
         "previous": 11,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
-        "rank": 12,
-        "team": "Rebels",
-        "record": "6-2",
-        "previous": 12,
+        "rank": 9,
+        "team": "Volunteers",
+        "record": "7-2",
+        "previous": 16,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
-        "rank": 13,
+        "rank": 10,
         "team": "Red Raiders",
-        "record": "7-1",
-        "previous": 14,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Coaches Poll",
-        "rank": 14,
-        "team": "Demon Deacons",
-        "record": "7-1",
-        "previous": 15,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Coaches Poll",
-        "rank": 15,
-        "team": "Tigers",
-        "record": "6-2",
+        "record": "8-1",
         "previous": 13,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
-        "rank": 16,
-        "team": "Volunteers",
-        "record": "6-2",
+        "rank": 11,
+        "team": "Demon Deacons",
+        "record": "8-1",
+        "previous": 14,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Coaches Poll",
+        "rank": 12,
+        "team": "Cougars",
+        "record": "7-2",
+        "previous": 8,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Coaches Poll",
+        "rank": 13,
+        "team": "Wildcats",
+        "record": "7-2",
+        "previous": 7,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Coaches Poll",
+        "rank": 14,
+        "team": "Trojans",
+        "record": "7-2",
         "previous": 17,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
-        "rank": 17,
-        "team": "Trojans",
+        "rank": 15,
+        "team": "Hawkeyes",
         "record": "7-2",
-        "previous": 25,
+        "previous": 20,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Coaches Poll",
+        "rank": 16,
+        "team": "Cougars",
+        "record": "7-2",
+        "previous": 18,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "AFCA Coaches Poll",
+        "rank": 17,
+        "team": "Rebels",
+        "record": "6-3",
+        "previous": 12,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 18,
-        "team": "Cougars",
-        "record": "6-2",
-        "previous": 19,
+        "team": "Broncos",
+        "record": "8-1",
+        "previous": 21,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 19,
-        "team": "Tigers",
-        "record": "6-2",
-        "previous": 23,
+        "team": "Ducks",
+        "record": "6-3",
+        "previous": 0,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 20,
-        "team": "Hawkeyes",
-        "record": "6-2",
-        "previous": 24,
+        "team": "Buckeyes",
+        "record": "6-3",
+        "previous": 10,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 21,
-        "team": "Broncos",
-        "record": "7-1",
+        "team": "Wildcats",
+        "record": "7-2",
         "previous": 22,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 22,
-        "team": "Wildcats",
-        "record": "6-2",
-        "previous": 21,
+        "team": "Tigers",
+        "record": "6-3",
+        "previous": 15,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 23,
-        "team": "Wildcats",
-        "record": "6-2",
-        "previous": 18,
+        "team": "Mustangs",
+        "record": "7-2",
+        "previous": 24,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 24,
-        "team": "Mustangs",
-        "record": "6-2",
-        "previous": 16,
+        "team": "Gamecocks",
+        "record": "6-3",
+        "previous": 0,
         "firstPlaceVotes": 0
       },
       {
         "poll": "AFCA Coaches Poll",
         "rank": 25,
         "team": "Lobos",
-        "record": "7-1",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 1,
-        "team": "Texans",
-        "record": "9-0",
-        "previous": 1,
-        "firstPlaceVotes": 23
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 2,
-        "team": "Lumberjacks",
-        "record": "9-0",
-        "previous": 2,
-        "firstPlaceVotes": 3
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 3,
-        "team": "Bobcats",
         "record": "8-1",
-        "previous": 3,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 4,
-        "team": "Penguins",
-        "record": "7-2",
-        "previous": 4,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 5,
-        "team": "Jackrabbits",
-        "record": "7-2",
-        "previous": 5,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 6,
-        "team": "Lumberjacks",
-        "record": "7-2",
-        "previous": 7,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 7,
-        "team": "Governors",
-        "record": "7-2",
-        "previous": 8,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 8,
-        "team": "Redbirds",
-        "record": "7-2",
-        "previous": 9,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 9,
-        "team": "Golden Eagles",
-        "record": "8-1",
-        "previous": 10,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 10,
-        "team": "Coyotes",
-        "record": "7-3",
-        "previous": 6,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 11,
-        "team": "Bears",
-        "record": "7-2",
-        "previous": 12,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 12,
-        "team": "Cardinals",
-        "record": "7-2",
-        "previous": 13,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 13,
-        "team": "Grizzlies",
-        "record": "6-3",
-        "previous": 14,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 14,
-        "team": "Hawks",
-        "record": "7-2",
-        "previous": 17,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 15,
-        "team": "Fighting Hawks",
-        "record": "6-4",
-        "previous": 11,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 16,
-        "team": "Mountain Hawks",
-        "record": "7-2",
-        "previous": 20,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 17,
-        "team": "Bulldogs",
-        "record": "7-2",
-        "previous": 22,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 18,
-        "team": "Bengals",
-        "record": "6-3",
-        "previous": 23,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 19,
-        "team": "Fighting Camels",
-        "record": "7-2",
-        "previous": 15,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 20,
-        "team": "Great Danes",
-        "record": "6-3",
         "previous": 25,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 21,
-        "team": "Buccaneers",
-        "record": "6-3",
-        "previous": 18,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 22,
-        "team": "Crimson",
-        "record": "6-1",
-        "previous": 16,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 22,
-        "team": "Wildcats",
-        "record": "5-4",
-        "previous": 24,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 24,
-        "team": "Bulldogs",
-        "record": "7-2",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "FCS Coaches Poll",
-        "rank": 25,
-        "team": "Wildcats",
-        "record": "6-4",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 1,
-        "team": "Bulldogs",
-        "record": "9-0",
-        "previous": 1,
-        "firstPlaceVotes": 29
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 2,
-        "team": "Bisons",
-        "record": "9-0",
-        "previous": 2,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 3,
-        "team": "ThunderWolves",
-        "record": "9-0",
-        "previous": 4,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 4,
-        "team": "Mavericks",
-        "record": "9-0",
-        "previous": 5,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 5,
-        "team": "Mountaineers",
-        "record": "9-0",
-        "previous": 6,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 6,
-        "team": "The Rock",
-        "record": "9-0",
-        "previous": 7,
-        "firstPlaceVotes": 1
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 7,
-        "team": "Timberwolves",
-        "record": "9-0",
-        "previous": 10,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 8,
-        "team": "Bearcats",
-        "record": "7-1",
-        "previous": 11,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 9,
-        "team": "Wildcats",
-        "record": "7-2",
-        "previous": 12,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 10,
-        "team": "Oilers",
-        "record": "8-1",
-        "previous": 13,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 11,
-        "team": "Golden Bears",
-        "record": "8-1",
-        "previous": 3,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 12,
-        "team": "Panthers",
-        "record": "8-1",
-        "previous": 9,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 13,
-        "team": "Eagles",
-        "record": "8-1",
-        "previous": 14,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 14,
-        "team": "Huskies",
-        "record": "7-2",
-        "previous": 15,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 15,
-        "team": "Hornets",
-        "record": "8-1",
-        "previous": 8,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 16,
-        "team": "Trailblazers",
-        "record": "8-1",
-        "previous": 16,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 17,
-        "team": "Blazers",
-        "record": "6-1",
-        "previous": 17,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 18,
-        "team": "Warriors",
-        "record": "8-1",
-        "previous": 24,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 19,
-        "team": "Panthers",
-        "record": "8-1",
-        "previous": 19,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 20,
-        "team": "Tigers",
-        "record": "8-1",
-        "previous": 21,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 21,
-        "team": "Bulldogs",
-        "record": "7-2",
-        "previous": 20,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 22,
-        "team": "Vikings",
-        "record": "7-2",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 23,
-        "team": "Lakers",
-        "record": "6-3",
-        "previous": 25,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 24,
-        "team": "Mustangs",
-        "record": "7-2",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division II Coaches Poll",
-        "rank": 25,
-        "team": "Wildcats",
-        "record": "7-2",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 1,
-        "team": "Thunder",
-        "record": "8-0",
-        "previous": 1,
-        "firstPlaceVotes": 36
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 2,
-        "team": "Pioneers",
-        "record": "8-0",
-        "previous": 2,
-        "firstPlaceVotes": 16
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 3,
-        "team": "Johnnies",
-        "record": "8-0",
-        "previous": 3,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 4,
-        "team": "Warhawks",
-        "record": "8-0",
-        "previous": 4,
-        "firstPlaceVotes": 1
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 5,
-        "team": "Cardinals",
-        "record": "7-1",
-        "previous": 5,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 6,
-        "team": "Cowboys",
-        "record": "7-0",
-        "previous": 6,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 7,
-        "team": "Bears",
-        "record": "8-0",
-        "previous": 7,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 8,
-        "team": "Flying Dutchmen",
-        "record": "8-0",
-        "previous": 9,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 9,
-        "team": "Captains",
-        "record": "8-0",
-        "previous": 8,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 10,
-        "team": "Gulls",
-        "record": "8-0",
-        "previous": 10,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 11,
-        "team": "Red Dragons",
-        "record": "8-0",
-        "previous": 11,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 12,
-        "team": "Knights",
-        "record": "6-2",
-        "previous": 13,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 13,
-        "team": "Crusaders",
-        "record": "7-1",
-        "previous": 14,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 14,
-        "team": "Yellow Jackets",
-        "record": "8-0",
-        "previous": 16,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 15,
-        "team": "Tigers",
-        "record": "7-1",
-        "previous": 15,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 16,
-        "team": "Royals",
-        "record": "6-2",
-        "previous": 17,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 17,
-        "team": "Tigers",
-        "record": "7-1",
-        "previous": 21,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 18,
-        "team": "Falcons",
-        "record": "6-2",
-        "previous": 18,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 19,
-        "team": "River Hawks",
-        "record": "7-1",
-        "previous": 20,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 20,
-        "team": "Knights",
-        "record": "8-0",
-        "previous": 22,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 21,
-        "team": "Foresters",
-        "record": "8-0",
-        "previous": 23,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 22,
-        "team": "Pride",
-        "record": "7-1",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 23,
-        "team": "Blue Streaks",
-        "record": "6-2",
-        "previous": 12,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 24,
-        "team": "Pioneers",
-        "record": "7-1",
-        "previous": 0,
-        "firstPlaceVotes": 0
-      },
-      {
-        "poll": "AFCA Division III Coaches Poll",
-        "rank": 25,
-        "team": "Wildcats",
-        "record": "6-1",
-        "previous": 0,
         "firstPlaceVotes": 0
       }
     ],
@@ -7652,6 +7055,18 @@
         "diff": "+10"
       },
       {
+        "team": "Brighton & Hove Albion",
+        "abbr": "BHA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+        "w": "7",
+        "l": "2",
+        "t": "1",
+        "pct": "",
+        "gp": "10",
+        "points": "22",
+        "diff": "+19"
+      },
+      {
         "team": "Manchester City",
         "abbr": "MNC",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
@@ -7664,28 +7079,28 @@
         "diff": "+8"
       },
       {
-        "team": "Brighton & Hove Albion",
-        "abbr": "BHA",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
-        "w": "6",
+        "team": "Liverpool",
+        "abbr": "LIV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+        "w": "5",
         "l": "2",
-        "t": "1",
+        "t": "3",
         "pct": "",
-        "gp": "9",
-        "points": "19",
-        "diff": "+17"
+        "gp": "10",
+        "points": "18",
+        "diff": "+4"
       },
       {
         "team": "Chelsea",
         "abbr": "CHE",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
         "w": "5",
-        "l": "3",
+        "l": "4",
         "t": "1",
         "pct": "",
-        "gp": "9",
+        "gp": "10",
         "points": "16",
-        "diff": "+4"
+        "diff": "+3"
       },
       {
         "team": "Everton",
@@ -7700,14 +7115,14 @@
         "diff": "+2"
       },
       {
-        "team": "Liverpool",
-        "abbr": "LIV",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+        "team": "AFC Bournemouth",
+        "abbr": "BOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
         "w": "4",
-        "l": "2",
+        "l": "3",
         "t": "3",
         "pct": "",
-        "gp": "9",
+        "gp": "10",
         "points": "15",
         "diff": "+2"
       },
@@ -7716,12 +7131,12 @@
         "abbr": "BRE",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
         "w": "3",
-        "l": "1",
+        "l": "2",
         "t": "5",
         "pct": "",
-        "gp": "9",
+        "gp": "10",
         "points": "14",
-        "diff": "+7"
+        "diff": "+5"
       },
       {
         "team": "Leeds United",
@@ -7736,16 +7151,16 @@
         "diff": "+2"
       },
       {
-        "team": "AFC Bournemouth",
-        "abbr": "BOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+        "team": "Aston Villa",
+        "abbr": "AVL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
         "w": "3",
         "l": "3",
-        "t": "3",
+        "t": "4",
         "pct": "",
-        "gp": "9",
-        "points": "12",
-        "diff": "+1"
+        "gp": "10",
+        "points": "13",
+        "diff": "-3"
       },
       {
         "team": "Tottenham Hotspur",
@@ -7772,18 +7187,6 @@
         "diff": "-3"
       },
       {
-        "team": "Aston Villa",
-        "abbr": "AVL",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-        "w": "3",
-        "l": "3",
-        "t": "3",
-        "pct": "",
-        "gp": "9",
-        "points": "12",
-        "diff": "-3"
-      },
-      {
         "team": "Hull City",
         "abbr": "HUL",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
@@ -7800,12 +7203,12 @@
         "abbr": "IPS",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
         "w": "3",
-        "l": "4",
+        "l": "5",
         "t": "2",
         "pct": "",
-        "gp": "9",
+        "gp": "10",
         "points": "11",
-        "diff": "-4"
+        "diff": "-5"
       },
       {
         "team": "Fulham",
@@ -7849,35 +7252,35 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
         "w": "1",
         "l": "4",
-        "t": "4",
+        "t": "5",
         "pct": "",
-        "gp": "9",
-        "points": "7",
+        "gp": "10",
+        "points": "8",
         "diff": "-5"
+      },
+      {
+        "team": "Sunderland",
+        "abbr": "SUN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+        "w": "2",
+        "l": "6",
+        "t": "2",
+        "pct": "",
+        "gp": "10",
+        "points": "8",
+        "diff": "-9"
       },
       {
         "team": "Crystal Palace",
         "abbr": "CRY",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
         "w": "2",
-        "l": "6",
+        "l": "7",
         "t": "1",
         "pct": "",
-        "gp": "9",
+        "gp": "10",
         "points": "7",
-        "diff": "-12"
-      },
-      {
-        "team": "Sunderland",
-        "abbr": "SUN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
-        "w": "1",
-        "l": "6",
-        "t": "2",
-        "pct": "",
-        "gp": "9",
-        "points": "5",
-        "diff": "-10"
+        "diff": "-14"
       }
     ],
     "nfcNorth": [],
