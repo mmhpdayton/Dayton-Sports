@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-08 02:11 PM CT",
+  "generatedAt": "2026-11-08 05:46 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -5460,7 +5460,7 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "Gillette Stadium",
-          "detail": "https://www.espn.com/nfl/game/_/gameId/401873049/packers-patriots",
+          "detail": "https://www.espn.com/nfl/game?gameId=401873049",
           "status": "scheduled",
           "_score": {
             "our": "",
@@ -6046,7 +6046,7 @@
       "name": "Indianapolis Colts",
       "abbr": "IND",
       "color": "#002c5f",
-      "record": "2-6",
+      "record": "2-7",
       "context": "AFC South",
       "homePriority": 10,
       "muted": true,
@@ -6242,11 +6242,11 @@
           "ha": "HOME",
           "tv": "",
           "venue": "Lucas Oil Stadium",
-          "detail": "https://www.espn.com/nfl/game?gameId=401873040",
+          "detail": "https://www.espn.com/nfl/game/_/gameId/401873040/cowboys-colts",
           "status": "scheduled",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "{'value': 23.0, 'displayValue': '23'}",
+            "opp": "{'value': 27.0, 'displayValue': '27'}",
             "live": false,
             "final": false,
             "clock": "",
