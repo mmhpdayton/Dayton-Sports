@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-08 05:46 PM CT",
+  "generatedAt": "2026-11-08 09:01 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -4595,15 +4595,16 @@
           "tv": "",
           "venue": "UW Field House",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884156",
-          "status": "final",
+          "status": "scheduled",
           "_score": {
-            "our": "2",
-            "opp": "3",
+            "our": "{'value': 2.0, 'displayValue': '2'}",
+            "opp": "{'value': 3.0, 'displayValue': '3'}",
             "live": false,
-            "final": true
+            "final": false,
+            "clock": "",
+            "period": ""
           },
-          "event": "Regular Season",
-          "result": "L 2–3"
+          "event": "Regular Season"
         },
         {
           "id": "401884157",
@@ -4695,16 +4696,15 @@
           "tv": "",
           "venue": "UW Field House",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884161",
-          "status": "scheduled",
+          "status": "final",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "2",
+            "opp": "3",
             "live": false,
-            "final": false,
-            "clock": "",
-            "period": ""
+            "final": true
           },
-          "event": "Regular Season"
+          "event": "Regular Season",
+          "result": "L 2–3"
         },
         {
           "id": "401903486",
@@ -5266,7 +5266,7 @@
       "name": "Green Bay Packers",
       "abbr": "GB",
       "color": "#203731",
-      "record": "5-3",
+      "record": "6-3",
       "context": "NFC North",
       "homePriority": 8,
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
@@ -5460,11 +5460,11 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "Gillette Stadium",
-          "detail": "https://www.espn.com/nfl/game?gameId=401873049",
+          "detail": "https://www.espn.com/nfl/game/_/gameId/401873049/packers-patriots",
           "status": "scheduled",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "{'value': 45.0, 'displayValue': '45'}",
+            "opp": "{'value': 27.0, 'displayValue': '27'}",
             "live": false,
             "final": false,
             "clock": "",
