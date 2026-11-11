@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-10 06:05 PM CT",
+  "generatedAt": "2026-11-11 12:01 AM CT",
   "teams": [
     {
       "id": "payton",
@@ -6436,6 +6436,206 @@
   ],
   "rankings": {
     "cfb": [
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 1,
+        "team": "Bulldogs",
+        "record": "8-1",
+        "previous": 2,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 2,
+        "team": "Utes",
+        "record": "9-0",
+        "previous": 3,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 3,
+        "team": "Crimson Tide",
+        "record": "7-2",
+        "previous": 5,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 4,
+        "team": "Bruins",
+        "record": "9-0",
+        "previous": 8,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 5,
+        "team": "Fighting Irish",
+        "record": "8-1",
+        "previous": 11,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 6,
+        "team": "Longhorns",
+        "record": "7-2",
+        "previous": 7,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 7,
+        "team": "Hurricanes",
+        "record": "8-1",
+        "previous": 1,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 8,
+        "team": "Volunteers",
+        "record": "7-2",
+        "previous": 13,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 9,
+        "team": "Hoosiers",
+        "record": "8-1",
+        "previous": 4,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 10,
+        "team": "Cougars",
+        "record": "7-2",
+        "previous": 9,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 11,
+        "team": "Wildcats",
+        "record": "7-2",
+        "previous": 6,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 12,
+        "team": "Red Raiders",
+        "record": "8-1",
+        "previous": 15,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 13,
+        "team": "Demon Deacons",
+        "record": "8-1",
+        "previous": 16,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 14,
+        "team": "Cougars",
+        "record": "7-2",
+        "previous": 17,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 15,
+        "team": "Hawkeyes",
+        "record": "7-2",
+        "previous": 19,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 16,
+        "team": "Ducks",
+        "record": "6-3",
+        "previous": 23,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 17,
+        "team": "Gamecocks",
+        "record": "6-3",
+        "previous": 21,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 18,
+        "team": "Trojans",
+        "record": "7-2",
+        "previous": 20,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 19,
+        "team": "Rebels",
+        "record": "6-3",
+        "previous": 10,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 20,
+        "team": "Buckeyes",
+        "record": "6-3",
+        "previous": 12,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 21,
+        "team": "Tigers",
+        "record": "6-3",
+        "previous": 14,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 22,
+        "team": "Tigers",
+        "record": "6-3",
+        "previous": 18,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 23,
+        "team": "Wildcats",
+        "record": "7-2",
+        "previous": 22,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 24,
+        "team": "Broncos",
+        "record": "8-1",
+        "previous": 25,
+        "firstPlaceVotes": 0
+      },
+      {
+        "poll": "Playoff Committee Rankings",
+        "rank": 25,
+        "team": "Cowboys",
+        "record": "6-3",
+        "previous": 0,
+        "firstPlaceVotes": 0
+      },
       {
         "poll": "AP Top 25",
         "rank": 1,
