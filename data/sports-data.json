@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-13 05:55 PM CT",
+  "generatedAt": "2026-11-13 11:01 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -4637,15 +4637,16 @@
           "tv": "",
           "venue": "Galen Center",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884158",
-          "status": "final",
+          "status": "scheduled",
           "_score": {
-            "our": "3",
-            "opp": "1",
+            "our": "{'value': 3.0, 'displayValue': '3'}",
+            "opp": "{'value': 1.0, 'displayValue': '1'}",
             "live": false,
-            "final": true
+            "final": false,
+            "clock": "",
+            "period": ""
           },
-          "event": "Regular Season",
-          "result": "W 3–1"
+          "event": "Regular Season"
         },
         {
           "id": "401884159",
@@ -4737,16 +4738,15 @@
           "tv": "",
           "venue": "Covelli Center",
           "detail": "sportscenter://x-callback-url/showGame?sportName=volleyball&leagueAbbrev=womens-college-volleyball&gameId=401884163",
-          "status": "scheduled",
+          "status": "final",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "3",
+            "opp": "1",
             "live": false,
-            "final": false,
-            "clock": "",
-            "period": ""
+            "final": true
           },
-          "event": "Regular Season"
+          "event": "Regular Season",
+          "result": "W 3–1"
         },
         {
           "id": "401884164",
@@ -5480,7 +5480,7 @@
           "start": "2026-11-15T12:00:00-06:00",
           "opp": "Minnesota Vikings",
           "ha": "HOME",
-          "tv": "",
+          "tv": "ESPN / ESPN2 / ESPN+",
           "venue": "Lambeau Field",
           "detail": "https://www.espn.com/nfl/game/_/gameId/401873060/vikings-packers",
           "status": "scheduled",
@@ -5848,7 +5848,7 @@
           "start": "2026-11-15T12:00:00-06:00",
           "opp": "New York Jets",
           "ha": "AWAY",
-          "tv": "",
+          "tv": "ESPN / ESPN2 / ESPN+",
           "venue": "MetLife Stadium",
           "detail": "https://www.espn.com/nfl/game/_/gameId/401873054/bills-jets",
           "status": "scheduled",
@@ -5870,7 +5870,7 @@
           "start": "2026-11-22T12:00:00-06:00",
           "opp": "Miami Dolphins",
           "ha": "HOME",
-          "tv": "",
+          "tv": "ESPN2 / ESPN+ / FOX",
           "venue": "Highmark Stadium",
           "detail": "https://www.espn.com/nfl/game/_/gameId/401873070/dolphins-bills",
           "status": "scheduled",
@@ -6262,7 +6262,7 @@
           "start": "2026-11-15T12:00:00-06:00",
           "opp": "Miami Dolphins",
           "ha": "HOME",
-          "tv": "",
+          "tv": "ESPN / ESPN2 / ESPN+",
           "venue": "Lucas Oil Stadium",
           "detail": "https://www.espn.com/nfl/game/_/gameId/401873059/dolphins-colts",
           "status": "scheduled",
@@ -6306,7 +6306,7 @@
           "start": "2026-11-29T12:00:00-06:00",
           "opp": "New York Giants",
           "ha": "HOME",
-          "tv": "",
+          "tv": "ESPN / ESPN+ / FOX",
           "venue": "Lucas Oil Stadium",
           "detail": "https://www.espn.com/nfl/game/_/gameId/401873088/giants-colts",
           "status": "scheduled",
