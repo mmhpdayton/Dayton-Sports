@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-14 11:56 AM CT",
+  "generatedAt": "2026-11-14 04:03 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -5205,7 +5205,7 @@
           "ha": "HOME",
           "tv": "",
           "venue": "Notre Dame Stadium",
-          "detail": "https://www.espn.com/college-football/game/_/gameId/401858294/boston-college-notre-dame",
+          "detail": "https://www.espn.com/college-football/game?gameId=401858294",
           "status": "scheduled",
           "_score": {
             "our": "",
