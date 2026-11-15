@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-14 04:03 PM CT",
+  "generatedAt": "2026-11-14 07:50 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -4998,7 +4998,7 @@
       "name": "Notre Dame",
       "abbr": "ND",
       "color": "#c99700",
-      "record": "8-1",
+      "record": "9-1",
       "context": "#4 AP · #5 Coaches",
       "homePriority": 7,
       "logo": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
@@ -5205,11 +5205,11 @@
           "ha": "HOME",
           "tv": "",
           "venue": "Notre Dame Stadium",
-          "detail": "https://www.espn.com/college-football/game?gameId=401858294",
+          "detail": "https://www.espn.com/college-football/game/_/gameId/401858294/boston-college-notre-dame",
           "status": "scheduled",
           "_score": {
-            "our": "",
-            "opp": "",
+            "our": "{'value': 41.0, 'displayValue': '41'}",
+            "opp": "{'value': 7.0, 'displayValue': '7'}",
             "live": false,
             "final": false,
             "clock": "",
