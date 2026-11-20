@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-19 03:11 PM CT",
+  "generatedAt": "2026-11-19 08:22 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -6286,7 +6286,7 @@
           "ha": "AWAY",
           "tv": "",
           "venue": "Reliant Stadium",
-          "detail": "https://www.espn.com/nfl/game/_/gameId/401873066/colts-texans",
+          "detail": "https://www.espn.com/nfl/game?gameId=401873066",
           "status": "scheduled",
           "_score": {
             "our": "",
