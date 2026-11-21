@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-21 09:27 AM CT",
+  "generatedAt": "2026-11-21 02:59 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -7848,10 +7848,10 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
         "w": "9",
         "l": "1",
-        "t": "0",
+        "t": "1",
         "pct": "",
-        "gp": "10",
-        "points": "27",
+        "gp": "11",
+        "points": "28",
         "diff": "+10"
       },
       {
@@ -7879,6 +7879,18 @@
         "diff": "+8"
       },
       {
+        "team": "AFC Bournemouth",
+        "abbr": "BOU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+        "w": "5",
+        "l": "3",
+        "t": "3",
+        "pct": "",
+        "gp": "11",
+        "points": "18",
+        "diff": "+4"
+      },
+      {
         "team": "Liverpool",
         "abbr": "LIV",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
@@ -7891,16 +7903,16 @@
         "diff": "+4"
       },
       {
-        "team": "Chelsea",
-        "abbr": "CHE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-        "w": "5",
-        "l": "4",
-        "t": "1",
+        "team": "Leeds United",
+        "abbr": "LEE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+        "w": "4",
+        "l": "2",
+        "t": "5",
         "pct": "",
-        "gp": "10",
-        "points": "16",
-        "diff": "+3"
+        "gp": "11",
+        "points": "17",
+        "diff": "+5"
       },
       {
         "team": "Everton",
@@ -7915,16 +7927,28 @@
         "diff": "+2"
       },
       {
-        "team": "AFC Bournemouth",
-        "abbr": "BOU",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+        "team": "Chelsea",
+        "abbr": "CHE",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+        "w": "5",
+        "l": "5",
+        "t": "1",
+        "pct": "",
+        "gp": "11",
+        "points": "16",
+        "diff": "0"
+      },
+      {
+        "team": "Tottenham Hotspur",
+        "abbr": "TOT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
         "w": "4",
-        "l": "3",
+        "l": "4",
         "t": "3",
         "pct": "",
-        "gp": "10",
+        "gp": "11",
         "points": "15",
-        "diff": "+2"
+        "diff": "+1"
       },
       {
         "team": "Brentford",
@@ -7939,40 +7963,16 @@
         "diff": "+5"
       },
       {
-        "team": "Leeds United",
-        "abbr": "LEE",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
-        "w": "3",
-        "l": "2",
-        "t": "5",
-        "pct": "",
-        "gp": "10",
-        "points": "14",
-        "diff": "+2"
-      },
-      {
         "team": "Aston Villa",
         "abbr": "AVL",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
         "w": "3",
         "l": "3",
-        "t": "4",
+        "t": "5",
         "pct": "",
-        "gp": "10",
-        "points": "13",
+        "gp": "11",
+        "points": "14",
         "diff": "-3"
-      },
-      {
-        "team": "Tottenham Hotspur",
-        "abbr": "TOT",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-        "w": "3",
-        "l": "4",
-        "t": "3",
-        "pct": "",
-        "gp": "10",
-        "points": "12",
-        "diff": "-1"
       },
       {
         "team": "Newcastle United",
@@ -7980,11 +7980,23 @@
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
         "w": "3",
         "l": "4",
-        "t": "3",
+        "t": "4",
         "pct": "",
-        "gp": "10",
-        "points": "12",
+        "gp": "11",
+        "points": "13",
         "diff": "-3"
+      },
+      {
+        "team": "Coventry City",
+        "abbr": "COV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+        "w": "4",
+        "l": "7",
+        "t": "0",
+        "pct": "",
+        "gp": "11",
+        "points": "12",
+        "diff": "-8"
       },
       {
         "team": "Hull City",
@@ -8015,34 +8027,34 @@
         "abbr": "IPS",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
         "w": "3",
-        "l": "5",
+        "l": "6",
         "t": "2",
         "pct": "",
-        "gp": "10",
+        "gp": "11",
         "points": "11",
-        "diff": "-5"
+        "diff": "-7"
       },
       {
         "team": "Nottingham Forest",
         "abbr": "NFO",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
         "w": "2",
-        "l": "5",
+        "l": "6",
         "t": "3",
         "pct": "",
-        "gp": "10",
+        "gp": "11",
         "points": "9",
-        "diff": "-4"
+        "diff": "-6"
       },
       {
-        "team": "Coventry City",
-        "abbr": "COV",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-        "w": "3",
-        "l": "7",
-        "t": "0",
+        "team": "Sunderland",
+        "abbr": "SUN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+        "w": "2",
+        "l": "6",
+        "t": "3",
         "pct": "",
-        "gp": "10",
+        "gp": "11",
         "points": "9",
         "diff": "-9"
       },
@@ -8059,28 +8071,16 @@
         "diff": "-5"
       },
       {
-        "team": "Sunderland",
-        "abbr": "SUN",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
-        "w": "2",
-        "l": "6",
-        "t": "2",
-        "pct": "",
-        "gp": "10",
-        "points": "8",
-        "diff": "-9"
-      },
-      {
         "team": "Crystal Palace",
         "abbr": "CRY",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
         "w": "2",
-        "l": "7",
+        "l": "8",
         "t": "1",
         "pct": "",
-        "gp": "10",
+        "gp": "11",
         "points": "7",
-        "diff": "-14"
+        "diff": "-15"
       }
     ],
     "nfcNorth": [],
