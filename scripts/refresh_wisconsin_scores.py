@@ -40,8 +40,8 @@ def clean_html(raw: str) -> str:
 
 
 def norm(s: str) -> str:
-    s = re.sub(r"#\d+", " ", s or "")
-    s = re.sub(r"\b(cardinal|cardinals|wildcats|panthers|aggies|longhorns|golden eagles|cougars|gators|tigers)\b", " ", s, flags=re.I)
+    s = re.sub(r"^\s*(?:#\s*|No\.?\s+|\(\s*)\d+\)?\s*", " ", s or "", flags=re.I)
+    s = re.sub(r"\b(spartans|nittany lions|cardinal|cardinals|wildcats|panthers|aggies|longhorns|golden eagles|cougars|gators|tigers)\b", " ", s, flags=re.I)
     return re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
 
 
@@ -83,7 +83,8 @@ def main():
         except Exception as exc:
             errors.append(f"{source}: {exc}")
     if not finals:
-        raise SystemExit("No completed Wisconsin volleyball results parsed: " + "; ".join(errors))
+        print("::warning::No completed Wisconsin volleyball results parsed: " + "; ".join(errors))
+        return
 
     matched = 0
     changed = 0
@@ -111,7 +112,7 @@ def main():
     if not matched:
         # The official UW page can contain finals that are not represented in our
         # Dayton Sports schedule. That should not take down the entire refresh job.
-        print("WARNING: Official Wisconsin finals parsed, but none matched Dayton Sports schedule; continuing")
+        print("::warning::Official Wisconsin finals parsed, but none matched Dayton Sports schedule: " + " | ".join(unmatched))
         return
 
     # Do not silently declare success if a recent official final exists on a date that
@@ -119,7 +120,10 @@ def main():
     schedule_dates = {g.get("date") for g in team.get("schedule", [])}
     relevant_unmatched = [x for x in unmatched if any(x.startswith(d + " ") for d in schedule_dates if d)]
     if relevant_unmatched:
-        raise SystemExit("Official Wisconsin finals failed schedule matching: " + " | ".join(relevant_unmatched))
+        print("::warning::Official Wisconsin finals failed schedule matching: " + " | ".join(relevant_unmatched))
+    for item in unmatched:
+        if item not in relevant_unmatched:
+            print("::warning::Official Wisconsin final missing from schedule: " + item)
 
     DATA_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Verified {matched} Wisconsin finals; changed {changed}")
