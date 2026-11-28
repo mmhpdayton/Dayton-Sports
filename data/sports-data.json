@@ -1,7 +1,7 @@
 {
   "version": "robust-v1",
   "season": 2026,
-  "generatedAt": "2026-11-27 03:37 PM CT",
+  "generatedAt": "2026-11-27 09:30 PM CT",
   "teams": [
     {
       "id": "payton",
@@ -7594,12 +7594,12 @@
         "abbr": "CHE",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
         "w": "5",
-        "l": "5",
+        "l": "6",
         "t": "1",
         "pct": "",
-        "gp": "11",
+        "gp": "12",
         "points": "16",
-        "diff": "0"
+        "diff": "-1"
       },
       {
         "team": "Everton",
@@ -7662,6 +7662,18 @@
         "diff": "-3"
       },
       {
+        "team": "Nottingham Forest",
+        "abbr": "NFO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+        "w": "3",
+        "l": "6",
+        "t": "3",
+        "pct": "",
+        "gp": "12",
+        "points": "12",
+        "diff": "-5"
+      },
+      {
         "team": "Coventry City",
         "abbr": "COV",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
@@ -7696,18 +7708,6 @@
         "gp": "11",
         "points": "11",
         "diff": "-7"
-      },
-      {
-        "team": "Nottingham Forest",
-        "abbr": "NFO",
-        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-        "w": "2",
-        "l": "6",
-        "t": "3",
-        "pct": "",
-        "gp": "11",
-        "points": "9",
-        "diff": "-6"
       },
       {
         "team": "Sunderland",
